@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="menuBrit.png"><SubTexture name="mB menuBrit idle0000" x="358" y="0" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="mB menuBrit idle0001" x="0" y="0" width="119" height="216" frameX="-66" frameY="-29" frameWidth="250" frameHeight="250" />
+<SubTexture name="mB menuBrit idle0002" x="119" y="0" width="120" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="mB menuBrit idle0003" x="239" y="0" width="119" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="mB menuBrit idle0004" x="239" y="0" width="119" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="mB menuBrit idle0005" x="239" y="0" width="119" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="mB menuBrit idle0006" x="239" y="0" width="119" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="mB idle0000" x="239" y="0" width="119" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="mB idle0001" x="239" y="0" width="119" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="mB idle0002" x="239" y="0" width="119" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="mB idle0003" x="239" y="0" width="119" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="mB idle0004" x="239" y="0" width="119" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="mB idle0005" x="239" y="0" width="119" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="mB idle0006" x="239" y="0" width="119" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="mB idle0007" x="239" y="0" width="119" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="mB idle0008" x="239" y="0" width="119" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+</TextureAtlas>

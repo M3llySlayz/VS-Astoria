@@ -1,0 +1,18 @@
+{
+	"song": {
+		"speed": 3.2,
+		"stage": "grass",
+		"player1": "bf-pixel",
+		"player2": "AM",
+		"player3": null,
+		"events": [],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf-pixel",
+		"bpm": 270,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Amazing"
+	}
+}

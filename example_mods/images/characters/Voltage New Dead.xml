@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Voltage New Dead.png"><SubTexture name="Voltage New Dead ded0000" x="0" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0001" x="0" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0002" x="0" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0003" x="0" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0004" x="0" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0005" x="651" y="211" width="100" height="208" frameX="-92" frameY="-36" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0006" x="0" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0007" x="651" y="211" width="100" height="208" frameX="-92" frameY="-36" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0008" x="79" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0009" x="0" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0010" x="0" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0011" x="0" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0012" x="158" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0013" x="0" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0014" x="0" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0015" x="0" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0016" x="0" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0017" x="651" y="211" width="100" height="208" frameX="-92" frameY="-36" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0018" x="0" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0019" x="0" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0020" x="0" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0021" x="0" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead ded0022" x="0" y="0" width="79" height="224" frameX="-82" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0000" x="534" y="216" width="104" height="211" frameX="-70" frameY="-33" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0001" x="651" y="0" width="114" height="211" frameX="-67" frameY="-33" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0002" x="0" y="443" width="130" height="211" frameX="-60" frameY="-33" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0003" x="130" y="443" width="155" height="193" frameX="-66" frameY="-51" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0004" x="285" y="443" width="168" height="193" frameX="-59" frameY="-51" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0005" x="453" y="443" width="133" height="193" frameX="-76" frameY="-51" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0006" x="586" y="443" width="166" height="177" frameX="-4" frameY="-67" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0007" x="765" y="0" width="173" height="177" frameX="-7" frameY="-67" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0008" x="0" y="654" width="183" height="177" frameX="-2" frameY="-67" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0009" x="765" y="177" width="131" height="110" frameX="-20" frameY="-134" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0010" x="765" y="287" width="131" height="110" frameX="-20" frameY="-134" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0011" x="765" y="397" width="131" height="110" frameX="-20" frameY="-134" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0012" x="237" y="0" width="96" height="219" frameX="-75" frameY="-25" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0013" x="333" y="0" width="100" height="219" frameX="-70" frameY="-25" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0014" x="433" y="0" width="101" height="219" frameX="-71" frameY="-25" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0015" x="184" y="224" width="145" height="216" frameX="-53" frameY="-28" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0016" x="0" y="224" width="90" height="219" frameX="-80" frameY="-25" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0017" x="329" y="224" width="115" height="216" frameX="-77" frameY="-28" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0018" x="90" y="224" width="94" height="219" frameX="-76" frameY="-25" frameWidth="250" frameHeight="250" />
+<SubTexture name="Voltage New Dead dyingg0019" x="534" y="0" width="117" height="216" frameX="-75" frameY="-28" frameWidth="250" frameHeight="250" />
+</TextureAtlas>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="AMReal.png"><SubTexture name="AMReal Idle0000" x="841" y="0" width="841" height="1117" frameX="-400" frameY="-408" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="AMReal Idle0001" x="1682" y="0" width="841" height="1091" frameX="-400" frameY="-441" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="AMReal Idle0002" x="1682" y="1126" width="841" height="1057" frameX="-400" frameY="-482" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="AMReal Idle0003" x="2523" y="1052" width="841" height="1038" frameX="-400" frameY="-506" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="AMReal Idle0004" x="2523" y="0" width="841" height="1052" frameX="-400" frameY="-488" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="AMReal Idle0005" x="841" y="1126" width="841" height="1069" frameX="-400" frameY="-467" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="AMReal Idle0006" x="0" y="1126" width="841" height="1081" frameX="-400" frameY="-453" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="AMReal Idle0007" x="0" y="0" width="841" height="1126" frameX="-400" frameY="-402" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="AMReal Idle0008" x="0" y="0" width="841" height="1126" frameX="-400" frameY="-402" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="AMReal Idle0009" x="0" y="0" width="841" height="1126" frameX="-400" frameY="-402" frameWidth="1500" frameHeight="2000" />
+</TextureAtlas>

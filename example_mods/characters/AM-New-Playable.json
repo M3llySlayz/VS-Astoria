@@ -1,0 +1,199 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				19,
+				-20
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "AM-New Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				53,
+				-20
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "AM-New Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "AM-New Idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				83,
+				-17
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "AM-New Right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-10
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "AM-New Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "AM-New East",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "AM-New West",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "AM-New South",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "AM-New North",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodgeLeft",
+			"indices": [],
+			"name": "AM LDodge"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodgeRight",
+			"indices": [],
+			"name": "AM RDodge"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodgeUp",
+			"indices": [],
+			"name": "AM UDodge"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodgeDown",
+			"indices": [],
+			"name": "AM DDodge"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "hurt",
+			"fps": 24,
+			"name": "AM Hurt",
+			"indices": []
+		},
+		{
+			"offsets": [
+				100,
+				-20
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "attackLR",
+			"loop": false,
+			"name": "AM-New Attack LR"
+		},
+		{
+			"offsets": [
+				50,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "attackUD",
+			"loop": false,
+			"name": "AM-New Attack UD"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/AM-New",
+	"position": [
+		-90,
+		310
+	],
+	"healthicon": "AMNew",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		208
+	],
+	"camera_position": [
+		200,
+		-60
+	],
+	"sing_duration": 6.1,
+	"scale": 2
+}

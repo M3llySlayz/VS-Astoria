@@ -1,0 +1,104 @@
+{
+	"song": {
+		"speed": 3,
+		"stage": "white",
+		"player1": "bf",
+		"player2": "AMM",
+		"player3": null,
+		"events": [
+			[
+				13714.2857142857,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.01"
+					],
+					[
+						"Flash PNG",
+						"0.5",
+						"flashes/ready"
+					]
+				]
+			],
+			[
+				20571.4285714286,
+				[
+					[
+						"Flash PNG",
+						"0.5",
+						"flashes/ready"
+					]
+				]
+			],
+			[
+				27428.5714285714,
+				[
+					[
+						"Flash PNG",
+						"0.5",
+						"flashes/ready"
+					]
+				]
+			],
+			[
+				29142.8571428571,
+				[
+					[
+						"Flash PNG",
+						"0.5",
+						"flashes/ready"
+					]
+				]
+			],
+			[
+				30857.1428571429,
+				[
+					[
+						"Set Cam Zoom",
+						"1.2",
+						"3"
+					]
+				]
+			],
+			[
+				44571.4285714286,
+				[
+					[
+						"Set Cam Zoom",
+						"0.9",
+						"0.5"
+					]
+				]
+			],
+			[
+				60964.2857142858,
+				[
+					[
+						"Change Scroll Speed",
+						"4",
+						"1"
+					]
+				]
+			],
+			[
+				61714.2857142858,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.5"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "nogf",
+		"bpm": 140,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Bro"
+	}
+}

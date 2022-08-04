@@ -1,0 +1,50 @@
+{
+	"storyName": "Kinda Rude arentcha",
+	"difficulties": "Hard, Insane, Fun",
+	"hideFreeplay": false,
+	"weekBackground": "Path",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "weekA2",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"menubrit",
+		"bf",
+		""
+	],
+	"songs": [
+		[
+			"Hey",
+			"Britnew",
+			[
+				255,
+				213,
+				115
+			]
+		],
+		[
+			"Settle Down",
+			"Britnew",
+			[
+				255,
+				213,
+				115
+			]
+		],
+		[
+			"Cool Beans",
+			"Britnew",
+			[
+				255,
+				213,
+				115
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week Brittany",
+	"hiddenUntilUnlocked": false
+}

@@ -1,0 +1,50 @@
+{
+	"storyName": "Why he built like that",
+	"difficulties": "Hard, Insane, Fun",
+	"hideFreeplay": false,
+	"weekBackground": "grassnew",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"menuamnew",
+		"bf",
+		""
+	],
+	"songs": [
+		[
+			"Stellar",
+			"AMNew",
+			[
+				255,
+				0,
+				255
+			]
+		],
+		[
+			"Hype",
+			"AMNew",
+			[
+				255,
+				0,
+				255
+			]
+		],
+		[
+			"Amazing",
+			"AMNew",
+			[
+				255,
+				0,
+				255
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "AMWeek 1 (Why are you resetting?)",
+	"hiddenUntilUnlocked": false
+}

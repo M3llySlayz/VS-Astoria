@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="AM Dialogue.png"><SubTexture name="AM Dialogue Bruh0000" x="0" y="0" width="363" height="343" frameX="-23" frameY="-57" frameWidth="450" frameHeight="450" />
+<SubTexture name="AM Dialogue Happy0000" x="363" y="0" width="360" height="343" frameX="-23" frameY="-57" frameWidth="450" frameHeight="450" />
+<SubTexture name="AM Dialogue Red0000" x="0" y="343" width="360" height="343" frameX="-23" frameY="-57" frameWidth="450" frameHeight="450" />
+<SubTexture name="AM Dialogue Neutral0000" x="360" y="343" width="360" height="343" frameX="-23" frameY="-57" frameWidth="450" frameHeight="450" />
+</TextureAtlas>

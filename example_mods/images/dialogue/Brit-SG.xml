@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Brit-SG.png"><SubTexture name="bsg concerned0000" x="0" y="0" width="378" height="398" frameX="-54" frameY="-52" frameWidth="450" frameHeight="450" />
+<SubTexture name="bsg confident0000" x="378" y="0" width="378" height="398" frameX="-54" frameY="-52" frameWidth="450" frameHeight="450" />
+<SubTexture name="bsg happy0000" x="756" y="0" width="378" height="398" frameX="-54" frameY="-52" frameWidth="450" frameHeight="450" />
+<SubTexture name="bsg mad0000" x="0" y="398" width="378" height="398" frameX="-54" frameY="-52" frameWidth="450" frameHeight="450" />
+<SubTexture name="bsg sad0000" x="378" y="398" width="378" height="398" frameX="-54" frameY="-52" frameWidth="450" frameHeight="450" />
+<SubTexture name="bsg sheepish0000" x="756" y="398" width="378" height="398" frameX="-54" frameY="-52" frameWidth="450" frameHeight="450" />
+<SubTexture name="bsg bruh0000" x="1134" y="0" width="384" height="370" frameX="0" frameY="-80" frameWidth="450" frameHeight="450" />
+<SubTexture name="bsg angery0000" x="1134" y="370" width="384" height="370" frameX="0" frameY="-80" frameWidth="450" frameHeight="450" />
+<SubTexture name="bsg neutral0000" x="0" y="796" width="384" height="370" frameX="0" frameY="-80" frameWidth="450" frameHeight="450" />
+<SubTexture name="bsg eyebrows0000" x="384" y="796" width="384" height="370" frameX="0" frameY="-80" frameWidth="450" frameHeight="450" />
+</TextureAtlas>

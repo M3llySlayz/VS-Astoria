@@ -1,0 +1,20 @@
+{
+	"dialogue": [
+		{
+			"expression": "Red Confident",
+			"text": "This fast enough for ya?",
+			"boxState": "angry",
+			"portrait": "am-new-dialogue",
+			"speed": 0.05,
+			"sound": "talkred"
+		},
+		{
+			"expression": "confused",
+			"text": "a (Oh shoot.)",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": ""
+		}
+	]
+}

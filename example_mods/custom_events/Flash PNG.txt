@@ -1,0 +1,7 @@
+Flashes Camera with a picture
+
+Value 1: speed
+Value 2: name of the picture (must be in your mods images folder)
+must include folder name and png name
+for example, if you have ready in your flashes folder
+type flashes/ready

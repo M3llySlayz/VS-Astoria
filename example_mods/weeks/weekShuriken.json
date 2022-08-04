@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"Shuriken Fight","Sing",
+			"sgnew",
+			[
+				75,
+				73,
+				73
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": true,
+	"weekBackground": "path",
+	"difficulties": "Hard, Insane, Fun",
+	"weekCharacters": [
+		"menubrit",
+		"bf",
+		""
+	],
+	"storyName": "You're def reading this from the files lol",
+	"weekName": "U cheated to get here lol",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "weekB2",
+	"startUnlocked": true
+}

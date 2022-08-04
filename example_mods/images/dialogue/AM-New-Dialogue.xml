@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="AM-New-Dialogue.png"><SubTexture name="AMND Bruh0000" x="0" y="0" width="340" height="354" frameX="0" frameY="-96" frameWidth="450" frameHeight="450" />
+<SubTexture name="AMND Annoyed0000" x="340" y="0" width="340" height="354" frameX="0" frameY="-96" frameWidth="450" frameHeight="450" />
+<SubTexture name="AMND Concerned0000" x="680" y="0" width="340" height="354" frameX="0" frameY="-96" frameWidth="450" frameHeight="450" />
+<SubTexture name="AMND Confident0000" x="0" y="354" width="340" height="354" frameX="0" frameY="-96" frameWidth="450" frameHeight="450" />
+<SubTexture name="AMND Happy0000" x="340" y="354" width="340" height="354" frameX="0" frameY="-96" frameWidth="450" frameHeight="450" />
+<SubTexture name="AMND Mad0000" x="680" y="354" width="340" height="354" frameX="0" frameY="-96" frameWidth="450" frameHeight="450" />
+<SubTexture name="AMND Sheepish0000" x="1020" y="0" width="340" height="354" frameX="0" frameY="-96" frameWidth="450" frameHeight="450" />
+<SubTexture name="AMND Red How0000" x="1020" y="354" width="340" height="354" frameX="0" frameY="-96" frameWidth="450" frameHeight="450" />
+<SubTexture name="AMND Red You Stupid0000" x="0" y="708" width="340" height="354" frameX="0" frameY="-96" frameWidth="450" frameHeight="450" />
+<SubTexture name="AMND Red Worried0000" x="340" y="708" width="340" height="354" frameX="0" frameY="-96" frameWidth="450" frameHeight="450" />
+<SubTexture name="AMND Red Ready0000" x="680" y="708" width="340" height="354" frameX="0" frameY="-96" frameWidth="450" frameHeight="450" />
+<SubTexture name="AMND Red Good Mood0000" x="1020" y="708" width="340" height="354" frameX="0" frameY="-96" frameWidth="450" frameHeight="450" />
+<SubTexture name="AMND Red Pissed0000" x="1360" y="0" width="340" height="354" frameX="0" frameY="-96" frameWidth="450" frameHeight="450" />
+<SubTexture name="AMND Red Sorry0000" x="1360" y="354" width="340" height="354" frameX="0" frameY="-96" frameWidth="450" frameHeight="450" />
+</TextureAtlas>

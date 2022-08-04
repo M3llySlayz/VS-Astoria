@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Voltage New Idle"
+		},
+		{
+			"offsets": [
+				56,
+				30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Voltage New Down"
+		},
+		{
+			"offsets": [
+				8,
+				18
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Voltage New Up"
+		},
+		{
+			"offsets": [
+				6,
+				18
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Voltage New North"
+		},
+		{
+			"offsets": [
+				56,
+				30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Voltage New South"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				19,
+				10
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Voltage New Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				9,
+				8
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Voltage New Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				21,
+				10
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Voltage New West",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-17,
+				10
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Voltage New East",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Voltage New",
+	"position": [
+		80,
+		340
+	],
+	"healthicon": "Voltage",
+	"flip_x": false,
+	"healthbar_colors": [
+		41,
+		201,
+		181
+	],
+	"camera_position": [
+		0,
+		-20
+	],
+	"sing_duration": 6.1,
+	"scale": 2.3
+}

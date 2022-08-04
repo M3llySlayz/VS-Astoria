@@ -1,0 +1,11 @@
+{
+	"idle_anim": "mb idle",
+	"image": "menuB",
+	"position": [
+		80,
+		-20
+	],
+	"flipX": false,
+	"scale": 1.4,
+	"confirm_anim": "M Dad Idle"
+}

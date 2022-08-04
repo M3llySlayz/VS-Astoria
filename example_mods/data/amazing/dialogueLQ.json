@@ -1,0 +1,28 @@
+{
+	"dialogue": [
+		{
+			"expression": "pissed",
+			"text": "shut the hell up man stop winning",
+			"boxState": "normal",
+			"sound": "talk",
+			"speed": 0.05,
+			"portrait": "amdialogue"
+		},
+		{
+			"expression": "pissed",
+			"text": "git gud",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "pissed",
+			"text": "...",
+			"boxState": "normal",
+			"sound": "talk",
+			"speed": 0.31,
+			"portrait": "amdialogue"
+		}
+	]
+}

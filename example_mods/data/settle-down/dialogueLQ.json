@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"sound": "talkbrittany",
+			"speed": 0.05,
+			"portrait": "brit-sg-dialogue",
+			"boxState": "normal",
+			"expression": "britmad",
+			"text": "gasp"
+		},
+		{
+			"sound": "talkbrittany",
+			"speed": 0.05,
+			"portrait": "brit-sg-dialogue",
+			"boxState": "normal",
+			"expression": "britmad",
+			"text": "you won with ur stupid extra notes"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "heheheha"
+		},
+		{
+			"sound": "talkbrittany",
+			"speed": 0.05,
+			"portrait": "brit-sg-dialogue",
+			"boxState": "normal",
+			"expression": "britthink",
+			"text": "keep calm brit, it's ok. We'll get this guy."
+		},
+		{
+			"sound": "talkbrittany",
+			"speed": 0.05,
+			"portrait": "brit-sg-dialogue",
+			"boxState": "normal",
+			"expression": "britbruh",
+			"text": "another round. now."
+		},
+		{
+			"sound": "talkbrittany",
+			"speed": 0.05,
+			"portrait": "brit-sg-dialogue",
+			"boxState": "normal",
+			"expression": "britcalm",
+			"text": "and we'll settle down this time."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "k"
+		}
+	]
+}

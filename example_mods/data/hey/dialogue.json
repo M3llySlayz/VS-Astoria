@@ -1,0 +1,76 @@
+{
+	"dialogue": [
+		{
+			"sound": "talkbrittany",
+			"speed": 0.05,
+			"portrait": "brit-sg",
+			"boxState": "normal",
+			"expression": "brithappy",
+			"text": "Oh, you must be the dude Jeff was talking about!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Beep!"
+		},
+		{
+			"sound": "talkbrittany",
+			"speed": 0.05,
+			"portrait": "brit-sg",
+			"boxState": "normal",
+			"expression": "brithappy",
+			"text": "Name's Brittany. Nice to meet you!"
+		},
+		{
+			"sound": "talkbrittany",
+			"speed": 0.06,
+			"portrait": "brit-sg",
+			"boxState": "normal",
+			"expression": "britconcerned",
+			"text": "Though he did say that you were a trashbag..."
+		},
+		{
+			"sound": "talkbrittany",
+			"speed": 0.05,
+			"portrait": "brit-sg",
+			"boxState": "normal",
+			"expression": "brithappy",
+			"text": "Nah I don't believe him. A short stack like you couldn't hurt a fly."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "(I'll show her short stack...)"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Beep bo po (Rap battle me then, here and now!)"
+		},
+		{
+			"sound": "talkbrittany",
+			"speed": 0.05,
+			"portrait": "brit-sg",
+			"boxState": "normal",
+			"expression": "britconfident",
+			"text": "Ok, sure! Why not?"
+		},
+		{
+			"sound": "talkbrittany",
+			"speed": 0.05,
+			"portrait": "brit-sg",
+			"boxState": "normal",
+			"expression": "britsheepish",
+			"text": "Let's stay calm though, ok? No rush."
+		}
+	]
+}

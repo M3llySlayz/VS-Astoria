@@ -1,0 +1,28 @@
+{
+	"dialogue": [
+		{
+			"sound": "talkbrittany",
+			"speed": 0.05,
+			"portrait": "brit-sg",
+			"boxState": "normal",
+			"expression": "britsheepish",
+			"text": "Aw, I feel so much better now!"
+		},
+		{
+			"sound": "talkbrttany",
+			"speed": 0.05,
+			"portrait": "brit-sg",
+			"boxState": "normal",
+			"expression": "brithappy",
+			"text": "Let's do one more, and then I'm going to head out."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Boop!"
+		}
+	]
+}

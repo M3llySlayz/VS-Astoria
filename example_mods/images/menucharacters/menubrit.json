@@ -1,0 +1,11 @@
+{
+	"idle_anim": "mB menuBrit idle",
+	"image": "menuBrit",
+	"position": [
+		40,
+		-70
+	],
+	"flipX": false,
+	"scale": 1.55,
+	"confirm_anim": "M Dad Idle"
+}

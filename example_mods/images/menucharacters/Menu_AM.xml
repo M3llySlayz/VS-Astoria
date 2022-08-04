@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Menu AM.png"><SubTexture name="Menu AM Idle0000" x="424" y="276" width="193" height="262" frameX="-61" frameY="-31" frameWidth="335" frameHeight="335" />
+<SubTexture name="Menu AM Idle0001" x="214" y="276" width="210" height="268" frameX="-61" frameY="-25" frameWidth="335" frameHeight="335" />
+<SubTexture name="Menu AM Idle0002" x="0" y="276" width="214" height="271" frameX="-61" frameY="-22" frameWidth="335" frameHeight="335" />
+<SubTexture name="Menu AM Idle0003" x="0" y="0" width="184" height="276" frameX="-61" frameY="-17" frameWidth="335" frameHeight="335" />
+<SubTexture name="Menu AM Idle0004" x="737" y="0" width="193" height="257" frameX="-61" frameY="-36" frameWidth="335" frameHeight="335" />
+<SubTexture name="Menu AM Hey0000" x="184" y="0" width="163" height="276" frameX="-82" frameY="-17" frameWidth="335" frameHeight="335" />
+<SubTexture name="Menu AM Hey0001" x="347" y="0" width="196" height="276" frameX="-82" frameY="-17" frameWidth="335" frameHeight="335" />
+<SubTexture name="Menu AM Hey0002" x="543" y="0" width="194" height="276" frameX="-82" frameY="-17" frameWidth="335" frameHeight="335" />
+</TextureAtlas>

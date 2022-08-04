@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "dm idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "dm left"
+		},
+		{
+			"offsets": [
+				0,
+				-30
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "dm down"
+		},
+		{
+			"offsets": [
+				5,
+				10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "dm up"
+		},
+		{
+			"offsets": [
+				-50,
+				-20
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "dm right"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/Donut Man New",
+	"position": [
+		0,
+		310
+	],
+	"healthicon": "Donut",
+	"flip_x": false,
+	"healthbar_colors": [
+		96,
+		62,
+		0
+	],
+	"camera_position": [
+		-120,
+		-60
+	],
+	"sing_duration": 6.1,
+	"scale": 2
+}

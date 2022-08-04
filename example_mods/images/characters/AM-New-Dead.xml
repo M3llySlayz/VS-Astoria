@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="AM-New-Dead.png"><SubTexture name="AMND idle0000" x="250" y="0" width="161" height="236" frameX="-43" frameY="-9" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND idle0001" x="411" y="0" width="161" height="236" frameX="-44" frameY="-9" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND idle0002" x="0" y="250" width="161" height="236" frameX="-42" frameY="-9" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND idle0003" x="161" y="250" width="161" height="236" frameX="-43" frameY="-9" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND idle0004" x="161" y="250" width="161" height="236" frameX="-43" frameY="-9" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND idle0005" x="161" y="250" width="161" height="236" frameX="-43" frameY="-9" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND idle0006" x="161" y="250" width="161" height="236" frameX="-43" frameY="-9" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND idle0007" x="161" y="250" width="161" height="236" frameX="-43" frameY="-9" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND died lol0000" x="322" y="250" width="161" height="236" frameX="-43" frameY="-9" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND died lol0001" x="572" y="0" width="161" height="236" frameX="-43" frameY="-9" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND died lol0002" x="572" y="236" width="161" height="236" frameX="-43" frameY="-9" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND died lol0003" x="0" y="486" width="161" height="236" frameX="-43" frameY="-9" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND died lol0004" x="161" y="486" width="161" height="236" frameX="-43" frameY="-9" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND died lol0005" x="322" y="486" width="161" height="236" frameX="-43" frameY="-9" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND died lol0006" x="322" y="486" width="161" height="236" frameX="-43" frameY="-9" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND died lol0007" x="483" y="486" width="168" height="236" frameX="-36" frameY="-9" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND died lol0008" x="733" y="0" width="200" height="220" frameX="-28" frameY="-25" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND died lol0009" x="0" y="922" width="242" height="187" frameX="-8" frameY="-58" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND died lol0010" x="242" y="922" width="249" height="187" frameX="-1" frameY="-58" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND died lol0011" x="498" y="722" width="249" height="198" frameX="-1" frameY="-46" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND died lol0012" x="498" y="722" width="249" height="198" frameX="-1" frameY="-46" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND died lol0013" x="0" y="722" width="249" height="200" frameX="-1" frameY="-44" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND died lol0014" x="0" y="722" width="249" height="200" frameX="-1" frameY="-44" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND died lol0015" x="0" y="722" width="249" height="200" frameX="-1" frameY="-44" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND died lol0016" x="0" y="722" width="249" height="200" frameX="-1" frameY="-44" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND crying0000" x="933" y="0" width="249" height="198" frameX="-1" frameY="-46" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND crying0001" x="249" y="722" width="249" height="199" frameX="-1" frameY="-45" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND crying0002" x="0" y="722" width="249" height="200" frameX="-1" frameY="-44" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND crying0003" x="0" y="722" width="249" height="200" frameX="-1" frameY="-44" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND crying0004" x="0" y="722" width="249" height="200" frameX="-1" frameY="-44" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND crying0005" x="0" y="722" width="249" height="200" frameX="-1" frameY="-44" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND crying0006" x="0" y="722" width="249" height="200" frameX="-1" frameY="-44" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND crying0007" x="0" y="722" width="249" height="200" frameX="-1" frameY="-44" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND crying0008" x="0" y="722" width="249" height="200" frameX="-1" frameY="-44" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND crying0009" x="0" y="722" width="249" height="200" frameX="-1" frameY="-44" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0000" x="933" y="198" width="249" height="197" frameX="-1" frameY="-47" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0001" x="933" y="395" width="249" height="196" frameX="-1" frameY="-48" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0002" x="491" y="922" width="249" height="183" frameX="-1" frameY="-61" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0003" x="740" y="922" width="249" height="117" frameX="-1" frameY="-127" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0004" x="1182" y="0" width="249" height="117" frameX="-1" frameY="-127" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0005" x="1182" y="117" width="249" height="117" frameX="-1" frameY="-127" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0006" x="1182" y="234" width="249" height="117" frameX="-1" frameY="-127" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0007" x="0" y="0" width="250" height="250" frameX="0" frameY="0" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0008" x="0" y="0" width="250" height="250" frameX="0" frameY="0" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0009" x="0" y="0" width="250" height="250" frameX="0" frameY="0" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0010" x="0" y="0" width="250" height="250" frameX="0" frameY="0" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0011" x="0" y="0" width="250" height="250" frameX="0" frameY="0" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0012" x="0" y="0" width="250" height="250" frameX="0" frameY="0" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0013" x="1182" y="649" width="117" height="86" frameX="-65" frameY="-42" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0014" x="1182" y="467" width="117" height="91" frameX="-65" frameY="-37" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0015" x="1299" y="467" width="117" height="91" frameX="-65" frameY="-37" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0016" x="1182" y="558" width="117" height="91" frameX="-65" frameY="-37" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0017" x="1299" y="558" width="117" height="91" frameX="-65" frameY="-37" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0018" x="1299" y="351" width="117" height="104" frameX="-65" frameY="-37" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0019" x="1182" y="351" width="117" height="116" frameX="-65" frameY="-37" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0020" x="933" y="785" width="117" height="129" frameX="-65" frameY="-37" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0021" x="747" y="722" width="117" height="142" frameX="-65" frameY="-37" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0022" x="733" y="432" width="117" height="158" frameX="-65" frameY="-37" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0023" x="1050" y="591" width="117" height="174" frameX="-65" frameY="-37" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0024" x="933" y="591" width="117" height="194" frameX="-65" frameY="-37" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMND lets go0025" x="733" y="220" width="117" height="212" frameX="-65" frameY="-37" frameWidth="250" frameHeight="250" />
+</TextureAtlas>

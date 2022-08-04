@@ -1,0 +1,36 @@
+{
+	"dialogue": [
+		{
+			"expression": "Happy",
+			"text": "Hey, that wasn't horrible!",
+			"boxState": "normal",
+			"sound": "talk",
+			"speed": 0.05,
+			"portrait": "am-new-dialogue"
+		},
+		{
+			"expression": "excited",
+			"text": "Yeah!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "pissed",
+			"text": "Beep beep boop ba (A little short, though. You gotta try harder than that!)",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "Happy",
+			"text": "Sure! I think I'm getting the hang of this.",
+			"boxState": "normal",
+			"sound": "talk",
+			"speed": 0.05,
+			"portrait": "am-new-dialogue"
+		}
+	]
+}

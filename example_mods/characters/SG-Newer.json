@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "sg Idle"
+		},
+		{
+			"offsets": [
+				-35,
+				-6
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "sg Down"
+		},
+		{
+			"offsets": [
+				-8,
+				-24
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "sg Left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "sg Right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "sg East"
+		},
+		{
+			"offsets": [
+				-6,
+				-25
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "sg West"
+		},
+		{
+			"offsets": [
+				-36,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "sg South"
+		},
+		{
+			"offsets": [
+				30,
+				-4
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "sg Up"
+		},
+		{
+			"offsets": [
+				30,
+				-4
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "sg North"
+		},
+		{
+			"offsets": [
+				-14,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "sliceLeft",
+			"loop": false,
+			"name": "sg Swipe"
+		},
+		{
+			"offsets": [
+				-10,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "sliceRight",
+			"loop": false,
+			"name": "sg Swipe"
+		},
+		{
+			"offsets": [
+				11,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "sliceUp",
+			"loop": false,
+			"name": "sg slice"
+		},
+		{
+			"offsets": [
+				15,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "sliceDown",
+			"loop": false,
+			"name": "sg slice"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SG-Newer",
+	"position": [
+		0,
+		370
+	],
+	"healthicon": "SGNew",
+	"flip_x": false,
+	"healthbar_colors": [
+		62,
+		62,
+		42
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 2
+}

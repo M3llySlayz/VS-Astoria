@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Amazing Meme.png"><SubTexture name="AMM Idle0000" x="242" y="196" width="121" height="155" frameX="-72" frameY="-77" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMM Idle0001" x="255" y="0" width="121" height="156" frameX="-71" frameY="-76" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMM Idle0002" x="0" y="196" width="121" height="156" frameX="-71" frameY="-76" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMM Idle0003" x="121" y="196" width="121" height="156" frameX="-71" frameY="-76" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMM Idle0004" x="121" y="196" width="121" height="156" frameX="-71" frameY="-76" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMM Idle0005" x="121" y="196" width="121" height="156" frameX="-71" frameY="-76" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMM Down0000" x="196" y="352" width="131" height="115" frameX="-60" frameY="-109" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMM Down0001" x="327" y="352" width="130" height="98" frameX="-61" frameY="-126" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMM Down0002" x="0" y="472" width="141" height="93" frameX="-50" frameY="-150" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMM Down0003" x="141" y="472" width="141" height="86" frameX="-50" frameY="-150" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMM Left0000" x="376" y="0" width="102" height="131" frameX="-51" frameY="-97" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMM Left0001" x="376" y="131" width="102" height="131" frameX="-52" frameY="-97" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMM Left0002" x="478" y="0" width="102" height="131" frameX="-52" frameY="-97" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMM Right0000" x="83" y="352" width="113" height="119" frameX="-91" frameY="-110" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMM Right0001" x="478" y="131" width="93" height="120" frameX="-100" frameY="-110" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMM Right0002" x="0" y="352" width="83" height="120" frameX="-110" frameY="-110" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMM Up0000" x="0" y="0" width="85" height="196" frameX="-85" frameY="-47" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMM Up0001" x="85" y="0" width="85" height="181" frameX="-85" frameY="-58" frameWidth="250" frameHeight="250" />
+<SubTexture name="AMM Up0002" x="170" y="0" width="85" height="161" frameX="-86" frameY="-68" frameWidth="250" frameHeight="250" />
+</TextureAtlas>

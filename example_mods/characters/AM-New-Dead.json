@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				0
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "AMND lets go",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "AMND crying",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "AMND died lol",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/AM-New-Dead",
+	"position": [
+		0,
+		340
+	],
+	"healthicon": "face",
+	"flip_x": true,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		220,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 2
+}

@@ -1,0 +1,4 @@
+Hud Transparency
+
+Value one dictates transparency of the HUD.
+Value two dictates how fast it changes.

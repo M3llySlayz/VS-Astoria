@@ -1,0 +1,11 @@
+{
+	"idle_anim": "msg idle",
+	"image": "menuSG",
+	"position": [
+		62,
+		-34
+	],
+	"flipX": false,
+	"scale": 1.5,
+	"confirm_anim": "M Dad Idle"
+}

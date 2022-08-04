@@ -1,0 +1,128 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		40,
+		30
+	],
+	"scale": 1.25,
+	"animations": [
+		{
+			"loop_name": "bs content",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bs content",
+			"anim": "britneutral",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bs happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bs happy",
+			"anim": "brithappy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bs mad",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bs mad",
+			"anim": "britmad",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bs calm",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bs calm",
+			"anim": "britcalm",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bs think",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bs think",
+			"anim": "britthink",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bs bruh",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bs bruh",
+			"anim": "britbruh",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bs stealth",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bs stealth",
+			"anim": "sg",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bs pissed",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bs pissed",
+			"anim": "sgmad",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bs confident",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bs confident",
+			"anim": "sgconfident",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "Brit-SG-Dialogue"
+}

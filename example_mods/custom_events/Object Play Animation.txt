@@ -1,0 +1,8 @@
+Makes something that isn't GF, BF, or Dad
+play an animation
+
+First box is what you want to make move
+Second box is the name of the animation]
+
+Only works if you have a script similar to
+bfdarkscript.lua (find in amazing-meme)

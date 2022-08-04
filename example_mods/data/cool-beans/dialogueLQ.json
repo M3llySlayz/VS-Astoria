@@ -1,0 +1,28 @@
+{
+	"dialogue": [
+		{
+			"sound": "talkbrittany",
+			"speed": 0.05,
+			"portrait": "brit-sg-dialogue",
+			"boxState": "normal",
+			"expression": "britcalm",
+			"text": "ok I feel better now"
+		},
+		{
+			"sound": "talkbrittany",
+			"speed": 0.05,
+			"portrait": "brit-sg-dialogue",
+			"boxState": "normal",
+			"expression": "britneutral",
+			"text": "one more"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "k"
+		}
+	]
+}

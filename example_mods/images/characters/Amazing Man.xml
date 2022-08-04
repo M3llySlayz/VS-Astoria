@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Amazing Man.png"><SubTexture name="Amazing Man Down0000" x="0" y="789" width="241" height="317" frameX="-136" frameY="-169" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Down0001" x="938" y="391" width="218" height="317" frameX="-136" frameY="-169" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Idle0000" x="436" y="397" width="232" height="391" frameX="-127" frameY="-109" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Idle0001" x="472" y="0" width="235" height="393" frameX="-127" frameY="-107" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Idle0002" x="0" y="0" width="237" height="397" frameX="-127" frameY="-103" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Idle0003" x="237" y="0" width="235" height="396" frameX="-127" frameY="-104" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Left0000" x="1170" y="0" width="263" height="390" frameX="-127" frameY="-110" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Left0001" x="1170" y="390" width="263" height="390" frameX="-127" frameY="-110" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Right0000" x="707" y="0" width="231" height="392" frameX="-110" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Right0001" x="0" y="397" width="218" height="392" frameX="-110" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Right0002" x="218" y="397" width="218" height="392" frameX="-110" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Up0000" x="668" y="397" width="242" height="391" frameX="-127" frameY="-109" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Up0001" x="938" y="0" width="232" height="391" frameX="-127" frameY="-109" frameWidth="500" frameHeight="500" />
+</TextureAtlas>

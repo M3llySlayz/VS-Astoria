@@ -1,0 +1,44 @@
+{
+	"dialogue": [
+		{
+			"sound": "talkbrittany",
+			"speed": 0.05,
+			"portrait": "brit-sg",
+			"boxState": "normal",
+			"expression": "britmad",
+			"text": "I-"
+		},
+		{
+			"sound": "talkbrittany",
+			"speed": 0.05,
+			"portrait": "brit-sg",
+			"boxState": "normal",
+			"expression": "britsheepish",
+			"text": "(No, stay calm. There's no need for violence right now. Just settle down.)"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Boo bop (We win these.)"
+		},
+		{
+			"sound": "talkbrittany",
+			"speed": 0.05,
+			"portrait": "brit-sg",
+			"boxState": "normal",
+			"expression": "britsheepish",
+			"text": "Very nice. Wanna go another round?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Brep beep (Any day.)"
+		}
+	]
+}

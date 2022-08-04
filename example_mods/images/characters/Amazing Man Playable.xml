@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Amazing Man Playable.png"><SubTexture name="AM Down0000" x="2418" y="990" width="241" height="317" frameX="-136" frameY="-169" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Down0001" x="2418" y="1307" width="218" height="317" frameX="-136" frameY="-169" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Idle0000" x="1156" y="0" width="232" height="391" frameX="-127" frameY="-109" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Idle0001" x="472" y="0" width="235" height="393" frameX="-127" frameY="-107" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Idle0002" x="0" y="0" width="237" height="397" frameX="-127" frameY="-103" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Idle0003" x="237" y="0" width="235" height="396" frameX="-127" frameY="-104" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Right0000" x="716" y="789" width="263" height="390" frameX="-127" frameY="-110" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Right0001" x="979" y="789" width="263" height="390" frameX="-127" frameY="-110" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Left0000" x="707" y="0" width="231" height="392" frameX="-110" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Left0001" x="0" y="397" width="218" height="392" frameX="-110" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Left0002" x="218" y="397" width="218" height="392" frameX="-110" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Up0000" x="0" y="789" width="242" height="391" frameX="-127" frameY="-109" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Up0001" x="1156" y="391" width="232" height="391" frameX="-127" frameY="-109" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM idle0000" x="436" y="397" width="240" height="392" frameX="-117" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM idle0001" x="436" y="397" width="240" height="392" frameX="-117" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM idle0002" x="436" y="397" width="240" height="392" frameX="-117" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM hes dead0000" x="436" y="397" width="240" height="392" frameX="-117" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM hes dead0001" x="436" y="397" width="240" height="392" frameX="-117" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM hes dead0002" x="436" y="397" width="240" height="392" frameX="-117" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM hes dead0003" x="436" y="397" width="240" height="392" frameX="-117" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM hes dead0004" x="1651" y="0" width="371" height="338" frameX="-110" frameY="-162" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM hes dead0005" x="2418" y="1941" width="382" height="260" frameX="-104" frameY="-240" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM hes dead0006" x="337" y="2213" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM hes dead0007" x="337" y="2213" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM hes dead0008" x="337" y="2213" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM hes dead0009" x="337" y="2213" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM hes dead0010" x="337" y="2213" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM hes dead0011" x="751" y="2213" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM L bozo loop0000" x="751" y="2213" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM L bozo loop0001" x="751" y="2213" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM L bozo loop0002" x="751" y="2213" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM L bozo loop0003" x="1165" y="2213" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM L bozo loop0004" x="1579" y="2213" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM L bozo loop0005" x="1993" y="2213" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM L bozo loop0006" x="2407" y="2213" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM L bozo loop0007" x="0" y="2511" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Lets Go0000" x="414" y="2511" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Lets Go0001" x="828" y="2511" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Lets Go0002" x="1242" y="2511" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Lets Go0003" x="1656" y="2511" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Lets Go0004" x="1656" y="2511" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Lets Go0005" x="1656" y="2511" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM Lets Go0006" x="1656" y="2511" width="414" height="218" frameX="-75" frameY="-282" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Playable idle0000" x="436" y="397" width="240" height="392" frameX="-117" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Playable hes dead0000" x="436" y="397" width="240" height="392" frameX="-117" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Playable hes dead0001" x="436" y="397" width="240" height="392" frameX="-117" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Playable hes dead0002" x="436" y="397" width="240" height="392" frameX="-117" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Playable hes dead0003" x="436" y="397" width="240" height="392" frameX="-117" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Playable hes dead0004" x="436" y="397" width="240" height="392" frameX="-117" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="Amazing Man Playable hes dead0005" x="436" y="397" width="240" height="392" frameX="-117" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM DDodge0000" x="2022" y="647" width="277" height="310" frameX="-142" frameY="-190" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM DDodge0001" x="2022" y="957" width="321" height="304" frameX="-127" frameY="-196" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM DDodge0002" x="2035" y="1883" width="328" height="298" frameX="-112" frameY="-202" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM DDodge0003" x="0" y="2213" width="337" height="298" frameX="-112" frameY="-202" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM DDodge0004" x="2022" y="1261" width="330" height="304" frameX="-127" frameY="-196" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM DDodge0005" x="2022" y="1565" width="296" height="304" frameX="-127" frameY="-196" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM DDodge0006" x="1645" y="1547" width="275" height="304" frameX="-127" frameY="-196" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM DDodge0007" x="1645" y="1547" width="275" height="304" frameX="-127" frameY="-196" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM DDodge0008" x="1645" y="1547" width="275" height="304" frameX="-127" frameY="-196" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM DDodge0009" x="1645" y="1547" width="275" height="304" frameX="-127" frameY="-196" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM LDodge0000" x="1651" y="338" width="294" height="336" frameX="-72" frameY="-164" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM LDodge0001" x="1651" y="674" width="307" height="336" frameX="-65" frameY="-164" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM LDodge0002" x="1651" y="1010" width="329" height="336" frameX="-56" frameY="-164" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM LDodge0003" x="0" y="1547" width="334" height="336" frameX="-56" frameY="-164" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM LDodge0004" x="334" y="1547" width="320" height="336" frameX="-56" frameY="-164" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM LDodge0005" x="654" y="1547" width="286" height="336" frameX="-56" frameY="-164" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM LDodge0006" x="654" y="1547" width="286" height="336" frameX="-56" frameY="-164" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM LDodge0007" x="654" y="1547" width="286" height="336" frameX="-56" frameY="-164" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM LDodge0008" x="654" y="1547" width="286" height="336" frameX="-56" frameY="-164" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM LDodge0009" x="654" y="1547" width="286" height="336" frameX="-56" frameY="-164" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM RDodge0000" x="940" y="1547" width="345" height="330" frameX="-96" frameY="-170" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM RDodge0001" x="1285" y="1547" width="360" height="330" frameX="-81" frameY="-170" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM RDodge0002" x="2022" y="0" width="396" height="330" frameX="-45" frameY="-170" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM RDodge0003" x="0" y="1883" width="407" height="330" frameX="-34" frameY="-170" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM RDodge0004" x="407" y="1883" width="407" height="330" frameX="-34" frameY="-170" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM RDodge0005" x="814" y="1883" width="407" height="330" frameX="-34" frameY="-170" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM RDodge0006" x="1221" y="1883" width="407" height="330" frameX="-34" frameY="-170" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM RDodge0007" x="1628" y="1883" width="407" height="330" frameX="-34" frameY="-170" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM RDodge0008" x="2418" y="0" width="407" height="330" frameX="-34" frameY="-170" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM RDodge0009" x="2418" y="330" width="407" height="330" frameX="-34" frameY="-170" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM RDodge0010" x="2418" y="660" width="407" height="330" frameX="-34" frameY="-170" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM UDodge0000" x="1388" y="390" width="197" height="377" frameX="-140" frameY="-123" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM UDodge0001" x="1388" y="767" width="197" height="377" frameX="-140" frameY="-123" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM UDodge0002" x="0" y="1180" width="226" height="367" frameX="-114" frameY="-106" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM UDodge0003" x="226" y="1180" width="206" height="359" frameX="-135" frameY="-95" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM UDodge0004" x="432" y="1180" width="197" height="359" frameX="-144" frameY="-95" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM UDodge0005" x="629" y="1180" width="197" height="359" frameX="-144" frameY="-95" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM UDodge0006" x="826" y="1180" width="218" height="359" frameX="-144" frameY="-95" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM UDodge0007" x="1044" y="1180" width="218" height="359" frameX="-144" frameY="-95" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM UDodge0008" x="1044" y="1180" width="218" height="359" frameX="-144" frameY="-95" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM UDodge0009" x="1044" y="1180" width="218" height="359" frameX="-144" frameY="-95" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM idle0003" x="1262" y="1180" width="197" height="359" frameX="-144" frameY="-95" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM South0000" x="2418" y="1624" width="241" height="317" frameX="-136" frameY="-169" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM South0001" x="2022" y="330" width="218" height="317" frameX="-136" frameY="-169" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM West0000" x="676" y="397" width="231" height="392" frameX="-110" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM West0001" x="938" y="0" width="218" height="392" frameX="-110" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM West0002" x="938" y="392" width="218" height="392" frameX="-110" frameY="-108" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM East0000" x="1388" y="0" width="263" height="390" frameX="-127" frameY="-110" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM East0001" x="1388" y="0" width="263" height="390" frameX="-127" frameY="-110" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM North0000" x="242" y="789" width="242" height="391" frameX="-127" frameY="-109" frameWidth="500" frameHeight="500" />
+<SubTexture name="AM North0001" x="484" y="789" width="232" height="391" frameX="-127" frameY="-109" frameWidth="500" frameHeight="500" />
+</TextureAtlas>

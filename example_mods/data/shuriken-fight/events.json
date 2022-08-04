@@ -1,0 +1,199 @@
+{
+	"song": {
+		"speed": 3.4,
+		"stage": "path",
+		"player1": "bf-pixel",
+		"player2": "SG-Newer",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						"90"
+					]
+				]
+			],
+			[
+				94945.054945055,
+				[
+					[
+						"Add Camera Zoom",
+						"0.2",
+						""
+					],
+					[
+						"Set Cam Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				116043.956043956,
+				[
+					[
+						"Add Camera Zoom",
+						"0.2",
+						""
+					],
+					[
+						"Set Cam Zoom",
+						"0.7",
+						""
+					],
+					[
+						"Flash Camera",
+						"0.5",
+						""
+					]
+				]
+			],
+			[
+				121318.681318681,
+				[
+					[
+						"Set Cam Zoom",
+						"1.2",
+						"3"
+					]
+				]
+			],
+			[
+				126593.406593407,
+				[
+					[
+						"Set Cam Zoom",
+						"0.7",
+						"3"
+					]
+				]
+			],
+			[
+				132197.802197802,
+				[
+					[
+						"Set Cam Zoom",
+						"1.2",
+						"2"
+					]
+				]
+			],
+			[
+				134505.494505495,
+				[
+					[
+						"Blammed Lights",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				137142.857142857,
+				[
+					[
+						"Set Cam Zoom",
+						"0.7",
+						""
+					],
+					[
+						"Blammed Lights",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				150000,
+				[
+					[
+						"Add Camera Zoom",
+						"0.2",
+						"0.05"
+					]
+				]
+			],
+			[
+				150082.417582418,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0.05"
+					]
+				]
+			],
+			[
+				150164.835164835,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0.05"
+					]
+				]
+			],
+			[
+				150247.252747253,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0.05"
+					]
+				]
+			],
+			[
+				150329.67032967,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0.05"
+					]
+				]
+			],
+			[
+				150412.087912088,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0.05"
+					]
+				]
+			],
+			[
+				150494.505494506,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0.05"
+					]
+				]
+			],
+			[
+				150576.923076923,
+				[
+					[
+						"Add Camera Zoom",
+						"0.1",
+						"0.05"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "nogf",
+		"bpm": 182,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Shuriken Fight"
+	}
+}

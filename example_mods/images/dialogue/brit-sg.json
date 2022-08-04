@@ -1,0 +1,142 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		40,
+		-10
+	],
+	"no_antialiasing": false,
+	"scale": 1.25,
+	"animations": [
+		{
+			"loop_name": "bsg happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bsg happy",
+			"anim": "brithappy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bsg sad",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bsg sad",
+			"anim": "britsad",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bsg mad",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bsg mad",
+			"anim": "britmad",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bsg confident",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bsg confident",
+			"anim": "britconfident",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bsg concerned",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bsg concerned",
+			"anim": "britconcerned",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bsg sheepish",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bsg sheepish",
+			"anim": "britsheepish",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bsg neutral",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bsg neutral",
+			"anim": "sg",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bsg angery",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bsg angery",
+			"anim": "sgmad",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bsg bruh",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bsg bruh",
+			"anim": "sgbruh",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bsg eyebrows",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bsg eyebrows",
+			"anim": "sgsad",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "Brit-SG"
+}

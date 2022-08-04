@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Brit-SG-Dialogue.png"><SubTexture name="bs bruh0000" x="0" y="0" width="378" height="361" frameX="-38" frameY="-48" frameWidth="450" frameHeight="450" />
+<SubTexture name="bs calm0000" x="378" y="0" width="378" height="361" frameX="-38" frameY="-48" frameWidth="450" frameHeight="450" />
+<SubTexture name="bs happy0000" x="0" y="361" width="378" height="361" frameX="-38" frameY="-48" frameWidth="450" frameHeight="450" />
+<SubTexture name="bs mad0000" x="378" y="361" width="378" height="361" frameX="-38" frameY="-48" frameWidth="450" frameHeight="450" />
+<SubTexture name="bs content0000" x="756" y="0" width="378" height="361" frameX="-38" frameY="-48" frameWidth="450" frameHeight="450" />
+<SubTexture name="bs think0000" x="756" y="361" width="378" height="361" frameX="-38" frameY="-48" frameWidth="450" frameHeight="450" />
+<SubTexture name="bs confident0000" x="0" y="722" width="290" height="347" frameX="-58" frameY="-62" frameWidth="450" frameHeight="450" />
+<SubTexture name="bs pissed0000" x="290" y="722" width="290" height="347" frameX="-58" frameY="-62" frameWidth="450" frameHeight="450" />
+<SubTexture name="bs stealth0000" x="580" y="722" width="290" height="347" frameX="-58" frameY="-62" frameWidth="450" frameHeight="450" />
+</TextureAtlas>

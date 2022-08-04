@@ -1,0 +1,28 @@
+{
+	"dialogue": [
+		{
+			"expression": "Happy",
+			"text": "Yooooooooo! This is hyping me a lot.",
+			"boxState": "normal",
+			"portrait": "am-new-dialogue",
+			"speed": 0.05,
+			"sound": "talk"
+		},
+		{
+			"expression": "pissed",
+			"text": "Beep bada beep boop deh (Faster.)",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "Concerned",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "am-new-dialogue",
+			"speed": 0.31,
+			"sound": "talk"
+		}
+	]
+}

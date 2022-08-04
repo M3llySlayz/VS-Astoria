@@ -1,0 +1,28 @@
+{
+	"dialogue": [
+		{
+			"sound": "talkred",
+			"speed": 0.05,
+			"portrait": "amdialogue",
+			"boxState": "normal",
+			"expression": "red",
+			"text": "Alright fine you won"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "amdialogue",
+			"boxState": "normal",
+			"expression": "red",
+			"text": "go away now"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "don't need to tell me twice"
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"dialogue": [
+		{
+			"expression": "pissed",
+			"text": "damn you won",
+			"boxState": "normal",
+			"sound": "talk",
+			"speed": 0.05,
+			"portrait": "amdialogue"
+		},
+		{
+			"expression": "excited",
+			"text": "heheheha",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "pissed",
+			"text": "L+Bozo+Ratio+You Fell Off+Youngboy Better+ You're White",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "That's cap, such cap your cap is on backwards you think you're a rapper but the only bars ur spittin are the ones you'll be behind in jail for being so cringe",
+			"boxState": "normal",
+			"sound": "talk",
+			"speed": 0.05,
+			"portrait": "amdialogue"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "gasp"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Voltage.png"><SubTexture name="Voltage Idle0000" x="813" y="969" width="174" height="453" frameX="-294" frameY="-246" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Idle0001" x="900" y="486" width="174" height="456" frameX="-288" frameY="-243" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Idle0002" x="291" y="969" width="174" height="456" frameX="-288" frameY="-243" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Idle0003" x="465" y="969" width="174" height="456" frameX="-288" frameY="-243" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Idle0004" x="639" y="969" width="174" height="456" frameX="-288" frameY="-243" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Down0000" x="1563" y="1437" width="234" height="390" frameX="-267" frameY="-351" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Down0001" x="1524" y="0" width="189" height="444" frameX="-258" frameY="-297" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Down0002" x="1524" y="0" width="189" height="444" frameX="-258" frameY="-297" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Down0003" x="1713" y="0" width="228" height="444" frameX="-231" frameY="-297" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage South0000" x="1941" y="0" width="234" height="390" frameX="-267" frameY="-351" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage South0001" x="1356" y="1437" width="207" height="417" frameX="-267" frameY="-324" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage South0002" x="1713" y="444" width="189" height="444" frameX="-258" frameY="-297" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage South0003" x="1713" y="888" width="228" height="444" frameX="-231" frameY="-297" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Left0000" x="1239" y="969" width="252" height="447" frameX="-204" frameY="-267" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Left0001" x="0" y="969" width="291" height="468" frameX="-219" frameY="-246" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Left0002" x="543" y="486" width="357" height="474" frameX="-243" frameY="-240" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Left0003" x="1098" y="0" width="426" height="474" frameX="-243" frameY="-240" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage West0000" x="987" y="969" width="252" height="450" frameX="-204" frameY="-264" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage West0001" x="1275" y="474" width="216" height="468" frameX="-219" frameY="-246" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage West0002" x="1098" y="474" width="177" height="474" frameX="-243" frameY="-240" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage West0003" x="366" y="486" width="177" height="477" frameX="-243" frameY="-237" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Right0000" x="858" y="1437" width="249" height="426" frameX="-363" frameY="-285" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Right0001" x="432" y="1437" width="213" height="435" frameX="-363" frameY="-276" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Right0002" x="0" y="1437" width="216" height="444" frameX="-363" frameY="-267" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Up0000" x="0" y="0" width="183" height="486" frameX="-276" frameY="-237" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Up0001" x="366" y="0" width="183" height="483" frameX="-276" frameY="-240" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Up0002" x="549" y="0" width="183" height="483" frameX="-276" frameY="-240" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage Up0003" x="732" y="0" width="183" height="483" frameX="-276" frameY="-240" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage North0000" x="183" y="0" width="183" height="486" frameX="-276" frameY="-237" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage North0001" x="915" y="0" width="183" height="483" frameX="-276" frameY="-240" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage North0002" x="0" y="486" width="183" height="483" frameX="-276" frameY="-240" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage North0003" x="183" y="486" width="183" height="483" frameX="-276" frameY="-240" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage East0000" x="1107" y="1437" width="249" height="426" frameX="-363" frameY="-285" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage East0001" x="645" y="1437" width="213" height="435" frameX="-363" frameY="-276" frameWidth="750" frameHeight="750" />
+<SubTexture name="Voltage East0002" x="216" y="1437" width="216" height="444" frameX="-363" frameY="-267" frameWidth="750" frameHeight="750" />
+</TextureAtlas>

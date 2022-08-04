@@ -1,0 +1,194 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		80,
+		50
+	],
+	"no_antialiasing": false,
+	"scale": 1.25,
+	"animations": [
+		{
+			"loop_name": "AMND Bruh",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "AMND Bruh",
+			"anim": "Bruh",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "AMND Mad",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "AMND Bruh",
+			"anim": "Mad",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "AMND Happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "AMND Happy",
+			"anim": "Happy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "AMND Sheepish",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "AMND Sheepish",
+			"anim": "Sheepish",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "AMND Concerned",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "AMND Concerned",
+			"anim": "Concerned",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "AMND Confident",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "AMND Confident",
+			"anim": "Confident",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "AMND Red How",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "AMND Red How",
+			"anim": "Red Bruh",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "AMND Red Good Mood",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "AMND Red Good Mood",
+			"anim": "Red Happy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "AMND Red You Stupid",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "AMND Red How",
+			"anim": "Red Bruh Talk",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "AMND Annoyed",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "AMND Bruh",
+			"anim": "Bruh Talk",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "AMND Red Worried",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "AMND Red Worried",
+			"anim": "Red Concerned",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "AMND Red Ready",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "AMND Red Ready",
+			"anim": "Red Confident",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "AMND Red Pissed",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "AMND Red How",
+			"anim": "Red Mad",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "AMND Red Sorry",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "AMND Red Sorry",
+			"anim": "Red Sheepish",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "AM-New-Dialogue"
+}

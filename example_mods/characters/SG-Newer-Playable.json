@@ -1,0 +1,199 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "sg Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				33,
+				-3
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "sg Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				33,
+				-3
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "sg South",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				-4
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "sg Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				-4
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "sg North",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				13,
+				-10
+			],
+			"anim": "sliceLeft",
+			"fps": 24,
+			"name": "sg Swipe",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-10
+			],
+			"anim": "sliceRight",
+			"fps": 24,
+			"name": "sg Swipe",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-19,
+				-10
+			],
+			"anim": "sliceUp",
+			"fps": 24,
+			"name": "sg slice",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				-10
+			],
+			"anim": "sliceDown",
+			"fps": 24,
+			"name": "sg slice",
+			"indices": []
+		},
+		{
+			"offsets": [
+				2,
+				-4
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "sg Right"
+		},
+		{
+			"offsets": [
+				6,
+				-24
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "sg Left"
+		},
+		{
+			"offsets": [
+				7,
+				-24
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "sg West"
+		},
+		{
+			"offsets": [
+				-2,
+				-2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "sg East"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "sg cry"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "sg confirm"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "SG-Newer death",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/SG-Newer",
+	"position": [
+		0,
+		280
+	],
+	"healthicon": "SGNew",
+	"flip_x": false,
+	"healthbar_colors": [
+		62,
+		62,
+		42
+	],
+	"camera_position": [
+		190,
+		-70
+	],
+	"sing_duration": 6.1,
+	"scale": 2
+}

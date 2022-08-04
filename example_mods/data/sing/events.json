@@ -1,0 +1,39 @@
+{
+	"song": {
+		"speed": 2.9,
+		"stage": "path",
+		"player1": "bf-pixel",
+		"player2": "SG-Newer",
+		"player3": null,
+		"events": [
+			[
+				39000,
+				[
+					[
+						"Set Cam Zoom",
+						"1.2",
+						""
+					]
+				]
+			],
+			[
+				42000,
+				[
+					[
+						"Set Cam Zoom",
+						"0.8",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "nogf",
+		"bpm": 240,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Sing"
+	}
+}

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Donut Man New.png">
+<SubTexture name="dm idle0000" x="76" y="194" width="75" height="183" frameX="-90" frameY="-58" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm idle0001" x="0" y="194" width="76" height="184" frameX="-90" frameY="-57" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm idle0002" x="312" y="0" width="76" height="185" frameX="-90" frameY="-56" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm idle0003" x="312" y="0" width="76" height="185" frameX="-90" frameY="-56" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm idle0004" x="312" y="0" width="76" height="185" frameX="-90" frameY="-56" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm idle0005" x="312" y="0" width="76" height="185" frameX="-90" frameY="-56" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm oof0000" x="151" y="194" width="87" height="182" frameX="-81" frameY="-61" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm oof0001" x="654" y="168" width="77" height="147" frameX="-85" frameY="-96" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm oof0002" x="654" y="315" width="59" height="125" frameX="-95" frameY="-118" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm oof0003" x="688" y="440" width="46" height="69" frameX="-96" frameY="-165" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm oof0004" x="280" y="550" width="51" height="59" frameX="-98" frameY="-175" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm oof0005" x="654" y="440" width="34" height="89" frameX="-93" frameY="-160" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm right0000" x="526" y="378" width="88" height="168" frameX="-85" frameY="-73" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm right0001" x="376" y="378" width="75" height="170" frameX="-93" frameY="-71" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm east0000" x="451" y="378" width="75" height="170" frameX="-93" frameY="-71" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm east0001" x="654" y="0" width="88" height="168" frameX="-85" frameY="-73" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm left0000" x="513" y="0" width="141" height="173" frameX="-23" frameY="-69" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm left0001" x="388" y="0" width="125" height="175" frameX="-29" frameY="-67" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm left0002" x="238" y="194" width="113" height="181" frameX="-46" frameY="-61" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm west0000" x="388" y="175" width="125" height="175" frameX="-29" frameY="-67" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm west0001" x="513" y="173" width="141" height="173" frameX="-23" frameY="-69" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm down0000" x="0" y="550" width="140" height="168" frameX="-67" frameY="-66" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm down0001" x="0" y="378" width="128" height="172" frameX="-68" frameY="-62" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm down0002" x="128" y="378" width="120" height="172" frameX="-73" frameY="-62" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm south0000" x="248" y="378" width="128" height="172" frameX="-68" frameY="-62" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm south0001" x="140" y="550" width="140" height="168" frameX="-67" frameY="-66" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm up0000" x="0" y="0" width="75" height="194" frameX="-89" frameY="-53" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm up0001" x="150" y="0" width="81" height="193" frameX="-89" frameY="-54" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm north0000" x="231" y="0" width="81" height="193" frameX="-89" frameY="-54" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm north0001" x="75" y="0" width="75" height="194" frameX="-89" frameY="-53" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm die loop0000" x="654" y="440" width="34" height="89" frameX="-93" frameY="-160" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm awaken0000" x="151" y="194" width="87" height="182" frameX="-81" frameY="-61" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm awaken0001" x="654" y="168" width="77" height="147" frameX="-85" frameY="-96" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm awaken0002" x="688" y="440" width="46" height="69" frameX="-96" frameY="-165" frameWidth="250" frameHeight="250" />
+<SubTexture name="dm awaken0003" x="280" y="550" width="51" height="59" frameX="-98" frameY="-175" frameWidth="250" frameHeight="250" />
+</TextureAtlas>

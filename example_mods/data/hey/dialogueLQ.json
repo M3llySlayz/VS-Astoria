@@ -1,0 +1,36 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "brit-sg-dialogue",
+			"boxState": "normal",
+			"expression": "britneutral",
+			"text": "Oh it's you"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "brit-sg-dialogue",
+			"boxState": "normal",
+			"expression": "britneutral",
+			"text": "AM talked about you"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "brit-sg-dialogue",
+			"boxState": "normal",
+			"expression": "brithappy",
+			"text": "Rap or perish"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "perish"
+		}
+	]
+}

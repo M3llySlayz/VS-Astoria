@@ -1,0 +1,32 @@
+{
+	"storyName": "He Mad",
+	"difficulties": "Insane, Fun",
+	"hideFreeplay": false,
+	"weekBackground": "grassnew",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "weekA",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"",
+		"bf",
+		""
+	],
+	"songs": [
+		[
+			"Red",
+			"AMRedNew",
+			[
+				255,
+				0,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Red",
+	"hiddenUntilUnlocked": false
+}

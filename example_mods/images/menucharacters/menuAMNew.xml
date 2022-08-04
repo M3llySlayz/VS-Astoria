@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="menuAMNew.png"><SubTexture name="MAN idle0000" x="0" y="230" width="153" height="227" frameX="-46" frameY="-20" frameWidth="250" frameHeight="250" />
+<SubTexture name="MAN idle0001" x="411" y="0" width="148" height="228" frameX="-43" frameY="-19" frameWidth="250" frameHeight="250" />
+<SubTexture name="MAN idle0002" x="0" y="0" width="149" height="230" frameX="-42" frameY="-19" frameWidth="250" frameHeight="250" />
+<SubTexture name="MAN idle0003" x="149" y="0" width="131" height="230" frameX="-60" frameY="-19" frameWidth="250" frameHeight="250" />
+<SubTexture name="MAN idle0004" x="280" y="0" width="131" height="230" frameX="-60" frameY="-19" frameWidth="250" frameHeight="250" />
+</TextureAtlas>

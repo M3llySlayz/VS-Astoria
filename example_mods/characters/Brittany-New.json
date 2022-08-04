@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "BN Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-66,
+				-8
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "BN Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-60,
+				-20
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "BN Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-2
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "BN Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				-20
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "BN Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-66,
+				-8
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Brittany New West",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				-20
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Brittany New East",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Brittany New North",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-60,
+				-20
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Brittany New South",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Brittany New",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "britnew",
+	"flip_x": false,
+	"healthbar_colors": [
+		105,
+		105,
+		25
+	],
+	"camera_position": [
+		-100,
+		-100
+	],
+	"sing_duration": 6.1,
+	"scale": 2
+}

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Brittany New.png"><SubTexture name="BN Idle0000" x="119" y="0" width="119" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN Idle0001" x="119" y="0" width="119" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN Idle0002" x="119" y="0" width="119" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN Idle0003" x="119" y="0" width="119" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN Idle0004" x="119" y="0" width="119" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN Idle0005" x="358" y="0" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN Idle0006" x="0" y="0" width="119" height="216" frameX="-66" frameY="-29" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN Idle0007" x="238" y="0" width="120" height="215" frameX="-66" frameY="-30" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN Left0000" x="522" y="429" width="135" height="205" frameX="-36" frameY="-37" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN Left0001" x="719" y="0" width="131" height="205" frameX="-26" frameY="-37" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN Left0002" x="719" y="205" width="131" height="205" frameX="-26" frameY="-37" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN Down0000" x="992" y="0" width="161" height="194" frameX="-53" frameY="-43" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN Down0001" x="850" y="197" width="128" height="195" frameX="-68" frameY="-42" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN Up0000" x="0" y="216" width="122" height="213" frameX="-66" frameY="-31" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN Up0001" x="122" y="429" width="122" height="211" frameX="-66" frameY="-33" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN Right0000" x="266" y="641" width="136" height="202" frameX="-44" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN Right0001" x="402" y="641" width="126" height="202" frameX="-57" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN Right0002" x="598" y="213" width="114" height="202" frameX="-69" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="Brittany New South0000" x="992" y="194" width="161" height="194" frameX="-53" frameY="-43" frameWidth="250" frameHeight="250" />
+<SubTexture name="Brittany New South0001" x="850" y="392" width="128" height="195" frameX="-68" frameY="-42" frameWidth="250" frameHeight="250" />
+<SubTexture name="Brittany New West0000" x="0" y="641" width="135" height="205" frameX="-36" frameY="-37" frameWidth="250" frameHeight="250" />
+<SubTexture name="Brittany New West0001" x="719" y="410" width="131" height="205" frameX="-26" frameY="-37" frameWidth="250" frameHeight="250" />
+<SubTexture name="Brittany New West0002" x="135" y="641" width="131" height="205" frameX="-26" frameY="-37" frameWidth="250" frameHeight="250" />
+<SubTexture name="Brittany New East0000" x="528" y="641" width="136" height="202" frameX="-44" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="Brittany New East0001" x="664" y="641" width="126" height="202" frameX="-57" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="Brittany New East0002" x="364" y="216" width="114" height="202" frameX="-69" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="Brittany New North0000" x="122" y="216" width="122" height="213" frameX="-66" frameY="-31" frameWidth="250" frameHeight="250" />
+<SubTexture name="Brittany New North0001" x="0" y="429" width="122" height="212" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN cry0000" x="244" y="429" width="148" height="210" frameX="-66" frameY="-35" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0000" x="850" y="0" width="142" height="197" frameX="-72" frameY="-46" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0001" x="850" y="0" width="142" height="197" frameX="-72" frameY="-46" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0002" x="992" y="581" width="147" height="184" frameX="-81" frameY="-58" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0003" x="992" y="581" width="147" height="184" frameX="-81" frameY="-58" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0004" x="0" y="846" width="138" height="174" frameX="-90" frameY="-72" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0005" x="0" y="846" width="138" height="174" frameX="-90" frameY="-72" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0006" x="267" y="846" width="129" height="161" frameX="-99" frameY="-87" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0007" x="517" y="846" width="127" height="158" frameX="-101" frameY="-90" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0008" x="396" y="846" width="121" height="161" frameX="-99" frameY="-87" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0009" x="138" y="846" width="129" height="174" frameX="-90" frameY="-72" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0010" x="850" y="587" width="121" height="184" frameX="-81" frameY="-58" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0011" x="992" y="388" width="133" height="193" frameX="-72" frameY="-46" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0012" x="244" y="216" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0013" x="244" y="216" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0014" x="244" y="216" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0015" x="244" y="216" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0016" x="244" y="216" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0017" x="244" y="216" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0018" x="244" y="216" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN confirm0019" x="244" y="216" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0000" x="244" y="216" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0001" x="244" y="216" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0002" x="244" y="216" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0003" x="244" y="216" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0004" x="244" y="216" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0005" x="244" y="216" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0006" x="244" y="216" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0007" x="244" y="216" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0008" x="244" y="216" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0009" x="478" y="0" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0010" x="478" y="0" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0011" x="478" y="213" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0012" x="478" y="213" width="120" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0013" x="598" y="0" width="121" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0014" x="598" y="0" width="121" height="213" frameX="-66" frameY="-32" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0015" x="392" y="429" width="130" height="210" frameX="-66" frameY="-35" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0016" x="244" y="429" width="148" height="210" frameX="-66" frameY="-35" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0017" x="244" y="429" width="148" height="210" frameX="-66" frameY="-35" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0018" x="244" y="429" width="148" height="210" frameX="-66" frameY="-35" frameWidth="250" frameHeight="250" />
+<SubTexture name="BN death0019" x="244" y="429" width="148" height="210" frameX="-66" frameY="-35" frameWidth="250" frameHeight="250" />
+</TextureAtlas>

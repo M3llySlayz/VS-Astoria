@@ -1,0 +1,11 @@
+{
+	"confirm_anim": "Menu AM Hey",
+	"idle_anim": "Menu AM Idle",
+	"position": [
+		90,
+		-31
+	],
+	"scale": 1.45,
+	"image": "Menu_AM",
+	"flipX": true
+}

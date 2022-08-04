@@ -25,6 +25,22 @@ function onCreate()
 		author = 'Melly'
 		IntroAuthorSize = 25
 	end
+	--colors
+	if dadName == 'AM' or 'AM-New' or 'AMM' or 'AM-New-rasis' or 'AMReal' then
+		IntroTagColor = 'ff00ec'
+	elseif dadName == 'AM-Red' or 'AM-Red-New' then
+		IntroTagColor = 'ff0000'
+	elseif dadName == 'SG' or 'SG-New' or 'SG-Newer' then
+		IntroTagColor = '626262'
+	elseif dadName == 'Voltage' or 'Voltage-New' then
+		IntroTagColor = '00ffff'
+	elseif dadName == 'Brittany' or 'Brittany-New' then
+		IntroTagColor = '927D0F'
+	elseif dadName == 'Donut-Man-New' or 'Donut-Man' then
+		IntroTagColor = '603E00'
+	else
+		IntroTagColor = 'ff0000'
+	end
 	--the tag at the end of the box
 	makeLuaSprite('JukeBoxTag', 'empty', -305-IntroTagWidth, 15)
 	makeGraphic('JukeBoxTag', 300+IntroTagWidth, 100, IntroTagColor)

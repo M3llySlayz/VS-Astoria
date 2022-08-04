@@ -5,6 +5,7 @@
         "missing-parameter",
         "need-check-nil",
         "cast-local-type",
-        "param-type-mismatch"
+        "param-type-mismatch",
+        "discard-returns"
     ]
 }

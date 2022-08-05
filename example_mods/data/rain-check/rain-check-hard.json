@@ -1939,11 +1939,6 @@
 						187.5
 					],
 					[
-						66625,
-						1,
-						187.5
-					],
-					[
 						66875,
 						3,
 						0
@@ -1986,6 +1981,16 @@
 					[
 						67875,
 						2,
+						0
+					],
+					[
+						66625,
+						1,
+						0
+					],
+					[
+						66750,
+						1,
 						0
 					]
 				],
@@ -4066,6 +4071,36 @@
 				"bpm": 120
 			},
 			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 120,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 120
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 120
+			},
+			{
 				"gfSection": false,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -4267,8 +4302,8 @@
 					],
 					[
 						"Hud Tween",
-						"0.1",
-						"0"
+						"0",
+						"0.1"
 					]
 				]
 			]

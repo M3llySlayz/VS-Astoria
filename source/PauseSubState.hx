@@ -213,6 +213,7 @@ class PauseSubState extends MusicBeatSubstate
 			switch (daSelected)
 			{
 				case "Continue":
+					FlxG.sound.play(Paths.sound('confirmMenu'), 0.3);
 					close();
 				case 'Change Difficulty':
 					menuItems = difficultyChoices;
@@ -256,6 +257,7 @@ class PauseSubState extends MusicBeatSubstate
 				case "Modifiers":
 					openSubState(new GameplayChangersSubstate()); //epic wish i could force restart tho
 				case "Quit":
+					FlxG.sound.play(Paths.sound('pauseMenu'), 0.6);
 					PlayState.deathCounter = 0;
 					PlayState.seenCutscene = false;
 					MusicBeatState.switchState(new SongExitState());

@@ -281,11 +281,13 @@ class FreeplayState extends MusicBeatState
 		{
 			if (upP)
 			{
+				FlxG.sound.play(Paths.sound('scrollMenu'), 2);
 				changeSelection(-shiftMult);
 				holdTime = 0;
 			}
 			if (downP)
 			{
+				FlxG.sound.play(Paths.sound('scrollMenu'), 2);
 				changeSelection(shiftMult);
 				holdTime = 0;
 			}
@@ -298,6 +300,7 @@ class FreeplayState extends MusicBeatState
 
 				if(holdTime > 0.5 && checkNewHold - checkLastHold > 0)
 				{
+					FlxG.sound.play(Paths.sound('scrollMenu'), 2);
 					changeSelection((checkNewHold - checkLastHold) * (controls.UI_UP ? -shiftMult : shiftMult));
 					changeDiff();
 				}
@@ -305,7 +308,7 @@ class FreeplayState extends MusicBeatState
 
 			if(FlxG.mouse.wheel != 0)
 			{
-				FlxG.sound.play(Paths.sound('scrollMenu'), 0.2);
+				FlxG.sound.play(Paths.sound('scrollMenu'), 2);
 				changeSelection(-shiftMult * FlxG.mouse.wheel, false);
 				changeDiff();
 			}
@@ -357,7 +360,12 @@ class FreeplayState extends MusicBeatState
 				#end
 			}
 		}
-
+		else if(controls.RESET)
+			{
+				persistentUpdate = false;
+				openSubState(new ResetScoreSubState(songs[curSelected].songName, curDifficulty, songs[curSelected].songCharacter));
+				FlxG.sound.play(Paths.sound('scrollMenu'));
+			}
 		else if (accepted)
 		{
 			persistentUpdate = false;
@@ -373,6 +381,8 @@ class FreeplayState extends MusicBeatState
 				trace('Couldnt find file');
 			}*/
 			trace(poop);
+
+			FlxG.sound.play(Paths.sound('confirmMenu'), 0.6);
 
 			PlayState.SONG = Song.loadFromJson(poop, songLowercase);
 			PlayState.isStoryMode = false;
@@ -405,12 +415,6 @@ class FreeplayState extends MusicBeatState
 			}
 					
 			destroyFreeplayVocals();
-		}
-		else if(controls.RESET)
-		{
-			persistentUpdate = false;
-			openSubState(new ResetScoreSubState(songs[curSelected].songName, curDifficulty, songs[curSelected].songCharacter));
-			FlxG.sound.play(Paths.sound('scrollMenu'));
 		}
 		super.update(elapsed);
 	}

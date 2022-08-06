@@ -31,18 +31,22 @@ else
 end
 
 --colors
-if dadName == 'AM' or 'AM-New' or 'AMM' or 'AM-New-rasis' or 'AMReal'
-or songName == 'Stellar' or 'Hype' or 'Amazing' or 'I' or 'Amazing Meme' or 'Bro' or 'Pixel' then
+if dadName == 'AM' or dadName == 'AM-New' or dadName == 'AMM' or dadName == 'AM-New-rasis' or dadName == 'AMReal'
+or songName == 'Stellar' or songName == 'Hype' or songName == 'Amazing' or songName == 'I' or songName == 'Amazing Meme' or songName == 'Bro' or songName == 'Pixel' then
 	IntroTagColor = 'ff00ec'
-elseif dadName == 'AM-Red' or 'AM-Red-New' or songName == 'RED' or 'Extreme' then
+elseif dadName == 'AM-Red' or dadName == 'AM-Red-New'
+or songName == 'RED' or songName == 'Extreme' then
 	IntroTagColor = 'ff0000'
-elseif dadName == 'SG' or 'SG-New' or 'SG-Newer' or songName == 'Shuriken Fight' or 'Sing' or 'Vibe' then
+elseif dadName == 'SG' or dadName == 'SG-New' or dadName == 'SG-Newer'
+or songName == 'Shuriken Fight' or songName == 'Sing' or songName == 'Vibe' then
 	IntroTagColor = '626262'
-elseif dadName == 'Voltage' or 'Voltage-New' or songName == 'Charged' or 'Rain Check' or 'Storm Safety' or 'Guitar' then
+elseif dadName == 'Voltage' or dadName == 'Voltage-New'
+or songName == 'Charged' or songName == 'Rain Check' or songName == 'Storm Safety' or songName == 'Guitar' then
 	IntroTagColor = '00ffff'
-elseif dadName == 'Brittany' or 'Brittany-New' or songName == 'Hey' or 'Settle Down' or 'Cool Beans' then
+elseif dadName == 'Brittany' or dadName == 'Brittany-New'
+or songName == 'Hey' or songName == 'Settle Down' or songName == 'Cool Beans' then
 	IntroTagColor = '927D0F'
-elseif dadName == 'Donut-Man-New' or 'Donut-Man' then
+elseif dadName == 'Donut-Man-New' or dadName == 'Donut-Man' then
 	IntroTagColor = '603E00'
 else
 	IntroTagColor = 'ff0000'

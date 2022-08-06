@@ -3,14 +3,18 @@
 	"difficulties": "Hard, Insane, Fun",
 	"hideFreeplay": false,
 	"weekBackground": "city",
-	"weekBefore": "weekD",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "weekD",
 	"startUnlocked": true,
-	"hideStoryMode": true,
+	"weekCharacters": [
+		"Volt",
+		"bf",
+		""
+	],
 	"songs": [
 		[
 			"Charged",
@@ -31,11 +35,7 @@
 			]
 		]
 	],
-	"weekCharacters": [
-		"Volt",
-		"bf",
-		""
-	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "Week V (Why are you resetting?)"
+	"hideStoryMode": false,
+	"weekName": "Week V (Why are you resetting?)",
+	"hiddenUntilUnlocked": false
 }

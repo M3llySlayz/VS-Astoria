@@ -41,6 +41,7 @@ class SongExitState extends MusicBeatState
 	function openSelectedSubstate(label:String) {
 		switch(label) {
 			case 'Yes':
+				FlxG.sound.play(Paths.sound('confirmMenu'), 0.4);
 				if(PlayState.isStoryMode) {
 					MusicBeatState.switchState(new StoryMenuState());
 					FlxG.sound.playMusic(Paths.music('freakyMenu'), 1);

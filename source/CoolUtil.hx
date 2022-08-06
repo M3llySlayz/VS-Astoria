@@ -1,11 +1,13 @@
 package;
 
+import flixel.tweens.FlxTween;
 import flixel.FlxG;
 import openfl.utils.Assets;
 import lime.utils.Assets as LimeAssets;
 import lime.utils.AssetLibrary;
 import lime.utils.AssetManifest;
 import flixel.system.FlxSound;
+import lime.app.Application;
 #if sys
 import sys.io.File;
 import sys.FileSystem;
@@ -18,6 +20,7 @@ using StringTools;
 
 class CoolUtil
 {
+	
 	public static var defaultDifficulties:Array<String> = [
 		'Easy',
 		'Normal',
@@ -142,4 +145,29 @@ class CoolUtil
 	public static function cameraZoom(target, zoomLevel, speed, style, type) {
 		FlxTween.tween(target, {zoom: zoomLevel}, speed, {ease: style, type: type});
 	}
-}
+
+	//stolen from leather lmao cause i'm lazy
+	public static function coolError(message:Null<String> = null, title:Null<String> = null)
+		{
+			#if !linux
+			Application.current.window.alert(message, title);
+			#else
+			trace("ALERT: " + title + " - " + message);
+	
+			var text:FlxText = new FlxText(8,8,1280,title + " - " + message,24);
+			text.color = FlxColor.RED;
+			text.borderSize = 2.5;
+			text.borderStyle = OUTLINE;
+			text.borderColor = FlxColor.BLACK;
+			text.scrollFactor.set();
+			text.cameras = [FlxG.cameras.list[FlxG.cameras.list.length - 1]];
+			
+			FlxG.state.add(text);
+	
+			FlxTween.tween(text, { alpha: 0 }, 5, { onComplete: function(_) {
+				FlxG.state.remove(text);
+				text.destroy();
+			}});
+			#end
+		}
+	}

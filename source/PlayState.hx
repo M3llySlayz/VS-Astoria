@@ -2250,6 +2250,7 @@ class PlayState extends MusicBeatState
 
 		if(paused) {
 			//trace('Oopsie doopsie! Paused sound');
+			FlxG.sound.play(Paths.sound('pauseMenu'), 1);
 			FlxG.sound.music.pause();
 			vocals.pause();
 		}
@@ -3205,6 +3206,7 @@ class PlayState extends MusicBeatState
 		}
 		else {*/
 		if(FlxG.sound.music != null) {
+			FlxG.sound.play(Paths.sound('pauseMenu'), 2);
 			FlxG.sound.music.pause();
 			vocals.pause();
 		}

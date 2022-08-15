@@ -12,6 +12,7 @@ import flixel.util.FlxTimer;
 import flixel.FlxSubState;
 import haxe.Json;
 import haxe.format.JsonParser;
+import PlayState;
 #if sys
 import sys.FileSystem;
 import sys.io.File;
@@ -58,7 +59,6 @@ class DialogueCharacter extends FlxSprite
 	private static var IDLE_SUFFIX:String = '-IDLE';
 	public static var DEFAULT_CHARACTER:String = 'bf';
 	public static var DEFAULT_SCALE:Float = 0.7;
-
 	public var jsonFile:DialogueCharacterFile = null;
 	#if (haxe >= "4.0.0")
 	public var dialogueAnimations:Map<String, DialogueAnimArray> = new Map();
@@ -192,12 +192,15 @@ class DialogueBoxPsych extends FlxSpriteGroup
 			FlxG.sound.playMusic(Paths.music(song), 0);
 			FlxG.sound.music.fadeIn(2, 0, 1);
 		}
-		
+
+		var songName:String = PlayState.SONG.song;
+		if (songName != 'Charged'){
 		bgFade = new FlxSprite(-500, -500).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.WHITE);
 		bgFade.scrollFactor.set();
 		bgFade.visible = true;
 		bgFade.alpha = 0;
 		add(bgFade);
+		}
 
 		this.dialogueList = dialogueList;
 		spawnCharacters();
@@ -289,9 +292,12 @@ class DialogueBoxPsych extends FlxSpriteGroup
 			return;
 		}
 
+		var songName:String = PlayState.SONG.song;
 		if(!dialogueEnded) {
+			if (songName != 'Charged'){
 			bgFade.alpha += 0.5 * elapsed;
 			if(bgFade.alpha > 0.5) bgFade.alpha = 0.5;
+			}
 
 			if(PlayerSettings.player1.controls.ACCEPT) {
 				if(!daText.finishedText) {
@@ -400,7 +406,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				box = null;
 			}
 
-			if(bgFade != null) {
+			if(bgFade != null && songName != 'Charged') {
 				bgFade.alpha -= 0.5 * elapsed;
 				if(bgFade.alpha <= 0) {
 					bgFade.kill();

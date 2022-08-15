@@ -25,13 +25,16 @@ elseif songName == 'Pixel' then
 elseif songName == 'Shuriken Fight' then
 	author = 'Redsty P\nCovered by Melly'
 	IntroAuthorSize = 17
+elseif songName == 'Bestie Blitz' then
+	author = 'KrystalComposer (Funk Mix)\nCovered by Melly'
+	IntroAuthorSize = 17
 else
 	author = 'Melly'
 	IntroAuthorSize = 25
 end
 
 --colors
-if dadName == 'AM' or dadName == 'AM-New' or dadName == 'AMM' or dadName == 'AM-New-rasis' or dadName == 'AMReal'
+if dadName == 'AM' or dadName == 'AM-New' or dadName == 'AMM' or dadName == 'AM-New-rasis' or dadName == 'AMReal' or dadName == 'AM-Head'
 or songName == 'Stellar' or songName == 'Hype' or songName == 'Amazing' or songName == 'I' or songName == 'Amazing Meme' or songName == 'Bro' or songName == 'Pixel' then
 	IntroTagColor = 'ff00ec'
 elseif dadName == 'AM-Red' or dadName == 'AM-Red-New'

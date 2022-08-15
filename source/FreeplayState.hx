@@ -410,6 +410,10 @@ class FreeplayState extends MusicBeatState
 				PlayState.SONG = Song.loadFromJson('pixel-hard', 'pixel');
 				LoadingState.loadAndSwitchState(new PlayState());
 			}
+			if (FlxG.keys.pressed.H){
+				PlayState.SONG = Song.loadFromJson('bestie-blitz-hard', 'bestie-blitz');
+				LoadingState.loadAndSwitchState(new PlayState());
+			}
 			if (FlxG.keys.pressed.ZERO){
 			FlxG.sound.music.volume = 0;
 			}

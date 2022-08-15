@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "idle",
+			"loop": false,
+			"name": "SGP Idle"
+		},
+		{
+			"offsets": [
+				3,
+				2
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "SGP Left"
+		},
+		{
+			"offsets": [
+				2,
+				4
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "SGP Down"
+		},
+		{
+			"offsets": [
+				-5,
+				2
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singUP",
+			"loop": false,
+			"name": "SGP Up"
+		},
+		{
+			"offsets": [
+				-4,
+				4
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "SGP Right"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/SG Pixel",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "sgnew",
+	"flip_x": true,
+	"healthbar_colors": [
+		129,
+		120,
+		129
+	],
+	"camera_position": [
+		-30,
+		60
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

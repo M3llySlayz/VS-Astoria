@@ -23,6 +23,7 @@ class PauseSubState extends MusicBeatSubstate
 	var menuItemsOG:Array<String> = ['Continue', 'Retry', 'Options', 'Change Difficulty', 'Modifiers','Quit'];
 	var difficultyChoices = [];
 	var curSelected:Int = 0;
+	var quitting = ['Yes', 'No'];
 
 	var pauseMusic:FlxSound;
 	var practiceText:FlxText;
@@ -208,6 +209,23 @@ class PauseSubState extends MusicBeatSubstate
 
 				menuItems = menuItemsOG;
 				regenMenu();
+
+			}else if (menuItems == quitting){
+				switch (daSelected){
+					case "Yes":
+						if (PlayState.isStoryMode){
+							MusicBeatState.switchState(new StoryMenuState());
+							FlxG.sound.play(Paths.sound('confirmMenu'), 0.3);
+						}else{
+							MusicBeatState.switchState(new FreeplayState());
+						}
+						FlxG.sound.playMusic(Paths.music('freakyMenu'), 1);
+					case "No":
+						menuItems = menuItemsOG;
+						FlxG.sound.play(Paths.sound('cancelMenu'), 1);
+						regenMenu();
+				}
+				
 			}
 
 			switch (daSelected)
@@ -257,12 +275,9 @@ class PauseSubState extends MusicBeatSubstate
 				case "Modifiers":
 					openSubState(new GameplayChangersSubstate()); //epic wish i could force restart tho
 				case "Quit":
+					menuItems = quitting;
 					FlxG.sound.play(Paths.sound('pauseMenu'), 0.6);
-					PlayState.deathCounter = 0;
-					PlayState.seenCutscene = false;
-					MusicBeatState.switchState(new SongExitState());
-					PlayState.changedDifficulty = false;
-					PlayState.chartingMode = false;
+					regenMenu();
 			}
 		}
 	}
@@ -363,6 +378,8 @@ class PauseSubState extends MusicBeatSubstate
 
 				updateSkipTextStuff();
 				updateSkipTimeText();
+			}else if (menuItems[i] == 'Quit'){
+
 			}
 		}
 		curSelected = 0;

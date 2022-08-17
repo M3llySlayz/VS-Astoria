@@ -63,6 +63,13 @@ class PauseGameplaySettingsSubState extends BaseOptionsMenu
 			false);
 		addOption(option);
 
+		var option:Option = new Option('Splitscroll',
+			'If checked, your notes go down AND up. Freaky.',
+			'splitScroll',
+			'bool',
+			false);
+		addOption(option);
+
 		var option:Option = new Option('Ghost Tapping',
 			"If checked, you won't get misses from pressing keys\nwhile there are no notes able to be hit.",
 			'ghostTapping',

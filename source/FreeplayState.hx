@@ -401,18 +401,22 @@ class FreeplayState extends MusicBeatState
 			if (FlxG.keys.pressed.COMMA){
 				PlayState.SONG = Song.loadFromJson('amazing-meme-hard', 'amazing-meme');
 				LoadingState.loadAndSwitchState(new PlayState()); //frickin meme song took me like 6 hrs to figure out
+				FlxG.sound.play(Paths.sound('introGo-meme'), 0.6);
 			}
 			if (FlxG.keys.pressed.PERIOD){
 				PlayState.SONG = Song.loadFromJson('bro-hard', 'bro');
 				LoadingState.loadAndSwitchState(new PlayState());
+				FlxG.sound.play(Paths.sound('introGo-meme'), 0.6);
 			}
 			if (FlxG.keys.pressed.SLASH){
 				PlayState.SONG = Song.loadFromJson('pixel-hard', 'pixel');
 				LoadingState.loadAndSwitchState(new PlayState());
+				FlxG.sound.play(Paths.sound('introGo-meme'), 0.6);
 			}
 			if (FlxG.keys.pressed.H){
 				PlayState.SONG = Song.loadFromJson('bestie-blitz-hard', 'bestie-blitz');
 				LoadingState.loadAndSwitchState(new PlayState());
+				FlxG.sound.play(Paths.sound('introGo-pixel'), 0.6);
 			}
 			if (FlxG.keys.pressed.ZERO){
 			FlxG.sound.music.volume = 0;

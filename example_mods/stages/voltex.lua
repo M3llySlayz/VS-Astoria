@@ -1,5 +1,6 @@
 function onCreate()
 
+    --stage shit
     makeLuaSprite('bg', 'stages/i', -400, 0);
     scaleObject('bg', 1.6, 1.5)
     makeLuaSprite('bg2', 'stages/BG_back_finale', -400, 0)
@@ -16,7 +17,9 @@ function onCreate()
 end
 
 function onStepHit()
+    --when this step of the chart hits
     if curStep == 1301 then
+        --make all this other stuff ded
     setProperty('bg.visible', false)
     setProperty('black.visible', true)
     setProperty('camHUD.visible', false)

@@ -33,6 +33,7 @@ class ClientPrefs {
 	public static var pauseMusic:String = 'Tea Time';
 	public static var checkForUpdates:Bool = true;
 	public static var newSicks:Bool = false;
+	public static var splitScroll:Bool = false;
 	public static var gameplaySettings:Map<String, Dynamic> = [
 		'scrollspeed' => 1.0,
 		'scrolltype' => 'multiplicative', 
@@ -130,6 +131,7 @@ class ClientPrefs {
 		FlxG.save.data.pauseMusic = pauseMusic;
 		FlxG.save.data.checkForUpdates = checkForUpdates;
 		FlxG.save.data.newSicks = newSicks;
+		FlxG.save.data.splitScroll = splitScroll;
 	
 		FlxG.save.flush();
 
@@ -264,6 +266,10 @@ class ClientPrefs {
 		if (FlxG.save.data.newSicks != null)
 		{
 			newSicks = FlxG.save.data.newSicks;
+		}
+		if (FlxG.save.data.splitScroll != null)
+		{
+			splitScroll = FlxG.save.data.splitScroll;
 		}
 
 		var save:FlxSave = new FlxSave();

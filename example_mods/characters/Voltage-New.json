@@ -1,110 +1,110 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "Voltage Idle"
-		},
-		{
-			"offsets": [
-				2,
-				13
-			],
-			"indices": [],
 			"fps": 24,
-			"anim": "singLEFT",
-			"loop": false,
-			"name": "Voltage Left"
+			"name": "Voltage Idle",
+			"indices": []
 		},
 		{
+			"loop": false,
+			"offsets": [
+				52,
+				-7
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Voltage Left",
+			"indices": []
+		},
+		{
+			"loop": false,
 			"offsets": [
 				-50,
-				30
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singDOWN",
-			"loop": false,
-			"name": "Voltage Down"
-		},
-		{
-			"offsets": [
-				0,
-				20
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singUP",
-			"loop": false,
-			"name": "Voltage Up"
-		},
-		{
-			"offsets": [
-				10,
 				10
 			],
-			"indices": [],
+			"anim": "singDOWN",
 			"fps": 24,
+			"name": "Voltage Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				11,
+				-7
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Voltage Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				6
+			],
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "Voltage Right"
+			"fps": 24,
+			"name": "Voltage Right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFTmiss",
-			"loop": false,
-			"name": "Voltage West"
+			"fps": 24,
+			"name": "Voltage West",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHTmiss",
-			"loop": false,
-			"name": "Voltage East"
+			"fps": 24,
+			"name": "Voltage East",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUPmiss",
-			"loop": false,
-			"name": "Voltage North"
+			"fps": 24,
+			"name": "Voltage North",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-50,
 				20
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWNmiss",
-			"loop": false,
-			"name": "Voltage South"
+			"fps": 24,
+			"name": "Voltage South",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Voltage New",
 	"position": [
-		-150,
-		30
+		0,
+		110
 	],
 	"healthicon": "Voltage",
 	"flip_x": false,

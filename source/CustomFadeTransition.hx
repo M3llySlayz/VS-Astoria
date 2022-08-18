@@ -50,7 +50,7 @@ class CustomFadeTransition extends MusicBeatSubstate {
 					transGradient.scrollFactor.set();
 					add(transGradient);
 				case 'SG' | 'SG-New':
-					transGradient = FlxGradient.createGradientFlxSprite(width, height, (isTransIn ? [0x0, FlxColor.TRANSPARENT] : [FlxColor.BLACK, 0x0]));
+					transGradient = FlxGradient.createGradientFlxSprite(width, height, (isTransIn ? [0x0, FlxColor.GRAY] : [FlxColor.BLACK, 0x0]));
 					transGradient.scrollFactor.set();
 					add(transGradient);
 				case 'Donut-Man' | 'Donut-Man-New':
@@ -85,7 +85,7 @@ class CustomFadeTransition extends MusicBeatSubstate {
                 case 'voltage' | 'voltage-new':
                     color = FlxColor.CYAN;
                 case 'sg' | 'sg-new':
-                    color = FlxColor.TRANSPARENT;
+                    color = FlxColor.GRAY;
                 case 'donut-man' | 'donut-man-new':
                     color = FlxColor.BROWN;
 				default:

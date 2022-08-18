@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="checkboxanim.png"><SubTexture name="CB Unchecked0000" x="0" y="0" width="96" height="96" frameX="-2" frameY="-2" frameWidth="100" frameHeight="100" />
+<SubTexture name="CB Checking0000" x="96" y="0" width="85" height="92" frameX="-3" frameY="-7" frameWidth="100" frameHeight="100" />
+<SubTexture name="CB Checking0001" x="181" y="79" width="67" height="60" frameX="-13" frameY="-21" frameWidth="100" frameHeight="100" />
+<SubTexture name="CB Checking0002" x="94" y="96" width="53" height="47" frameX="-25" frameY="-29" frameWidth="100" frameHeight="100" />
+<SubTexture name="CB Checking0003" x="181" y="139" width="31" height="33" frameX="-33" frameY="-43" frameWidth="100" frameHeight="100" />
+<SubTexture name="CB Checking0004" x="0" y="96" width="94" height="79" frameX="-2" frameY="-10" frameWidth="100" frameHeight="100" />
+<SubTexture name="CB Checked0000" x="181" y="0" width="94" height="79" frameX="-2" frameY="-10" frameWidth="100" frameHeight="100" />
+</TextureAtlas>

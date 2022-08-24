@@ -216,6 +216,12 @@ class PauseSubState extends MusicBeatSubstate
 						if (PlayState.isStoryMode){
 							MusicBeatState.switchState(new StoryMenuState());
 							FlxG.sound.play(Paths.sound('confirmMenu'), 0.3);
+							PlayState.deathCounter = 0;
+							PlayState.seenCutscene = false;
+							PlayState.changedDifficulty = false;
+							PlayState.chartingMode = false;
+							PlayState.cancelMusicFadeTween();
+							WeekData.loadTheFirstEnabledMod();
 						}else{
 							MusicBeatState.switchState(new FreeplayState());
 						}
@@ -275,9 +281,34 @@ class PauseSubState extends MusicBeatSubstate
 				case "Modifiers":
 					openSubState(new GameplayChangersSubstate()); //epic wish i could force restart tho
 				case "Quit":
-					menuItems = quitting;
-					FlxG.sound.play(Paths.sound('pauseMenu'), 0.6);
-					regenMenu();
+					switch (ClientPrefs.quitMethod){
+						case 'Quick Confirm':
+							menuItems = quitting;
+							FlxG.sound.play(Paths.sound('pauseMenu'), 0.6);
+							regenMenu();
+						case 'Normal':
+							PlayState.deathCounter = 0;
+							PlayState.seenCutscene = false;
+
+							WeekData.loadTheFirstEnabledMod();
+							if(PlayState.isStoryMode) {
+							MusicBeatState.switchState(new StoryMenuState());
+							} else {
+							MusicBeatState.switchState(new FreeplayState());
+							}
+							PlayState.cancelMusicFadeTween();
+							FlxG.sound.playMusic(Paths.music('freakyMenu'));
+							PlayState.changedDifficulty = false;
+							PlayState.chartingMode = false;
+						case 'Fancy Confirm':
+							PlayState.deathCounter = 0;
+							PlayState.seenCutscene = false;
+							MusicBeatState.switchState(new SongExitState());
+							PlayState.changedDifficulty = false;
+							PlayState.chartingMode = false;
+							PlayState.cancelMusicFadeTween();
+							WeekData.loadTheFirstEnabledMod();
+						}
 			}
 		}
 	}

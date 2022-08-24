@@ -5,6 +5,7 @@ function onCreate()
     triggerEvent('MoveArrow', 3, '0, 0, 0, 0, 0.1');
     setProperty('iconP2.alpha', 0);
     setProperty('dad.alpha', 0);
+    setProperty('HUDFont', 'smb1.ttf');
 end
 
 function onStepHit()

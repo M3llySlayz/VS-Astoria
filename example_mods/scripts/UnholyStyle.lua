@@ -44,6 +44,7 @@ local fcColorNums = false -- Colors numbers based of FC level, like andromeda!!!
 -- Best with base ratings --
  
     -- Chad Hex color please --
+
 local sickColor = '68fafc'
 local goodColor = '48f048'
 local badColor = 'fffecb'
@@ -53,7 +54,6 @@ local colorSync0 = 'c24b99' -- left
 local colorSync1 = '68fafc' -- down 
 local colorSync2 = '12fa05' -- up   
 local colorSync3 = 'f9393f' -- right
-
 
 -- Dont touch these unless you know what you're doing | I don't sadly :(
 local eh = 0        -- Make the sprites load in the way it does
@@ -102,10 +102,10 @@ function onCreatePost()
     
         missType = 'pixelUI/miss-pixel'
 
-        colorSync0 = 'e276ff'
-        colorSync1 = '3dcaff'
-        colorSync2 = '71e300'
-        colorSync3 = 'ff884e'
+        colorSync0 = 'E99D27'
+        colorSync1 = 'FFCDC4'
+        colorSync2 = '6B6D00'
+        colorSync3 = 'B43425'
 
         sickColor = '3dcaff'
         goodColor = '71e300'
@@ -138,7 +138,7 @@ function onUpdate()
     else
         if not directNums then
             defaultPosNum[1] = (getPropertyFromGroup('playerStrums', 1, 'x') + 45)
-            defaultPosNum[2] = (getPropertyFromGroup('playerStrums', 0, 'y') + 180) 
+            defaultPosNum[2] = (getPropertyFromGroup('playerStrums', 0, 'y') + 180)
         end
     end
     

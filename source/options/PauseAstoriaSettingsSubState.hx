@@ -55,6 +55,14 @@ class PauseAstoriaSettingsSubState extends BaseOptionsMenu
 			false);
 		addOption(option);
 
+		var option:Option = new Option('Quit Method',
+		'How do you want the quit button to work?',
+		'quitMethod',
+		'string',
+		'Quick Confirm',
+		['Normal', 'Quick Confirm', 'Fancy Confirm']);
+		addOption(option);
+
 		super();
 	}
 }

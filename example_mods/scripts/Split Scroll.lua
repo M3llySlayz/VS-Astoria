@@ -21,6 +21,7 @@ function onCreatePost()
         setProperty('iconP1.y', BarConfig[2]) --sets both of the icons too there value
         setProperty('iconP2.y', BarConfig[2])
         setProperty('scoreTxt.y', BarConfig[1]) -- scoreTxt out of the way :D
-        setProperty('healthBar.y', BarConfig[1]) -- as you can tell this is setProperty abuse 
+        setProperty('healthBar.y', BarConfig[1]) -- as you can tell this is setProperty abuse
+        setProperty('healthBarOverlay.y', BarConfig[1])
     end
 end

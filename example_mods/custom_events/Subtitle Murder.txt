@@ -1,0 +1,3 @@
+Place to kill subtitle
+
+Value 1 determines how fast to kill it

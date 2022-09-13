@@ -1,0 +1,32 @@
+{
+	"storyName": "go away sir/ma'am",
+	"difficulties": "Insane, Fun, Old",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "weekA2",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Extreme",
+			"AMRedNew",
+			[
+				255,
+				0,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Extreme"
+}

@@ -52,6 +52,7 @@ class MainMenuState extends MusicBeatState
 	{
 		WeekData.loadTheFirstEnabledMod();
 
+		//FlxG.mouse.visible = false;
 		#if desktop
 		// Updating Discord Rich Presence
 
@@ -193,6 +194,7 @@ class MainMenuState extends MusicBeatState
 
 		if (!selectedSomethin)
 		{
+			
 			if (controls.UI_UP_P)
 			{
 				FlxG.sound.play(Paths.sound('scrollMenu'));

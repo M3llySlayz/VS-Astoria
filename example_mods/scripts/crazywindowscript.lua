@@ -7,7 +7,7 @@ function onUpdatePost()
 end
 function onDestroy()
     songended = true
-    setPropertyFromClass('lime.app.Application', 'current.window.title', 'Vs Astoria')
+    setPropertyFromClass('lime.app.Application', 'current.window.title', 'VS Astoria')
 end
 
 function onGameOver()

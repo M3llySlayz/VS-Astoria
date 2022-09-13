@@ -50,13 +50,26 @@ function goodNoteHit(id, noteData, noteType, isSustainNote)
 		end
 
 		characterPlayAnim('dad', animToPlay, true);
-		if boyfriendName == 'AM-Playable' or 'AM-New-Playable' then
+		if boyfriendName == 'AM-Playable' or boyfriendName == 'AM-New-Playable' then
 			characterPlayAnim('bf', dodge, true);
-		elseif boyfriendName == 'bf-dark' then
+		elseif boyfriendName == 'bf-dark' or boyfriendName == 'bf-pixel' then
 			characterPlayAnim('bf', 'dodge', true);
 		end
 		if songName == 'Shuriken Fight' or isSustainNote then
-		--do jack shoot lolololol
+			--pick a random number for the variable
+			blockSound = getRandomInt(0, 4);
+			--now based on that, play a sound corresponding to it
+			if blockSound == 0 then
+				playSound('block1', 0.7);
+			elseif blockSound == 1 then
+				playSound('block2', 0.7);
+			elseif blockSound == 2 then
+				playSound('block3', 0.7);
+			elseif blockSound == 3 then
+				playSound('block4', 0.7);
+			elseif blockSound == 4 then
+				playSound('block5', 0.7);
+			end
 	else
 		playSound('slice', 1.1);
 		end

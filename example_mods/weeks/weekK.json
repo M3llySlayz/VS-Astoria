@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"Knockout",
+			"SGNew",
+			[
+				75,
+				80,
+				80
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "Insane, Fun",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "go away sir/ma'am",
+	"weekName": "Knockout",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "weekV",
+	"startUnlocked": false
+}

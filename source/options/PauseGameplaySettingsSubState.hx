@@ -34,12 +34,6 @@ class PauseGameplaySettingsSubState extends BaseOptionsMenu
 		title = 'Gameplay Settings';
 		rpcTitle = 'Gameplay Settings Menu'; //for Discord Rich Presence
 		
-		var option:Option = new Option('New Rating System',
-		'Shows ratings underneath notes you just hit\ninstead of the middle of the screen.',
-		'newSicks',
-		'bool',
-		false);
-		addOption(option);
 
 		var option:Option = new Option('Controller Mode',
 			'Check this if you want to play with\na controller instead of using your Keyboard.',
@@ -59,13 +53,6 @@ class PauseGameplaySettingsSubState extends BaseOptionsMenu
 		var option:Option = new Option('Middlescroll',
 			'If checked, your notes get centered.',
 			'middleScroll',
-			'bool',
-			false);
-		addOption(option);
-
-		var option:Option = new Option('Splitscroll',
-			'If checked, your notes go down AND up. Freaky.',
-			'splitScroll',
 			'bool',
 			false);
 		addOption(option);

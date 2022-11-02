@@ -17,5 +17,4 @@ function onUpdate()
         setProperty('scoreTxt.x', 0)
     end
 end
--- that took way to long  AMONG US
-
+-- that took way too long

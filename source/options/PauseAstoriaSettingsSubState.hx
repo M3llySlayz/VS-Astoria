@@ -88,8 +88,7 @@ class PauseAstoriaSettingsSubState extends BaseOptionsMenu
 
 	override function destroy()
 		{
-			if(changedMusic) FlxG.sound.playMusic(Paths.music('freakyMenu'));
-			super.destroy();
+			if(changedMusic) super.destroy();
 		}
 	
 }

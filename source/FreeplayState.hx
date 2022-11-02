@@ -398,13 +398,13 @@ class FreeplayState extends MusicBeatState
 			}else{
 				LoadingState.loadAndSwitchState(new PlayState());
 			}
+			/* can't start the fuckin week how
 			if (FlxG.keys.pressed.M){
 				PlayState.isStoryMode = true; //omg the week?
 				PlayState.SONG = Song.loadFromJson('amazing-meme-hard', 'amazing-meme');
 				LoadingState.loadAndSwitchState(new PlayState());
 				FlxG.sound.play(Paths.sound('introGo-meme'), 0.6);
-			}
-			/* Here's some now outdated shortcuts becuase of the week shortcut!
+			}*/
 			if (FlxG.keys.pressed.COMMA){
 				PlayState.SONG = Song.loadFromJson('amazing-meme-hard', 'amazing-meme');
 				LoadingState.loadAndSwitchState(new PlayState()); //frickin meme song took me like 6 hrs to figure out
@@ -419,7 +419,27 @@ class FreeplayState extends MusicBeatState
 				PlayState.SONG = Song.loadFromJson('pixel-hard', 'pixel');
 				LoadingState.loadAndSwitchState(new PlayState());
 				FlxG.sound.play(Paths.sound('introGo-meme'), 0.6);
-			}*/
+			}
+			if (FlxG.keys.pressed.V){
+				PlayState.SONG = Song.loadFromJson('vibe-hard', 'vibe');
+				LoadingState.loadAndSwitchState(new PlayState());
+				FlxG.sound.play(Paths.sound('introGo'), 0.6);
+			}
+			if (FlxG.keys.pressed.S){
+				PlayState.SONG = Song.loadFromJson('sing-hard', 'sing');
+				LoadingState.loadAndSwitchState(new PlayState());
+				FlxG.sound.play(Paths.sound('introGo'), 0.6);
+			}
+			if (FlxG.keys.pressed.I){
+				PlayState.SONG = Song.loadFromJson('i-hard', 'i');
+				LoadingState.loadAndSwitchState(new PlayState());
+				FlxG.sound.play(Paths.sound('introGo'), 0.6);
+			}
+			if (FlxG.keys.pressed.K){
+				PlayState.SONG = Song.loadFromJson('shuriken-fight-hard', 'shuriken-fight');
+				LoadingState.loadAndSwitchState(new PlayState());
+				FlxG.sound.play(Paths.sound('introGo'), 0.6);
+			}
 			if (FlxG.keys.pressed.H){
 				PlayState.SONG = Song.loadFromJson('bestie-blitz-hard', 'bestie-blitz');
 				LoadingState.loadAndSwitchState(new PlayState());

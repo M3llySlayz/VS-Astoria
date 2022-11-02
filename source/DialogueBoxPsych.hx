@@ -205,23 +205,82 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		this.dialogueList = dialogueList;
 		spawnCharacters();
 
-		box = new FlxSprite(70, 370);
-		box.frames = Paths.getSparrowAtlas('speech_bubble');
-		box.scrollFactor.set();
-		box.antialiasing = ClientPrefs.globalAntialiasing;
-		box.animation.addByPrefix('normal', 'speech bubble normal', 24);
-		box.animation.addByPrefix('normalOpen', 'Speech Bubble Normal Open', 24, false);
-		box.animation.addByPrefix('angry', 'AHH speech bubble', 24);
-		box.animation.addByPrefix('angryOpen', 'speech bubble loud open', 24, false);
-		box.animation.addByPrefix('center-normal', 'speech bubble middle', 24);
-		box.animation.addByPrefix('center-normalOpen', 'Speech Bubble Middle Open', 24, false);
-		box.animation.addByPrefix('center-angry', 'AHH Speech Bubble middle', 24);
-		box.animation.addByPrefix('center-angryOpen', 'speech bubble Middle loud open', 24, false);
-		box.animation.play('normal', true);
-		box.visible = false;
-		box.setGraphicSize(Std.int(box.width * 0.9));
-		box.updateHitbox();
-		add(box);
+		/**
+		* Little bit of a rant here.	
+		* If we ever decide to remaster this mod with better graphics and music and stuff, note to self here to
+		* make a dialogue box editor, just for moddability.
+		* I wanna end up making a whole ass fork of Psych with a lot of concepts that I come up with
+		* like the time bar colors and the fade transition colors and just making the whole thing a lot more
+		* customizable, y'know?
+		* Like, at time of writing, Shadow Mario just released 0.6.3 and there's a new playback speed feature
+		* I really wanna use that, because JB's WAR mod is built on Leather Engine and I really like the speed thing
+		* Multi Key would also be cool but I'm not coding that shit lmao
+		* I'm still a bit of a noob when it comes to this stuff, I'm really just learning based off of copying what
+		* I see others do whenever I code, and get some help from the Psych discord (https://discord.gg/psychengine)
+		* Like, you can very clearly see that from the fact that most of this mod is in .lua, because I just
+		* cannot mess with hscript like this lmaooo
+		* So that's why I'm not going to do the editor right now, I'm still too much of an idiot to mess with making
+		* UI and JSON files (IDEK HOW TO PULL FROM A JSON FILE WTF :skull_crossbones:)
+		* So yeah, if you see this while you're looking at the Github or something and you think you can help me out
+		* Feel free to hit me up, Melly#7214 on discord 
+		* Be in the Psych server first because I always check mutual friends/servers and if I don't have any with you
+		* I immediately decline the message/friend request lmao
+		* It's how I avoid scammers and stuff, don't take it personally. (please) (I'll be sad if you do :mellypensive:)
+		* Alright, end of rant.
+		*/
+
+		if (PlayState.instance != null){
+			switch(PlayState.instance.dad.curCharacter){
+				case 'AM':
+					box = new FlxSprite(500, 500);
+					box.frames = Paths.getSparrowAtlas('AM Dia Box');
+					box.animation.addByPrefix('normal', 'box idle', 24);
+				case 'AM-Red':
+					box = new FlxSprite(525, 550);
+					box.frames = Paths.getSparrowAtlas('AM Dia Box');
+					box.animation.addByPrefix('angry', 'box angry', 5);
+				case 'Brittany':
+					box = new FlxSprite(500, 500);
+					box.frames = Paths.getSparrowAtlas('Brit Dia Box');
+					box.animation.addByPrefix('angry', 'box angry', 24);
+					box.animation.addByPrefix('normal', 'box idle', 24);
+				case 'Voltage':
+					box = new FlxSprite(500, 500);
+					box.frames = Paths.getSparrowAtlas('Volt Dia Box');
+					box.animation.addByPrefix('angry', 'box angry', 12);
+					box.animation.addByPrefix('normal', 'box idle', 24);
+				case 'AM-New' | 'AM-Red-New':
+					box = new FlxSprite(500, 500);
+					box.frames = Paths.getSparrowAtlas('AM New Dia Box');
+					box.animation.addByPrefix('normal', 'box idle', 5);
+					box.animation.addByPrefix('angry', 'box angry', 12);
+				case 'Brittany-New':
+					box = new FlxSprite(500, 475);
+					box.frames = Paths.getSparrowAtlas('Brit New Dia Box');
+					box.animation.addByPrefix('angry', 'box angry', 24);
+					box.animation.addByPrefix('normal', 'box idle', 24);
+				case 'Voltage-New':
+					box = new FlxSprite(475, 500);
+					box.frames = Paths.getSparrowAtlas('Volt New Dia Box');
+					box.animation.addByPrefix('normal', 'box idle', 12);
+				default:
+					box.frames = Paths.getSparrowAtlas('speech_bubble');
+					box.animation.addByPrefix('angry', 'speech bubble loud', 24);
+				}
+			}
+					box.scrollFactor.set();
+					box.antialiasing = false;
+					box.animation.addByPrefix('normalOpen', 'box open', 24, false);
+					box.animation.addByPrefix('angryOpen', 'box mad enter', 24, false);
+					box.animation.addByPrefix('center-normal', 'box idle', 24);
+					box.animation.addByPrefix('center-normalOpen', 'box open', 24, false);
+					box.animation.addByPrefix('center-angry', 'box angry', 24);
+					box.animation.addByPrefix('center-angryOpen', 'box mad enter', 24, false);
+					box.animation.play('normal', true);
+					box.visible = false;
+					box.setGraphicSize(Std.int(box.width * 3.9));
+					box.updateHitbox();
+					add(box);
 
 		startNextDialog();
 	}

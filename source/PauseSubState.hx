@@ -23,7 +23,8 @@ class PauseSubState extends MusicBeatSubstate
 	var menuItemsOG:Array<String> = ['Continue', 'Retry', 'Options', 'Change Difficulty', 'Modifiers','Quit'];
 	var difficultyChoices = [];
 	var curSelected:Int = 0;
-	var quitting = ['Yes', 'No'];
+	var quitting:Array<String> = ['Yes', 'No'];
+	var restartItems:Array<String> = ['Retry', 'Options', 'Change Difficulty', 'Modifiers', 'Quit'];
 
 	var pauseMusic:FlxSound;
 	var practiceText:FlxText;
@@ -93,7 +94,7 @@ class PauseSubState extends MusicBeatSubstate
 		add(levelDifficulty);
 
 		var blueballedTxt:FlxText = new FlxText(20, 15 + 64, 0, "", 32);
-		blueballedTxt.text = "Blueballed: " + PlayState.deathCounter;
+		blueballedTxt.text = "Times you've died: " + PlayState.deathCounter;
 		blueballedTxt.scrollFactor.set();
 		blueballedTxt.setFormat(Paths.font('vcr.ttf'), 32);
 		blueballedTxt.updateHitbox();
@@ -140,6 +141,7 @@ class PauseSubState extends MusicBeatSubstate
 	var cantUnpause:Float = 0.1;
 	override function update(elapsed:Float)
 	{
+
 		cantUnpause -= elapsed;
 		if (pauseMusic.volume < 0.5)
 			pauseMusic.volume += 0.01 * elapsed;
@@ -279,6 +281,8 @@ class PauseSubState extends MusicBeatSubstate
 					PlayState.instance.botplayTxt.alpha = 1;
 					PlayState.instance.botplaySine = 0;
 				case "Modifiers":
+					menuItems = restartItems;
+					regenMenu();
 					openSubState(new GameplayChangersSubstate()); //epic wish i could force restart tho
 				case "Quit":
 					switch (ClientPrefs.quitMethod){

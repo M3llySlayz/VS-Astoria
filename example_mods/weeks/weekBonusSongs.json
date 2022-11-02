@@ -1,0 +1,68 @@
+{
+	"songs": [
+		[
+			"Sing",
+			"sgnew",
+			[
+				106,
+				93,
+				93
+			]
+		],
+		[
+			"Vibe",
+			"sgnew",
+			[
+				106,
+				93,
+				93
+			]
+		],
+		[
+			"I",
+			"amnew",
+			[
+				255,
+				0,
+				240
+			]
+		],
+		[
+			"Guitar",
+			"voltage",
+			[
+				0,
+				255,
+				255
+			]
+		],
+		[
+			"Bestie Blitz",
+			"amnew",
+			[
+				255,
+				0,
+				240
+			]
+		]
+	],
+	"hiddenUntilUnlocked": true,
+	"hideFreeplay": true,
+	"weekBackground": "stage",
+	"difficulties": "Hard",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "Your New Week",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "weekV",
+	"startUnlocked": false
+}

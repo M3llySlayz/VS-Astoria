@@ -8,4 +8,3 @@ makeGraphic('flash',1280,720,'ffffff')
   setProperty('flash.alpha',0)
 setProperty('flash.alpha',1)
 end
-close(true);

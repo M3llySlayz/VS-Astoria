@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Brit Dia Box.png"><SubTexture name="box mad enter0000" x="446" y="221" width="33" height="33" frameX="-137" frameY="-32" frameWidth="307" frameHeight="97" />
+<SubTexture name="box mad enter0001" x="446" y="170" width="33" height="51" frameX="-137" frameY="-23" frameWidth="307" frameHeight="97" />
+<SubTexture name="box mad enter0002" x="290" y="170" width="34" height="84" frameX="-136" frameY="-6" frameWidth="307" frameHeight="97" />
+<SubTexture name="box mad enter0003" x="324" y="170" width="88" height="84" frameX="-109" frameY="-6" frameWidth="307" frameHeight="97" />
+<SubTexture name="box mad enter0004" x="0" y="264" width="145" height="84" frameX="-81" frameY="-6" frameWidth="307" frameHeight="97" />
+<SubTexture name="box mad enter0005" x="290" y="0" width="200" height="85" frameX="-53" frameY="-6" frameWidth="307" frameHeight="97" />
+<SubTexture name="box mad enter0006" x="0" y="0" width="290" height="88" frameX="-8" frameY="-4" frameWidth="307" frameHeight="97" />
+<SubTexture name="box open0000" x="411" y="264" width="33" height="33" frameX="-137" frameY="-32" frameWidth="307" frameHeight="97" />
+<SubTexture name="box open0001" x="378" y="264" width="33" height="51" frameX="-137" frameY="-23" frameWidth="307" frameHeight="97" />
+<SubTexture name="box open0002" x="412" y="170" width="34" height="84" frameX="-136" frameY="-6" frameWidth="307" frameHeight="97" />
+<SubTexture name="box open0003" x="145" y="264" width="88" height="84" frameX="-109" frameY="-6" frameWidth="307" frameHeight="97" />
+<SubTexture name="box open0004" x="233" y="264" width="145" height="84" frameX="-81" frameY="-6" frameWidth="307" frameHeight="97" />
+<SubTexture name="box open0005" x="290" y="85" width="200" height="85" frameX="-53" frameY="-6" frameWidth="307" frameHeight="97" />
+<SubTexture name="box open0006" x="0" y="88" width="290" height="88" frameX="-8" frameY="-4" frameWidth="307" frameHeight="97" />
+<SubTexture name="box angry0000" x="0" y="176" width="290" height="88" frameX="-8" frameY="-4" frameWidth="307" frameHeight="97" />
+<SubTexture name="box idle0000" x="0" y="88" width="290" height="88" frameX="-8" frameY="-4" frameWidth="307" frameHeight="97" />
+</TextureAtlas>

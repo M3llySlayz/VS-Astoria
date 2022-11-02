@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Brit New Dia Box.png"><SubTexture name="box open0000" x="260" y="91" width="37" height="30" frameX="-136" frameY="-29" frameWidth="309" frameHeight="97" />
+<SubTexture name="box open0001" x="201" y="91" width="59" height="58" frameX="-124" frameY="-18" frameWidth="309" frameHeight="97" />
+<SubTexture name="box open0002" x="0" y="91" width="201" height="73" frameX="-59" frameY="-15" frameWidth="309" frameHeight="97" />
+<SubTexture name="box open0003" x="0" y="0" width="304" height="91" frameX="-3" frameY="-3" frameWidth="309" frameHeight="97" />
+<SubTexture name="box idle0000" x="0" y="0" width="304" height="91" frameX="-3" frameY="-3" frameWidth="309" frameHeight="97" />
+</TextureAtlas>

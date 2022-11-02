@@ -1,7 +1,7 @@
 {
 	"songs": [
 		[
-			"Shuriken Fight","Sing",
+			"Shuriken Fight",
 			"sgnew",
 			[
 				75,
@@ -13,7 +13,7 @@
 	"hiddenUntilUnlocked": false,
 	"hideFreeplay": true,
 	"weekBackground": "path",
-	"difficulties": "Hard, Insane, Fun",
+	"difficulties": "Hard, Insane",
 	"weekCharacters": [
 		"menubrit",
 		"bf",

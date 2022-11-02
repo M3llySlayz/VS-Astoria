@@ -11,7 +11,7 @@
 		{
 			"expression": "confused",
 			"text": "a",
-			"boxState": "normal",
+			"boxState": "angry",
 			"sound": "",
 			"speed": 0.05,
 			"portrait": "bf"

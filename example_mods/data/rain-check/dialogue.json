@@ -3,17 +3,17 @@
 		{
 			"sound": "volttalk",
 			"speed": 0.05,
-			"portrait": "volt",
+			"portrait": "voltdianew",
 			"boxState": "normal",
-			"expression": "talk",
+			"expression": "angry",
 			"text": "Fool."
 		},
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "volt",
+			"portrait": "voltdianew",
 			"boxState": "normal",
-			"expression": "talk",
+			"expression": "normal",
 			"text": "My power extends beyond just singing."
 		},
 		{
@@ -21,7 +21,7 @@
 			"speed": 0.05,
 			"portrait": "volt",
 			"boxState": "angry",
-			"expression": "talk",
+			"expression": "shrug",
 			"text": "Fear my TRUE POWER!"
 		},
 		{
@@ -37,7 +37,7 @@
 			"speed": 0.05,
 			"portrait": "volt",
 			"boxState": "normal",
-			"expression": "talk",
+			"expression": "angry",
 			"text": "Why do you now choose to speak English, boy?"
 		},
 		{

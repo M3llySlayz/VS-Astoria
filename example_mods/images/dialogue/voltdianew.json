@@ -1,0 +1,50 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		0,
+		-80
+	],
+	"scale": 1.25,
+	"animations": [
+		{
+			"loop_name": "VDN shrug",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "VDN shrug",
+			"anim": "normal",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "VDN point",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "VDN point",
+			"anim": "angry",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "VDN smug shrug",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "VDN smug shrug",
+			"anim": "shrug",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "Volt Dia New"
+}

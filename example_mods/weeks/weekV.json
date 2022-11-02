@@ -1,6 +1,6 @@
 {
 	"storyName": "The Antagonist",
-	"difficulties": "Hard, Insane, Fun",
+	"difficulties": "Hard, Insane",
 	"hideFreeplay": false,
 	"weekBackground": "city",
 	"freeplayColor": [
@@ -8,7 +8,7 @@
 		113,
 		253
 	],
-	"weekBefore": "weekD",
+	"weekBefore": "weekB",
 	"startUnlocked": true,
 	"weekCharacters": [
 		"Volt",

@@ -252,7 +252,7 @@ class PlayState extends MusicBeatState
 	public var songHits:Int = 0;
 	public var songMisses:Int = 0;
 	public var scoreTxt:FlxText;
-	public  static var HUDFont:String = "vcr.ttf";
+	public static var HUDFont:String = "vcr.ttf";
 	var timeTxt:FlxText;
 	var scoreTxtTween:FlxTween;
 	

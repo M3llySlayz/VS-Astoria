@@ -1,50 +1,115 @@
 {
-	"dialogue_pos": "left",
 	"position": [
 		0,
 		-80
 	],
+	"dialogue_pos": "left",
 	"scale": 1.25,
+	"image": "Volt Dia New",
 	"animations": [
 		{
-			"loop_name": "VDN shrug",
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				0
 			],
-			"idle_name": "VDN shrug",
 			"anim": "normal",
-			"loop_offsets": [
-				0,
-				0
-			]
-		},
-		{
-			"loop_name": "VDN point",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "VDN point",
+			"loop_name": "VDN shrug",
+			"idle_name": "VDN shrug"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
 			"anim": "angry",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "VDN point",
+			"idle_name": "VDN point"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "shrug",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "VDN smug shrug",
+			"idle_name": "VDN smug shrug"
+		},
+		{
+			"loop_name": "VDN shadow0",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "VDN shadow0",
+			"anim": "figure stand",
 			"loop_offsets": [
 				0,
 				0
 			]
 		},
 		{
-			"loop_name": "VDN smug shrug",
+			"loop_name": "VDN shadow talk",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "VDN smug shrug",
-			"anim": "shrug",
+			"idle_name": "VDN shadow talk",
+			"anim": "figure talk",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "VDN shadow point",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "VDN shadow point",
+			"anim": "figure point",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "VDN shadow ha",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "VDN shadow ha",
+			"anim": "figure shrug",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "VDN moment",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "VDN moment",
+			"anim": "bruh",
 			"loop_offsets": [
 				0,
 				0
 			]
 		}
-	],
-	"image": "Volt Dia New"
+	]
 }

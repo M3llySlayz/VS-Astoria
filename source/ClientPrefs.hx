@@ -31,6 +31,7 @@ class ClientPrefs {
 	public static var controllerMode:Bool = false;
 	public static var hitsoundVolume:Float = 0;
 	public static var pauseMusic:String = 'Confront';
+	public static var shopMusic:String = 'Nostalgia';
 	public static var checkForUpdates:Bool = true;
 	public static var newSicks:Bool = false;
 	public static var splitScroll:Bool = false;
@@ -134,6 +135,7 @@ class ClientPrefs {
 		FlxG.save.data.newSicks = newSicks;
 		FlxG.save.data.splitScroll = splitScroll;
 		FlxG.save.data.quitMethod = quitMethod;
+		FlxG.save.data.shopMusic = shopMusic;
 	
 		FlxG.save.flush();
 
@@ -242,6 +244,9 @@ class ClientPrefs {
 		}
 		if(FlxG.save.data.pauseMusic != null) {
 			pauseMusic = FlxG.save.data.pauseMusic;
+		}
+		if(FlxG.save.data.shopMusic != null) {
+			shopMusic = FlxG.save.data.shopMusic;
 		}
 		if(FlxG.save.data.gameplaySettings != null)
 		{

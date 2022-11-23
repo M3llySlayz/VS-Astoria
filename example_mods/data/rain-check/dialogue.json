@@ -19,7 +19,7 @@
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "volt",
+			"portrait": "voltdianew",
 			"boxState": "angry",
 			"expression": "shrug",
 			"text": "Fear my TRUE POWER!"
@@ -35,9 +35,9 @@
 		{
 			"sound": "volttalk",
 			"speed": 0.05,
-			"portrait": "volt",
+			"portrait": "voltdianew",
 			"boxState": "normal",
-			"expression": "angry",
+			"expression": "bruh",
 			"text": "Why do you now choose to speak English, boy?"
 		},
 		{

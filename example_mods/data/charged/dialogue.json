@@ -3,9 +3,9 @@
 		{
 			"sound": "volttalk",
 			"speed": 0.05,
-			"portrait": "figure",
+			"portrait": "voltdianew",
 			"boxState": "normal",
-			"expression": "talk",
+			"expression": "figure point",
 			"text": "Stop."
 		},
 		{
@@ -19,9 +19,9 @@
 		{
 			"sound": "volttalk",
 			"speed": 0.05,
-			"portrait": "figure",
+			"portrait": "voltdianew",
 			"boxState": "normal",
-			"expression": "talk",
+			"expression": "figure talk",
 			"text": "You will not be allowed to progress any further."
 		},
 		{
@@ -35,9 +35,9 @@
 		{
 			"sound": "volttalk",
 			"speed": 0.5,
-			"portrait": "figure",
+			"portrait": "voltdianew",
 			"boxState": "normal",
-			"expression": "talk",
+			"expression": "figure stand",
 			"text": "..."
 		}
 	]

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="menu_play.png"><SubTexture name="play basic0000" x="0" y="94" width="164" height="85" frameX="-150" frameY="-5" frameWidth="484" frameHeight="97" />
+<SubTexture name="play basic0001" x="164" y="94" width="163" height="85" frameX="-150" frameY="-5" frameWidth="484" frameHeight="97" />
+<SubTexture name="play white0000" x="170" y="0" width="173" height="92" frameX="-146" frameY="-2" frameWidth="484" frameHeight="97" />
+<SubTexture name="play white0001" x="0" y="0" width="170" height="94" frameX="-147" frameY="-1" frameWidth="484" frameHeight="97" />
+</TextureAtlas>

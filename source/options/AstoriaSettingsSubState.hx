@@ -73,6 +73,16 @@ class AstoriaSettingsSubState extends BaseOptionsMenu
 
 		option.onChange = onChangePauseMusic;
 
+		var option:Option = new Option('Shop Song:',
+		"What song do you prefer for the Shop?",
+		'shopMusic',
+		'string',
+		'Nostalgia',
+		['None', 'Nostalgia', 'Guest', 'Loop']);
+		addOption(option);
+
+		option.onChange = onChangeShopMusic;
+
 		super();
 	}
 
@@ -86,6 +96,16 @@ class AstoriaSettingsSubState extends BaseOptionsMenu
 
 		changedMusic = true;
 	}
+
+	function onChangeShopMusic()
+		{
+			if(ClientPrefs.shopMusic == 'None')
+				FlxG.sound.music.volume = 0;
+			else
+				FlxG.sound.playMusic(Paths.music(Paths.formatToSongPath(ClientPrefs.shopMusic)));
+	
+			changedMusic = true;
+		}
 
 	override function destroy()
 		{

@@ -33,8 +33,9 @@ class MainMenuState extends MusicBeatState
 	private var camAchievement:FlxCamera;
 	
 	var optionShit:Array<String> = [
-		'story_mode',
+		'play',
 		'freeplay',
+		'shop',
 		//#if MODS_ALLOWED 'mods', #end
 		//#if ACHIEVEMENTS_ALLOWED 'awards', #end
 		'credits',
@@ -121,6 +122,34 @@ class MainMenuState extends MusicBeatState
 		{
 			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
 			var menuItem:FlxSprite = new FlxSprite(curoffset, (i * 140) + offset);
+			/*switch(optionShit[i]){
+			case 'play':
+				menuItem.x = 0;
+				menuItem.y = -300;
+				menuItem.setGraphicSize(3, 3);
+				menuItem.updateHitbox();
+			case 'freeplay':
+				menuItem.x = 720;
+				menuItem.y = 400;
+				menuItem.setGraphicSize(2, 2);
+				menuItem.updateHitbox();
+			case 'shop':
+				menuItem.x = 0;
+				menuItem.y = 600;
+				menuItem.setGraphicSize(2, 2);
+				menuItem.updateHitbox();
+			case 'options':
+				menuItem.x = 720;
+				menuItem.y = 800;
+				menuItem.setGraphicSize(2, 2);
+				menuItem.updateHitbox();
+			case 'credits':
+				menuItem.x = 0;
+				menuItem.y = 1000;
+				menuItem.setGraphicSize(2, 2);
+				menuItem.updateHitbox();
+			}*/
+		var menuItem:FlxSprite = new FlxSprite(curoffset, (i * 140) + offset);
 			menuItem.scale.x = scale;
 			menuItem.scale.y = scale;
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[i]);
@@ -278,7 +307,7 @@ class MainMenuState extends MusicBeatState
 
 								switch (daChoice)
 								{
-									case 'story_mode':
+									case 'play':
 										MusicBeatState.switchState(new StoryMenuState());
 										   	CoolUtil.cameraZoom(camera, 2, 1, FlxEase.backOut, ONESHOT);
 									case 'freeplay':
@@ -298,6 +327,9 @@ class MainMenuState extends MusicBeatState
 									case 'options':
 										LoadingState.loadAndSwitchState(new options.OptionsState());
 										   	CoolUtil.cameraZoom(camera, 2, 1, FlxEase.backOut, ONESHOT);
+									case 'shop':
+										PlayState.SONG = Song.loadFromJson('shop-shop', 'shop');
+											LoadingState.loadAndSwitchState(new PlayState());
 								}
 							});
 						}

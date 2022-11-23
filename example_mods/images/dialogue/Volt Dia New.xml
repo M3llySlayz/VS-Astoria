@@ -2,4 +2,9 @@
 <TextureAtlas imagePath="Volt Dia New.png"><SubTexture name="VDN shrug0000" x="0" y="0" width="230" height="383" frameX="-97" frameY="-67" frameWidth="450" frameHeight="450" />
 <SubTexture name="VDN smug shrug0000" x="230" y="0" width="230" height="383" frameX="-97" frameY="-67" frameWidth="450" frameHeight="450" />
 <SubTexture name="VDN point0000" x="460" y="0" width="279" height="383" frameX="-135" frameY="-67" frameWidth="450" frameHeight="450" />
+<SubTexture name="VDN moment0000" x="739" y="0" width="172" height="383" frameX="-135" frameY="-67" frameWidth="450" frameHeight="450" />
+<SubTexture name="VDN shadow talk0000" x="0" y="383" width="188" height="378" frameX="-139" frameY="-72" frameWidth="450" frameHeight="450" />
+<SubTexture name="VDN shadow0000" x="188" y="383" width="179" height="378" frameX="-139" frameY="-72" frameWidth="450" frameHeight="450" />
+<SubTexture name="VDN shadow point0000" x="367" y="383" width="280" height="378" frameX="-139" frameY="-72" frameWidth="450" frameHeight="450" />
+<SubTexture name="VDN shadow ha0000" x="647" y="383" width="250" height="378" frameX="-93" frameY="-72" frameWidth="450" frameHeight="450" />
 </TextureAtlas>

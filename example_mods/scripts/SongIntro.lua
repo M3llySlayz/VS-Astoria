@@ -28,6 +28,8 @@ elseif songName == 'Shuriken Fight' then
 elseif songName == 'Bestie Blitz' then
 	author = 'KrystalComposer (Funk Mix)\nCovered by Melly'
 	IntroAuthorSize = 17
+elseif songName == 'Shop' then
+	close(true)
 else
 	author = 'Melly'
 	IntroAuthorSize = 25

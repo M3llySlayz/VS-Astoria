@@ -261,7 +261,7 @@ class TitleState extends MusicBeatState
 		if (!astoreckless){
 			Conductor.changeBPM(titleJSON.bpm);
 		}else{
-			Conductor.changeBPM(120);
+			Conductor.changeBPM(117);
 		}
 
 		persistentUpdate = true;

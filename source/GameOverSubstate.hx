@@ -22,8 +22,8 @@ class GameOverSubstate extends MusicBeatSubstate
 
 	public static var characterName:String = 'bf-dead';
 	public static var deathSoundName:String = 'fnf_loss_sfx';
-	public static var loopSoundName:String = 'A Taken L';
-	public static var endSoundName:String = 'A Taken L End';
+	public static var loopSoundName:String = ClientPrefs.gameOverSong;
+	public static var endSoundName:String = ClientPrefs.gameOverSong + '-End';
 
 	public static var instance:GameOverSubstate;
 

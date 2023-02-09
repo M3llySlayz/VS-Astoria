@@ -1,66 +1,66 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				1,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "AMMN Idle",
-			"indices": []
+			"indices": [],
+			"name": "AMMN Idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "AMMN Left",
-			"indices": []
+			"indices": [],
+			"name": "AMMN Left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "AMMN Down",
-			"indices": []
+			"indices": [],
+			"name": "AMMN Down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "AMMN Up",
-			"indices": []
+			"indices": [],
+			"name": "AMMN Up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "AMMN Right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "AMMN Right"
 		}
 	],
 	"no_antialiasing": true,
 	"image": "characters/AMM-Newer",
 	"position": [
-		0,
-		150
+		-120,
+		30
 	],
 	"healthicon": "AMM",
 	"flip_x": false,
@@ -74,5 +74,5 @@
 		170
 	],
 	"sing_duration": 6.1,
-	"scale": 1.4
+	"scale": 1
 }

@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="AMM-Newer.png"><SubTexture name="AMMN Down0000" x="0" y="734" width="256" height="87" frameX="-125" frameY="-412" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Down0001" x="604" y="512" width="237" height="105" frameX="-132" frameY="-394" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Down0002" x="393" y="512" width="211" height="160" frameX="-147" frameY="-340" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Down0003" x="0" y="282" width="189" height="230" frameX="-160" frameY="-264" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Idle0000" x="334" y="0" width="195" height="231" frameX="-156" frameY="-264" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Idle0001" x="529" y="230" width="189" height="229" frameX="-160" frameY="-265" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Idle0002" x="189" y="282" width="189" height="230" frameX="-160" frameY="-264" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Idle0003" x="189" y="282" width="189" height="230" frameX="-160" frameY="-264" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Left0000" x="0" y="512" width="189" height="222" frameX="-130" frameY="-270" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Left0001" x="718" y="0" width="189" height="223" frameX="-134" frameY="-269" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Left0002" x="718" y="223" width="189" height="223" frameX="-136" frameY="-269" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Left0003" x="718" y="223" width="189" height="223" frameX="-136" frameY="-269" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Right0000" x="189" y="512" width="204" height="201" frameX="-164" frameY="-289" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Right0001" x="189" y="512" width="204" height="201" frameX="-171" frameY="-289" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Right0002" x="189" y="512" width="204" height="201" frameX="-176" frameY="-289" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Right0003" x="189" y="512" width="204" height="201" frameX="-179" frameY="-289" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Right0004" x="189" y="512" width="204" height="201" frameX="-182" frameY="-289" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Right0005" x="189" y="512" width="204" height="201" frameX="-182" frameY="-289" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Up0000" x="0" y="0" width="167" height="282" frameX="-167" frameY="-193" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Up0001" x="167" y="0" width="167" height="255" frameX="-166" frameY="-220" frameWidth="500" frameHeight="500" />
-<SubTexture name="AMMN Up0002" x="529" y="0" width="189" height="230" frameX="-160" frameY="-264" frameWidth="500" frameHeight="500" />
+<TextureAtlas imagePath="AMM-Newer.png"><SubTexture name="AMMN Down0000" x="628" y="1040" width="359" height="122" frameX="-175" frameY="-577" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Down0001" x="296" y="1040" width="332" height="147" frameX="-185" frameY="-552" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Down0002" x="0" y="1040" width="296" height="224" frameX="-206" frameY="-476" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Down0003" x="751" y="0" width="265" height="322" frameX="-224" frameY="-370" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Idle0000" x="0" y="403" width="276" height="325" frameX="-218" frameY="-369" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Idle0001" x="1016" y="0" width="267" height="322" frameX="-223" frameY="-370" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Idle0002" x="276" y="403" width="268" height="324" frameX="-223" frameY="-368" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN idle0000" x="1016" y="322" width="265" height="322" frameX="-224" frameY="-370" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Left0000" x="264" y="728" width="265" height="311" frameX="-182" frameY="-378" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Left0001" x="751" y="322" width="265" height="312" frameX="-188" frameY="-377" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Left0002" x="0" y="728" width="264" height="312" frameX="-191" frameY="-377" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Left0003" x="0" y="728" width="264" height="312" frameX="-191" frameY="-377" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Right0000" x="529" y="728" width="287" height="293" frameX="-229" frameY="-402" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Right0001" x="1283" y="282" width="285" height="281" frameX="-240" frameY="-405" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Right0002" x="1283" y="282" width="285" height="281" frameX="-247" frameY="-405" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Right0003" x="816" y="728" width="289" height="287" frameX="-248" frameY="-404" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Right0004" x="1283" y="563" width="286" height="281" frameX="-255" frameY="-405" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Right0005" x="1283" y="0" width="289" height="282" frameX="-252" frameY="-404" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Up0000" x="0" y="0" width="245" height="403" frameX="-229" frameY="-265" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Up0001" x="245" y="0" width="241" height="359" frameX="-231" frameY="-308" frameWidth="700" frameHeight="700" />
+<SubTexture name="AMMN Up0002" x="486" y="0" width="265" height="326" frameX="-224" frameY="-370" frameWidth="700" frameHeight="700" />
 </TextureAtlas>

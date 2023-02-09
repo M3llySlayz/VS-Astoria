@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Beep (Ayo wat da hail)",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "Happy",
+			"text": "Who are you?",
+			"boxState": "normal",
+			"sound": "talk",
+			"speed": 0.05,
+			"portrait": "AM-New-Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "beep boop skee (A rapper, I'm lookin for people to rap against.)",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "Sheepish",
+			"text": "Oh, well, I've never really rapped before so... maybe find someone else?",
+			"boxState": "normal",
+			"sound": "talk",
+			"speed": 0.05,
+			"portrait": "AM-New-Dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "boop ah bo (lmao no I'm fighting you now)",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "Bruh",
+			"text": "Bruh.",
+			"boxState": "normal",
+			"sound": "talk",
+			"speed": 0.05,
+			"portrait": "am-new-dialogue"
+		},
+		{
+			"expression": "Bruh Talk",
+			"text": "Alright, fine, but your loss if I'm bad.",
+			"boxState": "normal",
+			"sound": "talk",
+			"speed": 0.05,
+			"portrait": "am-new-dialogue"
+		}
+	]
+}

@@ -56,6 +56,7 @@ class TitleState extends MusicBeatState
 	public static var muteKeys:Array<FlxKey> = [FlxKey.ZERO];
 	public static var volumeDownKeys:Array<FlxKey> = [FlxKey.NUMPADMINUS, FlxKey.MINUS];
 	public static var volumeUpKeys:Array<FlxKey> = [FlxKey.NUMPADPLUS, FlxKey.PLUS];
+	public static var astoreckless:Bool = true;
 
 	public static var initialized:Bool = false;
 
@@ -82,6 +83,7 @@ class TitleState extends MusicBeatState
 	var titleJSON:TitleData;
 
 	public static var updateVersion:String = '';
+	
 
 	override public function create():Void
 	{
@@ -139,7 +141,6 @@ class TitleState extends MusicBeatState
 
 		PlayerSettings.init();
 
-		curWacky = FlxG.random.getObject(getIntroTextShit());
 
 		// DEBUG BULLSHIT
 
@@ -216,7 +217,6 @@ class TitleState extends MusicBeatState
 	var titleText:FlxSprite;
 	var swagShader:ColorSwap = null;
 	var titlestatebg:FlxBackdrop;
-
 	function startIntro()
 	{
 
@@ -242,16 +242,28 @@ class TitleState extends MusicBeatState
 			// music.loadStream(Paths.music('freakyMenu'));
 			// FlxG.sound.list.add(music);
 			// music.play();
-
+			if (ClientPrefs.mainSong == 'Astoreckless'){
+				astoreckless = true;
+			}else{
+				astoreckless = false;
+			}
 			if (FlxG.sound.music == null)
 			{
+				if (!astoreckless){
 				FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
+				}else{
+				FlxG.sound.playMusic(Paths.music('astoreckless'), 0);
+				}
 
 				FlxG.sound.music.fadeIn(4, 0, 0.7);
 			}
 		}
+		if (!astoreckless){
+			Conductor.changeBPM(titleJSON.bpm);
+		}else{
+			Conductor.changeBPM(120);
+		}
 
-		Conductor.changeBPM(titleJSON.bpm);
 		persistentUpdate = true;
 
 		var bg:FlxSprite = new FlxSprite();
@@ -276,6 +288,7 @@ class TitleState extends MusicBeatState
 		logoBl.antialiasing = ClientPrefs.globalAntialiasing;
 		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24, false);
 		logoBl.animation.play('bump');
+		logoBl.setGraphicSize(Std.int(0.8));
 		logoBl.updateHitbox();
 		// logoBl.screenCenter();
 		// logoBl.color = FlxColor.BLACK;
@@ -628,43 +641,94 @@ class TitleState extends MusicBeatState
 		if (!closedState)
 		{
 			sickBeats++;
+			
 			switch (sickBeats)
 			{
-				case 1:
-					createCoolText(['Made by'], 45);
 				case 2:
+					createCoolText(['Made by'], 45);
+				case 4:
 					addMoreText('M3llySlayz', 45);
 					addMoreText('JB', 45);
 					addMoreText('BoyBot', 45);
-				case 3:
+				case 6:
 					deleteCoolText();
 					createCoolText(['Run', 'On'], 15);
-				case 4:
+				case 8:
 					addMoreText('Psych Engine', 15);
-				case 6:
+				case 10:
 					deleteCoolText();
 					createCoolText(['Psych Engine by'], 45);
 					addMoreText('Shadow Mario',45);
 					addMoreText('RiverOaken',45);
 					addMoreText('bbpanzu',45);
-				case 8:
+				case 12:
+					curWacky = FlxG.random.getObject(getIntroTextShit());
 					deleteCoolText();
 					createCoolText([curWacky[0]]);
-				case 10:
-					addMoreText(curWacky[1]);
-				case 12:
-					deleteCoolText();
-				case 13:
-					addMoreText('FNF');
-				// credTextShit.visible = true;
 				case 14:
-					addMoreText('VS');
-				// credTextShit.text += '\nNight';
-				case 15:
-					addMoreText('Astoria'); // credTextShit.text += '\nFunkin';
-
+					addMoreText(curWacky[1]);
 				case 16:
+					deleteCoolText();
+					if (astoreckless){
+					curWacky = FlxG.random.getObject(getIntroTextShit());
+					createCoolText([curWacky[0]]);
+					}
+				case 17: //ignore rn
+					if (!astoreckless){
+						addMoreText('FNF');
+					}
+				case 18:
+					if (astoreckless){
+					addMoreText(curWacky[1]);
+					}else{
+					addMoreText('VS');
+					}
+				case 19:
+					if (!astoreckless){
+					addMoreText('Astoria');
+					}
+				case 20:
+					if (!astoreckless){
+					deleteCoolText();
+					}else{
+					deleteCoolText();
+					curWacky = FlxG.random.getObject(getIntroTextShit());
+					createCoolText([curWacky[0]]);
+					}
+				case 22:
+					if (astoreckless){
+						addMoreText(curWacky[1]);
+					}
+				case 24:
+					if (astoreckless){
+						deleteCoolText();
+						curWacky = FlxG.random.getObject(getIntroTextShit());
+						createCoolText([curWacky[0]]);
+					}
+				case 26:
+					if (astoreckless){
+						addMoreText(curWacky[1]);
+					}
+				case 28:
+					deleteCoolText();
+					if (astoreckless){
+					addMoreText('FNF');
+					}
+				// credTextShit.visible = true;
+				case 29:
+					if (astoreckless){
+					addMoreText('VS');
+					}
+				// credTextShit.text += '\nNight';
+				case 30:
+					if (astoreckless){
+					addMoreText('Astoria'); 
+					}
+					// credTextShit.text += '\nFunkin';
+				case 31:
+					if (astoreckless){
 					skipIntro();
+					}
 			}
 		}
 	}

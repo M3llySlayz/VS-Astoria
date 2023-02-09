@@ -30,12 +30,14 @@ class ClientPrefs {
 	public static var healthBarAlpha:Float = 1;
 	public static var controllerMode:Bool = false;
 	public static var hitsoundVolume:Float = 0;
-	public static var pauseMusic:String = 'Confront';
+	public static var pauseMusic:String = 'Waiting';
 	public static var shopMusic:String = 'Nostalgia';
 	public static var checkForUpdates:Bool = true;
 	public static var newSicks:Bool = false;
 	public static var splitScroll:Bool = false;
 	public static var quitMethod:String = 'Quick Confirm';
+	public static var mainSong:String = 'Astoreckless';
+	public static var gameOverSong:String = 'A Taken L';
 	public static var gameplaySettings:Map<String, Dynamic> = [
 		'scrollspeed' => 1.0,
 		'scrolltype' => 'multiplicative', 
@@ -136,6 +138,8 @@ class ClientPrefs {
 		FlxG.save.data.splitScroll = splitScroll;
 		FlxG.save.data.quitMethod = quitMethod;
 		FlxG.save.data.shopMusic = shopMusic;
+		FlxG.save.data.mainSong = mainSong;
+		FlxG.save.data.gameOverSong = gameOverSong;
 	
 		FlxG.save.flush();
 
@@ -278,9 +282,17 @@ class ClientPrefs {
 		{
 			splitScroll = FlxG.save.data.splitScroll;
 		}
-		if (FlxG.save.data.splitScroll != null)
+		if (FlxG.save.data.quitMethod != null)
 		{
 			quitMethod = FlxG.save.data.quitMethod;
+		}
+		if (FlxG.save.data.mainSong != null)
+		{
+			mainSong = FlxG.save.data.mainSong;
+		}
+		if (FlxG.save.data.gameOverSong != null)
+		{
+			gameOverSong = FlxG.save.data.gameOverSong;
 		}
 
 		var save:FlxSave = new FlxSave();

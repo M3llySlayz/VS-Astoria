@@ -53,15 +53,15 @@ function onCreate()
 		uncomment these if you need to reset for any reason, save, open the shop (don't buy anything)
 		close the shop, comment these again and reopen it
 		should get rid of all the sold signs and hide all the songs/weeks
-		oh also it''l give you 10000 dollars
+		oh also it'll give you 10000 dollars
 		------------------------------------
 		GotProduct1 = 0
 		GotProduct2 = 0
 		GotProduct3 = 0
 		GotProduct4 = 0
 		GotProduct5 = 0
-		GotProduct6 = 0]]
-		MoneyAmount = 10000
+		GotProduct6 = 0
+		MoneyAmount = 10000]]
 		
 		
 		GotProduct1 = getDataFromSave('vsa', 'GotProduct1')
@@ -70,6 +70,247 @@ function onCreate()
 		GotProduct4 = getDataFromSave('vsa', 'GotProduct4')
 		GotProduct5 = getDataFromSave('vsa', 'GotProduct5')
 		GotProduct6 = getDataFromSave('vsa', 'GotProduct6')
+
+		--fix for the weeks not unlocking sometimes
+		if GotProduct1 == 1 then
+			saveFile('weeks/weekShuriken.json', [[
+		{
+			"songs": [
+				[
+					"Shuriken Fight",
+					"sgnew",
+					[
+						73,
+						73,
+						73
+					]
+				]
+			],
+			"hiddenUntilUnlocked": true,
+			"hideFreeplay": false,
+			"weekBackground": "stage",
+			"difficulties": "Hard, Insane",
+			"weekCharacters": [
+				"dad",
+				"bf",
+				"gf"
+			],
+			"storyName": "stop reading my files",
+			"weekName": "Shuriken Fight",
+			"freeplayColor": [
+				146,
+				113,
+				253
+			],
+			"hideStoryMode": true,
+			"weekBefore": "weekV",
+			"startUnlocked": true
+		}
+			]])
+		end
+
+		if GotProduct2 == 1 then
+			saveFile('weeks/weekVibe.json', [[
+		{
+			"songs": [
+				[
+					"Vibe",
+					"sgnew",
+					[
+						73,
+						73,
+						73
+					]
+				]
+			],
+			"hiddenUntilUnlocked": true,
+			"hideFreeplay": false,
+			"weekBackground": "stage",
+			"difficulties": "Hard",
+			"weekCharacters": [
+				"dad",
+				"bf",
+				"gf"
+			],
+			"storyName": "stop reading my files",
+			"weekName": "Vibe",
+			"freeplayColor": [
+				146,
+				113,
+				253
+			],
+			"hideStoryMode": true,
+			"weekBefore": "weekV",
+			"startUnlocked": true
+		}
+			]])
+		end
+
+		if GotProduct3 == 1 then
+			saveFile('weeks/weekBlitz.json', [[
+					{
+						"songs": [
+							[
+								"Bestie Blitz",
+								"AMNew",
+								[
+									255,
+									0,
+									255
+								]
+							]
+						],
+						"hiddenUntilUnlocked": true,
+						"hideFreeplay": false,
+						"weekBackground": "stage",
+						"difficulties": "Hard",
+						"weekCharacters": [
+							"dad",
+							"bf",
+							"gf"
+						],
+						"storyName": "stop reading my files",
+						"weekName": "Bestie Blitz",
+						"freeplayColor": [
+							146,
+							113,
+							253
+						],
+						"hideStoryMode": true,
+						"weekBefore": "weekV",
+						"startUnlocked": true
+					}
+						]])
+		end
+
+		if GotProduct4 == 1 then
+			saveFile('weeks/weekSing.json', [[
+					{
+						"songs": [
+							[
+								"Sing",
+								"sgnew",
+								[
+									73,
+									73,
+									73
+								]
+							]
+						],
+						"hiddenUntilUnlocked": true,
+						"hideFreeplay": false,
+						"weekBackground": "stage",
+						"difficulties": "Hard",
+						"weekCharacters": [
+							"dad",
+							"bf",
+							"gf"
+						],
+						"storyName": "stop reading my files",
+						"weekName": "Sing",
+						"freeplayColor": [
+							146,
+							113,
+							253
+						],
+						"hideStoryMode": true,
+						"weekBefore": "weekV",
+						"startUnlocked": true
+					}
+						]])
+		end
+
+		if GotProduct5 == 1 then
+			saveFile('weeks/weekI.json', [[
+					{
+						"songs": [
+							[
+								"I",
+								"AMNew",
+								[
+									255,
+									0,
+									255
+								]
+							]
+						],
+						"hiddenUntilUnlocked": true,
+						"hideFreeplay": false,
+						"weekBackground": "stage",
+						"difficulties": "Hard",
+						"weekCharacters": [
+							"dad",
+							"bf",
+							"gf"
+						],
+						"storyName": "stop reading my files",
+						"weekName": "I",
+						"freeplayColor": [
+							146,
+							113,
+							253
+						],
+						"hideStoryMode": true,
+						"weekBefore": "weekV",
+						"startUnlocked": true
+					}
+						]])
+				end
+
+			if GotProduct6 == 1 then
+				saveFile('weeks/weekMeme.json', [[
+		{
+			"storyName": "Oh god what have you unleashed",
+			"difficulties": "Hard",
+			"hideFreeplay": false,
+			"weekBackground": "",
+			"freeplayColor": [
+				146,
+				113,
+				253
+			],
+			"weekBefore": "weekV",
+			"startUnlocked": true,
+			"weekCharacters": [
+				"amm",
+				"bf",
+				""
+			],
+			"songs": [
+				[
+					"Amazing Meme",
+					"AMM",
+					[
+						255,
+						0,
+						255
+					]
+				],
+				[
+					"Pixel",
+					"AMM",
+					[
+						255,
+						0,
+						255
+					]
+				],
+				[
+					"Bro",
+					"AMM",
+					[
+						255,
+						0,
+						255
+					]
+				]
+			],
+			"hideStoryMode": false,
+			"weekName": "Amazing Meme",
+			"hiddenUntilUnlocked": false
+		}
+						]])
+			end
 
 		if lowQuality then
 			makeLuaSprite('ShopProducts', 'ui/ShopProducts', 800, -100)
@@ -145,7 +386,7 @@ end
 
 function onUpdate()
 	if songName == 'Shop' then
-		if keyJustPressed('pause') then
+		if keyJustPressed('pause') or keyboardJustPressed('ESCAPE') or keyboardJustPressed('BACKSPACE') then
 			exitMenu()
 		end
 
@@ -301,13 +542,17 @@ function exitMenu()
 	setDataFromSave('vsa', 'GotProduct4', GotProduct4)
 	setDataFromSave('vsa', 'GotProduct5', GotProduct5)
 	setDataFromSave('vsa', 'GotProduct6', GotProduct6)
-    --better exit
+    --[[better exit
     addHaxeLibrary('MusicBeatState')
     runHaxeCode([[
+		if (!TitleState.astoreckless){
         FlxG.sound.playMusic(Paths.music('freakyMenu'));
+		}else{
+		FlxG.sound.playMusic(Paths.music('Astoreckless'));
+		}
         MusicBeatState.switchState(new MainMenuState());
-    ]])
-    --exitSong(true);
+    )]]
+    exitSong(true);
 end
 
 function onEndSong()
@@ -324,7 +569,7 @@ function onEndSong()
         end
         setDataFromSave('vsa', 'Money', MoneyAmount)
         --makeLuaText('GainedCash', "You got $"..MoneyAmount.."!", 0, 0)
-        setObjectCamera('GainedCash', 'hud')
+        --setObjectCamera('GainedCash', 'hud')
     end
 end
 

@@ -22,16 +22,16 @@ class GameOverSubstate extends MusicBeatSubstate
 
 	public static var characterName:String = 'bf-dead';
 	public static var deathSoundName:String = 'fnf_loss_sfx';
-	public static var loopSoundName:String = 'gameOver';
-	public static var endSoundName:String = 'gameOverEnd';
+	public static var loopSoundName:String = 'A Taken L';
+	public static var endSoundName:String = 'A Taken L End';
 
 	public static var instance:GameOverSubstate;
 
 	public static function resetVariables() {
 		characterName = 'bf-dead';
 		deathSoundName = 'fnf_loss_sfx';
-		loopSoundName = 'gameOver';
-		endSoundName = 'gameOverEnd';
+		loopSoundName = ClientPrefs.gameOverSong;
+		endSoundName = ClientPrefs.gameOverSong + '-End';
 	}
 
 	override function create()
@@ -58,7 +58,14 @@ class GameOverSubstate extends MusicBeatSubstate
 		camFollow = new FlxPoint(boyfriend.getGraphicMidpoint().x, boyfriend.getGraphicMidpoint().y);
 
 		FlxG.sound.play(Paths.sound(deathSoundName));
-		Conductor.changeBPM(100);
+
+		switch(ClientPrefs.gameOverSong){
+		case 'Far':
+			Conductor.changeBPM(176);
+		case 'A Taken L':
+			Conductor.changeBPM(144);
+		}
+
 		// FlxG.camera.followLerp = 1;
 		// FlxG.camera.focusOn(FlxPoint.get(FlxG.width / 2, FlxG.height / 2));
 		FlxG.camera.scroll.set();
@@ -98,8 +105,10 @@ class GameOverSubstate extends MusicBeatSubstate
 				MusicBeatState.switchState(new StoryMenuState());
 			else
 				MusicBeatState.switchState(new FreeplayState());
-
-			FlxG.sound.playMusic(Paths.music('freakyMenu'));
+			if (TitleState.astoreckless)
+			FlxG.sound.playMusic(Paths.music('Astoreckless'));
+			else
+				FlxG.sound.playMusic(Paths.music('freakyMenu'));
 			PlayState.instance.callOnLuas('onGameOverConfirm', [false]);
 		}
 

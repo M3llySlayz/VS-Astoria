@@ -56,22 +56,23 @@ class PauseAstoriaSettingsSubState extends BaseOptionsMenu
 		addOption(option);
 
 		var option:Option = new Option('Quit Method:',
-		'How do you want the quit button to work?',
-		'quitMethod',
-		'string',
-		'Quick Confirm',
-		['Normal', 'Quick Confirm', 'Fancy Confirm']);
+			'How do you want the quit button to work?',
+			'quitMethod',
+			'string',
+			'Quick Confirm',
+			['Normal', 'Quick Confirm', 'Fancy Confirm']);
 		addOption(option);
 
-		var option:Option = new Option('Pause Screen Song:',
+		var option:Option = new Option('Pause Song:',
 			"What song do you prefer for the Pause Screen?",
 			'pauseMusic',
 			'string',
 			'Construct',
-			['None', 'Bossfight', 'Construct', 'Confront']);
+			['None', 'Bossfight', 'Construct', 'Confront', 'Waiting', 'Waiting (Impatient)', 'Bounce', 'Adventure']);
 		addOption(option);
-		
+
 		option.onChange = onChangePauseMusic;
+
 		var option:Option = new Option('Shop Song:',
 		"What song do you prefer for the Shop?",
 		'shopMusic',
@@ -81,6 +82,26 @@ class PauseAstoriaSettingsSubState extends BaseOptionsMenu
 		addOption(option);
 
 		option.onChange = onChangeShopMusic;
+
+		var option:Option = new Option('Game Over Song:',
+		"What song do you prefer for the Game Over?",
+		'gameOverSong',
+		'string',
+		'A Taken L',
+		['A Taken L', 'Far']);
+		addOption(option);
+
+		option.onChange = onChangeGameOverMusic;
+
+		var option:Option = new Option('Main Menu Song:',
+		"What song do you prefer for the Main Menu?",
+		'mainSong',
+		'string',
+		'Astoreckless',
+		['Astoreckless', 'the other one (bad)']);
+		addOption(option);
+
+		option.onChange = onChangeMenuMusic;
 
 		super();
 	}
@@ -106,9 +127,31 @@ class PauseAstoriaSettingsSubState extends BaseOptionsMenu
 			changedMusic = true;
 		}
 
+	function onChangeMenuMusic()
+			{
+				if (ClientPrefs.mainSong == 'Astoreckless'){
+					FlxG.sound.playMusic(Paths.music('astoreckless'));
+				}else{
+					FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				}
+		
+				changedMusic = true;
+			}
+	
+	function onChangeGameOverMusic() {
+		FlxG.sound.playMusic(Paths.music(Paths.formatToSongPath(ClientPrefs.gameOverSong)));
+		changedMusic = true;
+	}
+
 	override function destroy()
 		{
-			if(changedMusic) FlxG.sound.playMusic(Paths.music('freakyMenu'));
+			if(changedMusic){
+				if (TitleState.astoreckless){
+					FlxG.sound.playMusic(Paths.music('astoreckless'));
+				}else{
+					FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				}
+			}
 			super.destroy();
 		}
 	

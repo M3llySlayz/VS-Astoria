@@ -1,26 +1,26 @@
 {
 	"animations": [
 		{
-			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": true,
 			"fps": 12,
-			"name": "BS idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "BS idle"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle-alt",
+			"loop": true,
 			"fps": 12,
-			"name": "BS r u sure abt that",
-			"indices": []
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "BS r u sure abt that"
 		}
 	],
 	"no_antialiasing": false,
@@ -37,8 +37,8 @@
 		68
 	],
 	"camera_position": [
-		420,
-		-150
+		320,
+		-250
 	],
 	"sing_duration": 6,
 	"scale": 1.7

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-1,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "BT Idle"
+		},
+		{
+			"offsets": [
+				-6,
+				-1
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "BT Left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-4
+			],
+			"anim": "singDOWN",
+			"fps": 16,
+			"name": "BT Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-2
+			],
+			"anim": "singUP",
+			"fps": 12,
+			"name": "BT Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				-2
+			],
+			"anim": "singRIGHT",
+			"fps": 16,
+			"name": "BT Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/Brittany Newer",
+	"position": [
+		-140,
+		230
+	],
+	"healthicon": "britnewer",
+	"flip_x": false,
+	"healthbar_colors": [
+		105,
+		105,
+		25
+	],
+	"camera_position": [
+		0,
+		40
+	],
+	"sing_duration": 6.1,
+	"scale": 0.999999999999999
+}

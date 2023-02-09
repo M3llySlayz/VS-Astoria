@@ -8,8 +8,8 @@ local del = 0;
 local del2 = 0;
 
 function onUpdate()
-	if del > 0 then
-		del = del - 1
+	if curStep == 256 then
+		yy = 700
 	end
 	if del2 > 0 then
 		del2 = del2 - 1

@@ -1968,6 +1968,7 @@ class PlayState extends MusicBeatState
 	var finishTimer:FlxTimer = null;
 
 	// For being able to mess with the sprites on Lua
+	//if i had known this before, i'd had saved, like, 30 minutes of my time - melly
 	public var countdownReady:FlxSprite;
 	public var countdownSet:FlxSprite;
 	public var countdownGo:FlxSprite;
@@ -2037,7 +2038,7 @@ class PlayState extends MusicBeatState
 				var introAssets:Map<String, Array<String>> = new Map<String, Array<String>>();
 				introAssets.set('default', ['ready', 'set', 'go']);
 				introAssets.set('pixel', ['pixelUI/ready-pixel', 'pixelUI/set-pixel', 'pixelUI/date-pixel']);
-				introAssets.set('meme', ['ready', 'set', 'meme']);
+				introAssets.set('meme', ['ready', 'set', 'meme']); //literally 30 minutes
 
 				var introAlts:Array<String> = introAssets.get('default');
 				var antialias:Bool = ClientPrefs.globalAntialiasing;
@@ -3857,7 +3858,11 @@ class PlayState extends MusicBeatState
 				if (storyPlaylist.length <= 0)
 				{
 					WeekData.loadTheFirstEnabledMod();
+					if (!TitleState.astoreckless){
 					FlxG.sound.playMusic(Paths.music('freakyMenu'));
+					}else{
+					FlxG.sound.playMusic(Paths.music('Astoreckless'));
+					}
 
 					cancelMusicFadeTween();
 					if(FlxTransitionableState.skipNextTransIn) {

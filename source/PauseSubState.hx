@@ -143,7 +143,7 @@ class PauseSubState extends MusicBeatSubstate
 	{
 
 		cantUnpause -= elapsed;
-		if (pauseMusic.volume < 0.5)
+		if (pauseMusic.volume < 0.8)
 			pauseMusic.volume += 0.01 * elapsed;
 
 		super.update(elapsed);
@@ -215,19 +215,7 @@ class PauseSubState extends MusicBeatSubstate
 			}else if (menuItems == quitting){
 				switch (daSelected){
 					case "Yes":
-						if (PlayState.isStoryMode){
-							MusicBeatState.switchState(new StoryMenuState());
-							FlxG.sound.play(Paths.sound('confirmMenu'), 0.3);
-							PlayState.deathCounter = 0;
-							PlayState.seenCutscene = false;
-							PlayState.changedDifficulty = false;
-							PlayState.chartingMode = false;
-							PlayState.cancelMusicFadeTween();
-							WeekData.loadTheFirstEnabledMod();
-						}else{
-							MusicBeatState.switchState(new FreeplayState());
-						}
-						FlxG.sound.playMusic(Paths.music('freakyMenu'), 1);
+						quitSong();
 					case "No":
 						menuItems = menuItemsOG;
 						FlxG.sound.play(Paths.sound('cancelMenu'), 1);
@@ -283,27 +271,19 @@ class PauseSubState extends MusicBeatSubstate
 				case "Modifiers":
 					menuItems = restartItems;
 					regenMenu();
-					openSubState(new GameplayChangersSubstate()); //epic wish i could force restart tho
+					openSubState(new GameplayChangersSubstate());
 				case "Quit":
 					switch (ClientPrefs.quitMethod){
 						case 'Quick Confirm':
-							menuItems = quitting;
-							FlxG.sound.play(Paths.sound('pauseMenu'), 0.6);
-							regenMenu();
-						case 'Normal':
-							PlayState.deathCounter = 0;
-							PlayState.seenCutscene = false;
-
-							WeekData.loadTheFirstEnabledMod();
-							if(PlayState.isStoryMode) {
-							MusicBeatState.switchState(new StoryMenuState());
+							if (PlayState.chartingMode){
+								quitSong();
 							} else {
-							MusicBeatState.switchState(new FreeplayState());
+								menuItems = quitting;
+								FlxG.sound.play(Paths.sound('pauseMenu'), 0.6);
+								regenMenu();
 							}
-							PlayState.cancelMusicFadeTween();
-							FlxG.sound.playMusic(Paths.music('freakyMenu'));
-							PlayState.changedDifficulty = false;
-							PlayState.chartingMode = false;
+						case 'Normal':
+							quitSong();
 						case 'Fancy Confirm':
 							PlayState.deathCounter = 0;
 							PlayState.seenCutscene = false;
@@ -344,6 +324,27 @@ class PauseSubState extends MusicBeatSubstate
 		{
 			MusicBeatState.resetState();
 		}
+	}
+
+	public static function quitSong()
+	{
+		PlayState.deathCounter = 0;
+		PlayState.seenCutscene = false;
+
+		WeekData.loadTheFirstEnabledMod();
+		if(PlayState.isStoryMode) {
+			MusicBeatState.switchState(new StoryMenuState());
+		} else {
+			MusicBeatState.switchState(new FreeplayState());
+		}
+		PlayState.cancelMusicFadeTween();
+		if (!TitleState.astoreckless){
+			FlxG.sound.playMusic(Paths.music('freakyMenu'));
+		} else {
+			FlxG.sound.playMusic(Paths.music('astoreckless'));
+		}
+		PlayState.changedDifficulty = false;
+		PlayState.chartingMode = false;
 	}
 
 	override function destroy()

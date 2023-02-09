@@ -397,7 +397,7 @@ class PlayState extends MusicBeatState
 		}
 
 		// String for when the game is paused
-		detailsPausedText = "Paused on - " + detailsText;
+		detailsPausedText = "Paused on- " + detailsText;
 		#end
 
 		GameOverSubstate.resetVariables();
@@ -2926,6 +2926,19 @@ class PlayState extends MusicBeatState
 		if (controls.PAUSE && startedCountdown && canPause)
 		{
 			var ret:Dynamic = callOnLuas('onPause', [], false);
+			if (PlayState.SONG.song == 'Shop'){
+				if (TitleState.astoreckless){
+					FlxG.sound.playMusic(Paths.music('astoreckless'));
+				}else{
+					FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				}
+				if (FlxG.sound.music != null)
+					{
+						FlxG.sound.music.pause();
+						vocals.pause();
+					}
+				MusicBeatState.switchState(new MainMenuState());
+			}
 			if(ret != FunkinLua.Function_Stop) {
 				openPauseMenu();
 			}

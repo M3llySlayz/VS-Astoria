@@ -545,18 +545,18 @@ function exitMenu()
     --[[better exit
     addHaxeLibrary('MusicBeatState')
     runHaxeCode([[
-		if (!TitleState.astoreckless){
-        FlxG.sound.playMusic(Paths.music('freakyMenu'));
-		}else{
-		FlxG.sound.playMusic(Paths.music('Astoreckless'));
-		}
+		//if (!TitleState.astoreckless){
+       // FlxG.sound.playMusic(Paths.music('freakyMenu'));
+		//}else{
+		FlxG.sound.playMusic(Paths.music('astoreckless'));
+		//}
         MusicBeatState.switchState(new MainMenuState());
-    )]]
-    exitSong(true);
+    )
+    exitSong(true);]]
 end
 
 function onEndSong()
-    if getProperty('cpuControlled') == false or getProperty('practiceMode') == false then
+    if getProperty('cpuControlled') == false and getProperty('practiceMode') == false then
         playSound('chaching');
         if songName == 'Extreme' or songName == 'Shuriken Fight' or storyDifficulty == 1 then
             MoneyAmount = MoneyAmount + math.random(200, 250)

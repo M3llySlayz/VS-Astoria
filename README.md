@@ -11,5 +11,7 @@ It's cool.
 - And you, for even looking this "deep" into our mod, checking out the Github, and maybe even playing it! Thank you *so* much. It really means a lot to me.
 
 Wanna see some screenshots?
-The Title Screen (will be seeing changes)![image](https://user-images.githubusercontent.com/78555659/217984403-8a7970a0-977a-49c0-a559-036564e91205.png)
-The Main Menu (also subject to change)![image](https://user-images.githubusercontent.com/78555659/217984428-2c2b8c99-0312-4fa6-a81e-99850b4216d9.png)
+
+- The Title Screen (will be seeing changes)![image](https://user-images.githubusercontent.com/78555659/217984403-8a7970a0-977a-49c0-a559-036564e91205.png)
+
+- The Main Menu (also subject to change)![image](https://user-images.githubusercontent.com/78555659/217984428-2c2b8c99-0312-4fa6-a81e-99850b4216d9.png)

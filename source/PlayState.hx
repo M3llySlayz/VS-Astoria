@@ -1,5 +1,6 @@
 package;
 
+import flixel.math.FlxRandom;
 import flixel.graphics.FlxGraphic;
 #if desktop
 import Discord.DiscordClient;
@@ -3848,11 +3849,22 @@ class PlayState extends MusicBeatState
 		if(ret != FunkinLua.Function_Stop && !transitioning) {
 			if (SONG.validScore)
 			{
+				/*var earnedMoney:Int = 0
+				switch(SONG.song){
+					case 'Storm Safety':
+						earnedMoney = FlxRandom.int(250, 300);
+					case 'Shuriken Fight' | 'Extreme':
+						earnedMoney = FlxRandom.int(200, 250);
+					
+				}
+				money = money + earnedMoney;
+				*/
 				#if !switch
 				var percent:Float = ratingPercent;
 				if(Math.isNaN(percent)) percent = 0;
 				Highscore.saveScore(SONG.song, songScore, storyDifficulty, percent);
 				#end
+				
 			}
 
 			if (chartingMode)

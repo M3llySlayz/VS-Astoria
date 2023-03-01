@@ -2135,6 +2135,8 @@ class PlayState extends MusicBeatState
 							}
 						});
 						FlxG.sound.play(Paths.sound('introGo' + introSoundsSuffix), 0.6);
+						FlxG.sound.play(Paths.sound('yeah'), 0.6);
+						boyfriend.playAnim('hey', true);
 					case 4:
 				}
 

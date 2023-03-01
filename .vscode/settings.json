@@ -6,6 +6,8 @@
         "need-check-nil",
         "cast-local-type",
         "param-type-mismatch",
-        "discard-returns"
+        "discard-returns",
+        "deprecated",
+        "redundant-value"
     ]
 }

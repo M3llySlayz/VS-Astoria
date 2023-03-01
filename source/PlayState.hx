@@ -302,6 +302,9 @@ class PlayState extends MusicBeatState
 	// Less laggy controls
 	private var keysArray:Array<Dynamic>;
 
+	//dat cashflow
+	public static var money:Int = 0;
+
 	var precacheList:Map<String, String> = new Map<String, String>();
 
 	override public function create()
@@ -321,6 +324,10 @@ class PlayState extends MusicBeatState
 			ClientPrefs.copyKey(ClientPrefs.keyBinds.get('note_up')),
 			ClientPrefs.copyKey(ClientPrefs.keyBinds.get('note_right'))
 		];
+
+		if (FlxG.save.data.money != null){
+			money = FlxG.save.data.money;
+		}
 
 		//Ratings
 		ratingsData.push(new Rating('sick')); //default rating
@@ -1028,22 +1035,22 @@ class PlayState extends MusicBeatState
 			'songPercent', 0, 1);
 		timeBar.scrollFactor.set();
 		switch(PlayState.instance.dad.curCharacter){
-			case "AM" | "AM-New" | "AMM" | "AM-Head" | "AM-New-rasis" | "AM-Real":
+			case "AM" | "AM-New" | "AM-Newer" | "AMM" | "AMM-Newer" | "AM-Head" | "AM-New-rasis" | "AM-Real":
 				timeBar.createFilledBar(0xFF000000, 0xFFFF00EC);
 			case "AM-Red" | "AM-Red-New":
 				timeBar.createFilledBar(0xFF000000, 0xFFFF0000);
-			case "Brittany" | "Brittany-New":
+			case "Brittany" | "Brittany-New" | "Brittany-Newer" :
 				timeBar.createFilledBar(0xFF000000, 0xFF927D0F);
 			case "Voltage" | "Voltage-New":
 				timeBar.createFilledBar(0xFF000000, 0xFF00FFFF);
-			case "SG" | "SG-New":
+			case "SG" | "SG-New" | "SG-Newer":
 				timeBar.createFilledBar(0xFF000000, 0xFF626262);
 			case "Donut-Man" | "Donut-Man-New":
 				timeBar.createFilledBar(0xFF000000, 0xFF452E00);
 			default:
 				timeBar.createFilledBar(0xFF000000, 0xFFFFFFFF);
 		}
-		timeBar.numDivisions = 800; //How much lag this causes?? Should i tone it down to idk, 400 or 200?
+		timeBar.numDivisions = 1600; //How much lag this causes?? Should i tone it down to idk, 400 or 200?
 		timeBar.alpha = 0;
 		timeBar.visible = showTime;
 		add(timeBar);
@@ -3238,6 +3245,19 @@ class PlayState extends MusicBeatState
 			MusicBeatState.switchState(new GitarooPause());
 		}
 		else {*/
+			if (PlayState.SONG.song == 'Shop'){
+				if (TitleState.astoreckless){
+					FlxG.sound.playMusic(Paths.music('astoreckless'));
+				}else{
+					FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				}
+				if (FlxG.sound.music != null)
+					{
+						FlxG.sound.music.pause();
+						vocals.pause();
+					}
+				MusicBeatState.switchState(new MainMenuState());
+			}else{
 		if(FlxG.sound.music != null) {
 			FlxG.sound.play(Paths.sound('pauseMenu'), 2);
 			FlxG.sound.music.pause();
@@ -3249,6 +3269,7 @@ class PlayState extends MusicBeatState
 		#if desktop
 		DiscordClient.changePresence("Paused- ", "Paused on- " + SONG.song + " (" + storyDifficultyText + ")", "paused", iconP2.getCharacter());
 		#end
+	}
 	}
 
 	function openChartEditor()
@@ -3849,16 +3870,20 @@ class PlayState extends MusicBeatState
 		if(ret != FunkinLua.Function_Stop && !transitioning) {
 			if (SONG.validScore)
 			{
-				/*var earnedMoney:Int = 0
+				//getting money after a song ends (random number from x to y based on what song you did)
+				//may get a revamp in the future but for now it's basic
+				var earnedMoney:Int = 0;
 				switch(SONG.song){
-					case 'Storm Safety':
-						earnedMoney = FlxRandom.int(250, 300);
 					case 'Shuriken Fight' | 'Extreme':
-						earnedMoney = FlxRandom.int(200, 250);
-					
+						earnedMoney = FlxG.random.int(200, 250);
+					case 'Storm Safety':
+						earnedMoney = FlxG.random.int(250, 300);
+					default:
+						earnedMoney = FlxG.random.int(100, 150);
 				}
 				money = money + earnedMoney;
-				*/
+				FlxG.save.data.money = money;
+				
 				#if !switch
 				var percent:Float = ratingPercent;
 				if(Math.isNaN(percent)) percent = 0;

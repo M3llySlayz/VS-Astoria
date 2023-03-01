@@ -6,7 +6,7 @@ function onCreate()
 	for i = 0, getProperty('unspawnNotes.length')-1 do
 		--Check if the note is a Shuriken
 		if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'shuriken' then
-			setPropertyFromGroup('unspawnNotes', i, 'missHealth', 0.5); --Change amount of health to take when you miss
+			setPropertyFromGroup('unspawnNotes', i, 'missHealth', 0.3); --Change amount of health to take when you miss
 			if lowQuality then
 				setPropertyFromGroup('unspawnNotes', i, 'texture', 'shurikens/sword_notesLQ');
 			else

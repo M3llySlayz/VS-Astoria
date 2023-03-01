@@ -26,7 +26,9 @@ function opponentNoteHit(id, noteData, noteType, isSustainNote)
 		elseif noteData == 3 then
 			animToPlay = 'playRight';
 		end
-		characterPlayAnim('dad', animToPlay, true);
+		if dadName == 'AM-Red' or dadName == 'AM-Red-New' then
+			characterPlayAnim('dad', animToPlay, true);
+		end
 		health = getProperty('health')
 		if getProperty('health') > 0.1 then
 			setProperty('health', health- 0.030);

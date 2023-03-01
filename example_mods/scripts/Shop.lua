@@ -31,7 +31,7 @@ local TextNum
 function onCreate()
 	initSaveData('vsa', 'Shop')
 	flushSaveData('vsa')
-	MoneyAmount = getDataFromSave('vsa', 'Money') -- Do NOT Remove Money, unless you're changing all the variables.
+	MoneyAmount = money -- Do NOT Remove money, unless you're changing the source code.
 	
 	if songName == 'Shop' then
 		function onStartCountdown()

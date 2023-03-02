@@ -1,5 +1,5 @@
 @dialogue pos="L" portrait="AM-New:happy" nameTag="???" text="Hey, that wasn't horrible!" dbox="Pink" speed="0.05" voclip="talk"
 @playSound src="yeah" tag="yeah" vol="1.0"
 @dialogue pos="R" portrait="newbf:happy" nameTag="Boyfriend.xml" text="Yeah!" dbox="Pink" speed="0.05" voclip="bf"
-@dialogue pos="R" portrait="newbf" nameTag="Boyfriend.xml" text="Beep beep boop ba (A little short, though. You gotta try harder than that!)" dbox-"Pink" speed="0.05" voclip="bf"
+@dialogue pos="R" portrait="newbf" nameTag="Boyfriend.xml" text="Beep beep boop ba (A little short, though. You gotta try harder than that!)" dbox="Pink" speed="0.05" voclip="bf"
 @dialogue pos="L" portrait="AM-New:happy" nameTag="???" text="Sure! I think I'm getting the hang of this." dbox="Pink" speed="0.05" voclip="talk"

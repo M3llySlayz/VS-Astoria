@@ -124,10 +124,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "idle-ALT",
-			"loop": false,
+			"indices": [],
 			"name": "AMRN Play"
 		},
 		{
@@ -135,10 +135,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "playLeft",
-			"loop": false,
+			"indices": [],
 			"name": "AMRN GuitarL"
 		},
 		{
@@ -146,10 +146,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "playDown",
-			"loop": false,
+			"indices": [],
 			"name": "AMRN GuitarD"
 		},
 		{
@@ -157,10 +157,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "playUp",
-			"loop": false,
+			"indices": [],
 			"name": "AMRN GuitarU"
 		},
 		{
@@ -168,18 +168,18 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "playRight",
-			"loop": false,
+			"indices": [],
 			"name": "AMRN GuitarR"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Amazing Man Red New",
 	"position": [
-		-50,
-		610
+		0,
+		820
 	],
 	"healthicon": "AMRedNew",
 	"flip_x": false,

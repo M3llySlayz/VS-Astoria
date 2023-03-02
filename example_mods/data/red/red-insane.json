@@ -6728,6 +6728,136 @@
 				"bpm": 260
 			},
 			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 260,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 260
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 260
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 260
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 260
+			},
+			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 260,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 260
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 260
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 260
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 260,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 260,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 260,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 260,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
 				"gfSection": false,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -6738,7 +6868,233 @@
 				"mustHitSection": true
 			}
 		],
-		"events": [],
+		"events": [
+			[
+				14769.2307692308,
+				[
+					[
+						"Set Cam Zoom",
+						"1.1",
+						"0.7"
+					],
+					[
+						"Cinema Bars",
+						"50",
+						"linear, 0.5"
+					]
+				]
+			],
+			[
+				29538.4615384615,
+				[
+					[
+						"Cinema Bars",
+						"0",
+						"linear, 0.01"
+					],
+					[
+						"Flash Camera",
+						"0.5",
+						""
+					],
+					[
+						"Set Cam Zoom",
+						"0.7",
+						""
+					],
+					[
+						"Toggle FlxTrail",
+						"dad",
+						"off"
+					],
+					[
+						"Toggle FlxTrail",
+						"boyfriend",
+						"off"
+					],
+					[
+						"Change FlxTrail Color",
+						"dad",
+						"FF0000"
+					],
+					[
+						"Change FlxTrail Color",
+						"boyfriend",
+						"00FFFF"
+					],
+					[
+						"Toggle FlxTrail Options",
+						"dad, fly",
+						"on"
+					],
+					[
+						"Toggle FlxTrail Options",
+						"boyfriend, fly",
+						"on"
+					]
+				]
+			],
+			[
+				35076.9230769231,
+				[
+					[
+						"Toggle FlxTrail",
+						"boyfriend",
+						"on"
+					]
+				]
+			],
+			[
+				36000,
+				[
+					[
+						"Toggle FlxTrail",
+						"boyfriend",
+						"off"
+					]
+				]
+			],
+			[
+				36692.3076923077,
+				[
+					[
+						"Toggle FlxTrail",
+						"boyfriend",
+						"on"
+					]
+				]
+			],
+			[
+				40615.3846153846,
+				[
+					[
+						"Toggle FlxTrail",
+						"boyfriend",
+						"off"
+					]
+				]
+			],
+			[
+				42461.5384615384,
+				[
+					[
+						"Toggle FlxTrail",
+						"boyfriend",
+						"on"
+					]
+				]
+			],
+			[
+				43384.6153846154,
+				[
+					[
+						"Toggle FlxTrail",
+						"boyfriend",
+						"off"
+					]
+				]
+			],
+			[
+				44076.9230769231,
+				[
+					[
+						"Toggle FlxTrail",
+						"boyfriend",
+						"on"
+					]
+				]
+			],
+			[
+				44307.6923076923,
+				[
+					[
+						"Toggle FlxTrail",
+						"dad",
+						"on"
+					]
+				]
+			],
+			[
+				58153.8461538461,
+				[
+					[
+						"Toggle FlxTrail",
+						"dad",
+						"on"
+					],
+					[
+						"Cinema Bars",
+						"50",
+						"linear, 0.5"
+					],
+					[
+						"Set Cam Zoom",
+						"1.1",
+						""
+					]
+				]
+			],
+			[
+				62769.2307692307,
+				[
+					[
+						"Set Cam Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				71999.9999999999,
+				[
+					[
+						"Set Cam Zoom",
+						"1.1",
+						""
+					]
+				]
+			],
+			[
+				73846.1538461538,
+				[
+					[
+						"Set Cam Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				75692.3076923076,
+				[
+					[
+						"Set Cam Zoom",
+						"1.3",
+						""
+					]
+				]
+			],
+			[
+				77538.4615384615,
+				[
+					[
+						"Set Cam Zoom",
+						"0.7",
+						""
+					],
+					[
+						"Cinema Bars",
+						"0",
+						"linear, 0.01"
+					],
+					[
+						"Flash Camera",
+						"0.5",
+						""
+					]
+				]
+			]
+		],
 		"player2": "AM-Red-New",
 		"player3": null,
 		"splashSkin": "noteSplashes",

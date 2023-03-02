@@ -1,0 +1,9 @@
+Value 1 - 
+    Which character 'dad', 'gf' or 'boyfriend'?
+    Your options are colorsync, blur and fly.
+
+Value 2: Turn option 'on' or 'off'?
+
+Example -
+    Value 1: "dad, colorsync"
+    Value 2: "on"

@@ -1,0 +1,8 @@
+Value 1: Which character 'dad', 'gf' or 'boyfriend'?
+Value 2: Use hex codes!
+             I will NOT be making a RGB option!
+
+Examples -
+      "00FFFF" and "8000FF" my favorite colors!!
+
+                             -- ImaginationSuperHero52806

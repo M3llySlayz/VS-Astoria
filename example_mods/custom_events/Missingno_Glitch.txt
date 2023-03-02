@@ -1,0 +1,4 @@
+Applies the glitch effect like in Hypno's lullaby v2
+
+value 1 = glitch effect prob
+Recommendation: use numbers between 1 and 0

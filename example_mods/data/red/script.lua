@@ -1,5 +1,5 @@
 local xx = 320;
-local yy = 150;
+local yy = 50;
 local xx2 = 620;
 local yy2 = 550;
 local ofs = 60;

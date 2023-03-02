@@ -1,0 +1,2 @@
+Value 1: Which character 'dad', 'gf' or 'boyfriend'?
+Value 2: Turn trail 'on' or 'off'?

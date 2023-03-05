@@ -1,0 +1,2 @@
+@dialogue pos="L" portrait="AM-New-Red:anger" nameTag="???" text="This fast enough for ya?" dbox="Red" speed="0.05" voclip="talkred"
+@dialogue pos="R" portrait="newbf:oops" nameTag="Boyfriend.xml" text="a" dbox="Red" speed="0.05" voclip="bf"

@@ -15,7 +15,7 @@ function onUpdate()
 end
 
 function onEvent(name,value1,value2)
-    if name == 'Missingno_Glitch' then
+    if name == 'Missingno Glitch' then
         runHaxeCode([[
             shader0.setFloat("prob", ]] .. value1 .. [[);
         ]])

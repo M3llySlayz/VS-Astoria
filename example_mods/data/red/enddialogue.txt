@@ -1,0 +1,3 @@
+@dialogue pos="L" portrait="AM-New-Red:eyebrow" nameTag="???" text="Alright, fine, you won." dbox="Red" speed="0.05" voclip="talkred"
+@dialogue pos="L" portrait="AM-New-Red:bruh" nameTag="???" text="If you could please kindly go away now?" dbox="Red" speed="0.05" voclip="talkred"
+@dialogue pos="R" portrait="newbf" nameTag="Boyfriend.xml" text="bep (Yeah I'm on my way somewhere else anyways)" dbox="Red" speed="0.05" voclip="bf"

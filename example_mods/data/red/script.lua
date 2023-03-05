@@ -92,19 +92,21 @@ end
 function onTimerCompleted(tag, loops, loopsLeft)
 	if tag == 'startDialogue' then -- Timer completed, play dialogue
         if lowQuality then
-            startDialogue('dialogueLQ', '');
-            elseif not lowQuality then
-                startDialogue('dialogue', '')
+		    triggerEvent('startDialogue', 'dialogueLQ', 'dialogueMusic');
+        elseif not lowQuality then
+            triggerEvent('startDialogue', 'dialogue', 'dialogueMusic');
 	    end
     end
 end
--- Dialogue (When a dialogue is finished, it calls startCountdown again)
-function onNextDialogue(count)
-	-- triggered when the next dialogue line starts, 'line' starts with 1
+
+function onEndSong()
+    if isStoryMode and endingSong then
+        if lowQuality then
+		    triggerEvent('startDialogue', 'enddialogueLQ', 'dialogueMusic');
+        elseif not lowQuality then
+            triggerEvent('startDialogue', 'enddialogue', 'dialogueMusic');
+	    end
+        return Function_Stop;
+    end
+    return Function_Continue;
 end
-
-function onSkipDialogue(count)
-	-- triggered when you press Enter and skip a dialogue line that was still being typed, dialogue line starts with 1
-end
-
-

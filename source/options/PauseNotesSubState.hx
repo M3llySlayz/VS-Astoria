@@ -69,7 +69,13 @@ class PauseNotesSubState extends MusicBeatSubstate
 			}
 
 			var note:FlxSprite = new FlxSprite(posX, yPos);
-			note.frames = Paths.getSparrowAtlas('NOTE_assets');
+			if (ClientPrefs.noteSkin == 'Circles'){
+				note.frames = Paths.getSparrowAtlas('Circles');
+			}else if (ClientPrefs.noteSkin == 'Arrows'){
+				note.frames = Paths.getSparrowAtlas('NOTE_assets');
+			}else if (ClientPrefs.noteSkin == 'Weird Arrows'){
+				note.frames = Paths.getSparrowAtlas('Weird_Notes');
+			}
 			var animations:Array<String> = ['purple0', 'blue0', 'green0', 'red0'];
 			note.animation.addByPrefix('idle', animations[i]);
 			note.animation.play('idle');

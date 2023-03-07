@@ -39,7 +39,7 @@ class StrumNote extends FlxSprite
 			if (ClientPrefs.noteSkin == 'Circles'){
 				skin = 'Circles';
 			}else if (ClientPrefs.noteSkin == 'Arrows'){	
-				skin = 'NOTE_assets';
+				skin = 'arrows';
 			}else if (ClientPrefs.noteSkin == 'Weird Arrows'){
 				skin = 'Weird_Arrows';
 			}

@@ -8,6 +8,10 @@
         "param-type-mismatch",
         "discard-returns",
         "deprecated",
-        "redundant-value"
+        "redundant-value",
+        "missing-return",
+        "assign-type-mismatch",
+        "return-type-mismatch",
+        "undefined-doc-name"
     ]
 }

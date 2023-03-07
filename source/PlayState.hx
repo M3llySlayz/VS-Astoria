@@ -2937,16 +2937,16 @@ class PlayState extends MusicBeatState
 		{
 			var ret:Dynamic = callOnLuas('onPause', [], false);
 			if (PlayState.SONG.song == 'Shop'){
-				if (TitleState.astoreckless){
-					FlxG.sound.playMusic(Paths.music('astoreckless'));
-				}else{
-					FlxG.sound.playMusic(Paths.music('freakyMenu'));
-				}
 				if (FlxG.sound.music != null)
 					{
 						FlxG.sound.music.pause();
 						vocals.pause();
 					}
+				if (TitleState.astoreckless){
+					FlxG.sound.playMusic(Paths.music('astoreckless'));
+				}else{
+					FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				}
 				MusicBeatState.switchState(new MainMenuState());
 			}
 			if(ret != FunkinLua.Function_Stop) {
@@ -3883,6 +3883,7 @@ class PlayState extends MusicBeatState
 					default:
 						earnedMoney = FlxG.random.int(100, 150);
 				}
+				if (storyDifficulty == 1) earnedMoney += 100;
 				money = money + earnedMoney;
 				FlxG.save.data.money = money;
 				

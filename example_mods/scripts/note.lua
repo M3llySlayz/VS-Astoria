@@ -1,10 +1,14 @@
 function onUpdate()
-    if boyfriendName == 'bf-pixel' then
-    else
-    if boyfriendName == 'bf-sus' then
-    else
+    --if boyfriendName == 'bf-pixel' then
+    --else
+    --if boyfriendName == 'bf-sus' then
+    --else
       for i=0,4,1 do
-       setPropertyFromGroup('opponentStrums', i, 'texture', 'white')
+        if getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Circles' then
+            setPropertyFromGroup('opponentStrums', i, 'texture', 'White_Circles')
+        elseif getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Arrows' then
+            setPropertyFromGroup('opponentStrums', i, 'texture', 'white')
+        end
              setPropertyFromGroup('opponentStrums', i, 'color', getIconColor('dad'))
     end
     for i = 0, getProperty('unspawnNotes.length')-1 do
@@ -13,18 +17,18 @@ function onUpdate()
 		        setPropertyFromGroup('unspawnNotes', i, 'texture', 'white');
                 else
 		if not getPropertyFromGroup('unspawnNotes', i, 'mustPress') then
-                        setPropertyFromGroup('unspawnNotes', i, 'color', getIconColor('dad'))
-		        setPropertyFromGroup('unspawnNotes', i, 'texture', 'white');
+                    setPropertyFromGroup('unspawnNotes', i, 'color', getIconColor('dad'))
+                        if getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Circles' then
+                            setPropertyFromGroup('unspawnNotes', i, 'texture', 'White_Circles')
+                        elseif getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Arrows' then
+                            setPropertyFromGroup('unspawnNotes', i, 'texture', 'white')
+                        end
                 end
-                end
+            end
         end
     setTextFont('rating', 'In your face, joffrey!.ttf');
     setTextFont('misses', 'In your face, joffrey!.ttf');
     setTextFont('score', 'In your face, joffrey!.ttf');
-end
-
-end
-
 end
 
 function getIconColor(chr)

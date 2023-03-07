@@ -14,6 +14,7 @@ class NoteSplash extends FlxSprite
 		super(x, y);
 
 		var skin:String = 'noteSplashes';
+		if (ClientPrefs.noteSkin == 'Weird Notes') skin = 'weirdNoteSplashes';
 		if(PlayState.SONG.splashSkin != null && PlayState.SONG.splashSkin.length > 0) skin = PlayState.SONG.splashSkin;
 
 		loadAnims(skin);

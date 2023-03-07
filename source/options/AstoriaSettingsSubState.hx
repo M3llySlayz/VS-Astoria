@@ -63,6 +63,14 @@ class AstoriaSettingsSubState extends BaseOptionsMenu
 			['Normal', 'Quick Confirm', 'Fancy Confirm']);
 		addOption(option);
 
+		var option:Option = new Option('Note Skin:',
+			'Which note skin would you like to use?',
+			'noteSkin',
+			'string',
+			'Arrows',
+			['Arrows', 'Circles', 'Weird Arrows']);
+		addOption(option);
+
 		var option:Option = new Option('Pause Song:',
 			"What song do you prefer for the Pause Screen?",
 			'pauseMusic',

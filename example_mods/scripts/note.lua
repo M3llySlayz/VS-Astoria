@@ -3,6 +3,10 @@ local chararrows
 function onCreate()
     if dadName == 'AM' or dadName == 'AM-New' or dadName == 'AM-Newer' then
         chararrows = 'AM'
+    elseif dadName == 'AM-Red' or dadName == 'AM-Red-New' then
+        chararrows = 'AMR'
+    elseif dadName == 'AMM' then
+        chararrows = 'AMM'
     elseif dadName == 'Brittany' or dadName == 'Brittany-New' or dadName == 'Brittany-Newer' then
         chararrows = 'Brit'
     elseif dadName == 'Voltage' or 'Voltage-New' then
@@ -22,7 +26,7 @@ function onUpdate()
       for i=0,4,1 do
         if getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Noteskinned' then
             setPropertyFromGroup('opponentStrums', i, 'texture', 'arrowskins/'..chararrows..'Notes')
-        elseif getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Note Colored' then
+        elseif getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Note Colors' then
             if getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Circles' then
                 setPropertyFromGroup('opponentStrums', i, 'texture', 'White_Circles')
             elseif getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Arrows' then
@@ -37,7 +41,7 @@ function onUpdate()
 		        setPropertyFromGroup('unspawnNotes', i, 'texture', 'white');
                 else
 		if not getPropertyFromGroup('unspawnNotes', i, 'mustPress') then
-            if getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Note Colored' then
+            if getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Note Colors' then
                     setPropertyFromGroup('unspawnNotes', i, 'color', getIconColor('dad'))
                         if getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Circles' then
                             setPropertyFromGroup('unspawnNotes', i, 'texture', 'White_Circles')
@@ -50,9 +54,6 @@ function onUpdate()
             end
         end
     end
-    setTextFont('rating', 'In your face, joffrey!.ttf');
-    setTextFont('misses', 'In your face, joffrey!.ttf');
-    setTextFont('score', 'In your face, joffrey!.ttf');
 end
 
 function getIconColor(chr)

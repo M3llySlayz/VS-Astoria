@@ -75,6 +75,20 @@ class PauseSubState extends MusicBeatSubstate
 
 		FlxG.sound.list.add(pauseMusic);
 
+		/*shoulda seen that comin tbh
+		switch(ClientPrefs.pauseMusic){
+			case 'Waiting' | 'Waiting (Impatient)' | 'Confront':
+				Conductor.changeBPM(240);
+			case 'Bounce':
+				Conductor.changeBPM(170);
+			case 'Adventure':
+				Conductor.changeBPM(124);
+			case 'Construct':
+				Conductor.changeBPM(206);
+			case 'Loop':
+				Conductor.changeBPM(100);
+		}*/
+
 		var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
 		bg.alpha = 0;
 		bg.scrollFactor.set();
@@ -164,7 +178,7 @@ class PauseSubState extends MusicBeatSubstate
 		levelDifficulty.x = FlxG.width - (levelDifficulty.width + 20);
 		blueballedTxt.x = FlxG.width - (blueballedTxt.width + 20);
 
-		FlxTween.tween(titlestatebg, {alpha: 0.5}, 1, {ease: FlxEase.linear});
+		FlxTween.tween(titlestatebg, {alpha: 0.5}, 0.4, {ease: FlxEase.linear});
 		FlxTween.tween(strip, {x: -300}, 0.4, {ease: FlxEase.quartInOut});
 		FlxTween.tween(strip2, {x: -375}, 0.4, {ease: FlxEase.quartInOut});
 		FlxTween.tween(guy, {x: FlxG.width - (guy.width + 20), y: FlxG.height - (guy.height - 75)}, 0.4, {ease: FlxEase.quartInOut});
@@ -479,4 +493,9 @@ class PauseSubState extends MusicBeatSubstate
 	{
 		skipTimeText.text = FlxStringUtil.formatTime(Math.max(0, Math.floor(curTime / 1000)), false) + ' / ' + FlxStringUtil.formatTime(Math.max(0, Math.floor(FlxG.sound.music.length / 1000)), false);
 	}
+	override function beatHit() {
+		super.beatHit();
+		
+		guy.animation.play('idle', true);
+	} 
 }

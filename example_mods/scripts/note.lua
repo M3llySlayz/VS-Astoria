@@ -1,10 +1,10 @@
 local chararrows
 
 function onCreate()
-    if dadName == 'AM' or dadName == 'AM-New' or dadName == 'AM-Newer' then
+    if dadName == 'AM' or dadName == 'AM-New' or dadName == 'AM-Newer' or dadName == 'AM-Red' or dadName == 'AM-Red-New' then
         chararrows = 'AM'
-    elseif dadName == 'AM-Red' or dadName == 'AM-Red-New' then
-        chararrows = 'AMR'
+    --[[elseif dadName == 'AM-Red' or dadName == 'AM-Red-New' then
+        chararrows = 'AMR']]
     elseif dadName == 'AMM' then
         chararrows = 'AMM'
     elseif dadName == 'Brittany' or dadName == 'Brittany-New' or dadName == 'Brittany-Newer' then
@@ -50,6 +50,9 @@ function onUpdate()
                         end
                     elseif getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Noteskinned' then
                         setPropertyFromGroup('unspawnNotes', i, 'texture', 'arrowskins/'..chararrows..'Notes')
+                        if dadName == 'AM-Red' or dadName == 'AM-Red-New' then
+                            setPropertyFromGroup('unspawnNotes', i, 'color', getIconColor('dad'))
+                        end
                     end
             end
         end

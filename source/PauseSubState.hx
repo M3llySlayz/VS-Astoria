@@ -32,7 +32,7 @@ class PauseSubState extends MusicBeatSubstate
 	var skipTimeTracker:Alphabet;
 	var curTime:Float = Math.max(0, Conductor.songPosition);
 	//var botplayText:FlxText;
-
+	private var guy = new Character(2000, 700, PlayState.SONG.player2, true);
 	public static var songName:String = '';
 
 	public function new(x:Float, y:Float)
@@ -78,6 +78,33 @@ class PauseSubState extends MusicBeatSubstate
 		bg.alpha = 0;
 		bg.scrollFactor.set();
 		add(bg);
+
+		var strip:FlxSprite = new FlxSprite(-666).loadGraphic(Paths.image('pauseScreenStrip'));
+		strip.scrollFactor.set();
+		add(strip);
+
+		var strip2:FlxSprite = new FlxSprite(-666).loadGraphic(Paths.image('pauseScreenStripWhite'));
+		strip2.scrollFactor.set();
+
+		//sets the color of the strip based on opponent character
+		switch (PlayState.SONG.player2){
+		case 'AM' | 'AM-New' | 'AM-Newer' | 'AM-New-Rasis' | 'AM-Head' | 'AMM':
+			strip2.color = 0xFFFF00FF;
+		case 'AM-Red' | 'AM-Red-New':
+			strip2.color = 0xFFFF0000;
+		case 'Brittany' | 'Brittany-New' | 'Brittany-Newer':
+			strip2.color = 0xFF452E00;
+		case 'Voltage' | 'Voltage-New':
+			strip2.color = 0xFF00FFFF;
+		case 'SG' | 'SG-New' | 'SG-Newer':
+			strip2.color = 0xFF808080;
+		default:
+			strip2.color = 0xFF025802;
+		}
+
+		add(strip2);
+
+		add(guy);
 
 		var levelInfo:FlxText = new FlxText(20, 15, 0, "", 32);
 		levelInfo.text += PlayState.SONG.song;
@@ -125,6 +152,9 @@ class PauseSubState extends MusicBeatSubstate
 		levelDifficulty.x = FlxG.width - (levelDifficulty.width + 20);
 		blueballedTxt.x = FlxG.width - (blueballedTxt.width + 20);
 
+		FlxTween.tween(strip, {x: -300}, 0.4, {ease: FlxEase.quartInOut});
+		FlxTween.tween(strip2, {x: -400}, 0.4, {ease: FlxEase.quartInOut});
+		FlxTween.tween(guy, {x: FlxG.width - (guy.width + 20), y: FlxG.height - (guy.height - 75)}, 0.4, {ease: FlxEase.quartInOut});
 		FlxTween.tween(bg, {alpha: 0.6}, 0.4, {ease: FlxEase.quartInOut});
 		FlxTween.tween(levelInfo, {alpha: 1, y: 20}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.3});
 		FlxTween.tween(levelDifficulty, {alpha: 1, y: levelDifficulty.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.5});
@@ -143,8 +173,8 @@ class PauseSubState extends MusicBeatSubstate
 	{
 
 		cantUnpause -= elapsed;
-		if (pauseMusic.volume < 0.8)
-			pauseMusic.volume += 0.01 * elapsed;
+		if (pauseMusic.volume < 1)
+			pauseMusic.volume += 0.05 * elapsed;
 
 		super.update(elapsed);
 		updateSkipTextStuff();
@@ -270,6 +300,7 @@ class PauseSubState extends MusicBeatSubstate
 					PlayState.instance.botplaySine = 0;
 				case "Modifiers":
 					menuItems = restartItems;
+					guy.alpha = 0;
 					regenMenu();
 					openSubState(new GameplayChangersSubstate());
 				case "Quit":
@@ -359,7 +390,7 @@ class PauseSubState extends MusicBeatSubstate
 		curSelected += change;
 
 		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
-
+		if (guy.alpha == 0) guy.alpha = 1;
 		if (curSelected < 0)
 			curSelected = menuItems.length - 1;
 		if (curSelected >= menuItems.length)

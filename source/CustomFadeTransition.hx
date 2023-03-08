@@ -41,7 +41,7 @@ class CustomFadeTransition extends MusicBeatSubstate {
 					transGradient = FlxGradient.createGradientFlxSprite(width, height, (isTransIn ? [0x0, FlxColor.RED] : [FlxColor.BLACK, 0x0]));
 					transGradient.scrollFactor.set();
 					add(transGradient);
-				case 'Brittany' | 'Brittany-New':
+				case 'Brittany' | 'Brittany-New' | 'Brittany-Newer':
 					transGradient = FlxGradient.createGradientFlxSprite(width, height, (isTransIn ? [0x0, FlxColor.BROWN] : [FlxColor.BLACK, 0x0]));
 					transGradient.scrollFactor.set();
 					add(transGradient);

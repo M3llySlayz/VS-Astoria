@@ -38,6 +38,7 @@ class ClientPrefs {
 	public static var quitMethod:String = 'Quick Confirm';
 	public static var mainSong:String = 'Astoreckless';
 	public static var gameOverSong:String = 'A Taken L';
+	public static var opponentArrows:String = 'Noteskinned';
 	public static var noteSkin:String = 'Arrows';
 	public static var gameplaySettings:Map<String, Dynamic> = [
 		'scrollspeed' => 1.0,
@@ -141,6 +142,7 @@ class ClientPrefs {
 		FlxG.save.data.shopMusic = shopMusic;
 		FlxG.save.data.mainSong = mainSong;
 		FlxG.save.data.gameOverSong = gameOverSong;
+		FlxG.save.data.opponentArrows = opponentArrows;
 		FlxG.save.data.noteSkin = noteSkin;
 	
 		FlxG.save.flush();
@@ -295,6 +297,10 @@ class ClientPrefs {
 		if (FlxG.save.data.gameOverSong != null)
 		{
 			gameOverSong = FlxG.save.data.gameOverSong;
+		}
+		if (FlxG.save.data.opponentArrows != null)
+		{
+			opponentArrows = FlxG.save.data.opponentArrows;
 		}
 		if (FlxG.save.data.noteSkin != null)
 		{

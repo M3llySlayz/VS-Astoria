@@ -1,15 +1,35 @@
+local chararrows
+
+function onCreate()
+    if dadName == 'AM' or dadName == 'AM-New' or dadName == 'AM-Newer' then
+        chararrows = 'AM'
+    elseif dadName == 'Brittany' or dadName == 'Brittany-New' or dadName == 'Brittany-Newer' then
+        chararrows = 'Brit'
+    elseif dadName == 'Voltage' or 'Voltage-New' then
+        chararrows = 'Volt'
+    elseif dadName == 'Donut-Man' or 'Donut-Man-New' then
+        chararrows = 'Donut'
+    elseif dadName == 'SG' or dadName == 'SG-New' or dadName == 'SG-Newer' then
+        chararrows = 'SG'
+    end
+end
+
 function onUpdate()
     --if boyfriendName == 'bf-pixel' then
     --else
     --if boyfriendName == 'bf-sus' then
     --else
       for i=0,4,1 do
-        if getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Circles' then
-            setPropertyFromGroup('opponentStrums', i, 'texture', 'White_Circles')
-        elseif getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Arrows' then
-            setPropertyFromGroup('opponentStrums', i, 'texture', 'white')
+        if getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Noteskinned' then
+            setPropertyFromGroup('opponentStrums', i, 'texture', 'arrowskins/'..chararrows..'Notes')
+        elseif getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Note Colored' then
+            if getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Circles' then
+                setPropertyFromGroup('opponentStrums', i, 'texture', 'White_Circles')
+            elseif getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Arrows' then
+                setPropertyFromGroup('opponentStrums', i, 'texture', 'white')
+            end
+            setPropertyFromGroup('opponentStrums', i, 'color', getIconColor('dad'))
         end
-             setPropertyFromGroup('opponentStrums', i, 'color', getIconColor('dad'))
     end
     for i = 0, getProperty('unspawnNotes.length')-1 do
                 if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'GF Sing' then
@@ -17,15 +37,19 @@ function onUpdate()
 		        setPropertyFromGroup('unspawnNotes', i, 'texture', 'white');
                 else
 		if not getPropertyFromGroup('unspawnNotes', i, 'mustPress') then
+            if getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Note Colored' then
                     setPropertyFromGroup('unspawnNotes', i, 'color', getIconColor('dad'))
                         if getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Circles' then
                             setPropertyFromGroup('unspawnNotes', i, 'texture', 'White_Circles')
                         elseif getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Arrows' then
                             setPropertyFromGroup('unspawnNotes', i, 'texture', 'white')
                         end
-                end
+                    elseif getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Noteskinned' then
+                        setPropertyFromGroup('unspawnNotes', i, 'texture', 'arrowskins/'..chararrows..'Notes')
+                    end
             end
         end
+    end
     setTextFont('rating', 'In your face, joffrey!.ttf');
     setTextFont('misses', 'In your face, joffrey!.ttf');
     setTextFont('score', 'In your face, joffrey!.ttf');

@@ -63,6 +63,14 @@ class AstoriaSettingsSubState extends BaseOptionsMenu
 			['Normal', 'Quick Confirm', 'Fancy Confirm']);
 		addOption(option);
 
+		var option:Option = new Option('Opponent Arrows:',
+		'Noteskinned is specific skins per character\nNote Colored is recolored Note Skins\nDefault is uncolored Note Skin (boring)',
+		'opponentArrows',
+		'string',
+		'Noteskinned',
+		['Noteskinned', 'Note Colors', 'Default']);
+	addOption(option);
+
 		var option:Option = new Option('Note Skin:',
 			'Which note skin would you like to use?',
 			'noteSkin',

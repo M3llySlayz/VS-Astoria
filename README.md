@@ -1,5 +1,6 @@
 # VS Astoria
 It's cool.
+Join our [Discord](https://discord.gg/EGg723BX) for news.
 
 ## Credits to: 
 - Me lol![image](https://user-images.githubusercontent.com/78555659/217984059-e72b4903-8fdd-4205-bcf3-a53c96c26c70.png)

@@ -14,6 +14,7 @@ import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.FlxCamera;
 import flixel.util.FlxStringUtil;
+import flixel.addons.display.FlxBackdrop;
 
 class PauseSubState extends MusicBeatSubstate
 {
@@ -78,6 +79,17 @@ class PauseSubState extends MusicBeatSubstate
 		bg.alpha = 0;
 		bg.scrollFactor.set();
 		add(bg);
+
+		var swagShader:ColorSwap = null;
+		var titlestatebg:FlxBackdrop;
+		swagShader = new ColorSwap();
+		titlestatebg = new FlxBackdrop(Paths.image('loading'), 0.2, 0, true, true);
+		titlestatebg.velocity.set(200, 110);
+		titlestatebg.updateHitbox();
+		titlestatebg.alpha = 0;
+		titlestatebg.screenCenter(X);
+		add(titlestatebg);
+		titlestatebg.shader = swagShader.shader;
 
 		var strip:FlxSprite = new FlxSprite(-666).loadGraphic(Paths.image('pauseScreenStrip'));
 		strip.scrollFactor.set();
@@ -152,8 +164,9 @@ class PauseSubState extends MusicBeatSubstate
 		levelDifficulty.x = FlxG.width - (levelDifficulty.width + 20);
 		blueballedTxt.x = FlxG.width - (blueballedTxt.width + 20);
 
+		FlxTween.tween(titlestatebg, {alpha: 0.5}, 1, {ease: FlxEase.linear});
 		FlxTween.tween(strip, {x: -300}, 0.4, {ease: FlxEase.quartInOut});
-		FlxTween.tween(strip2, {x: -350}, 0.4, {ease: FlxEase.quartInOut});
+		FlxTween.tween(strip2, {x: -375}, 0.4, {ease: FlxEase.quartInOut});
 		FlxTween.tween(guy, {x: FlxG.width - (guy.width + 20), y: FlxG.height - (guy.height - 75)}, 0.4, {ease: FlxEase.quartInOut});
 		FlxTween.tween(bg, {alpha: 0.6}, 0.4, {ease: FlxEase.quartInOut});
 		FlxTween.tween(levelInfo, {alpha: 1, y: 20}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.3});

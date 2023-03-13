@@ -38,7 +38,7 @@ class ClientPrefs {
 	public static var quitMethod:String = 'Quick Confirm';
 	public static var mainSong:String = 'Astoreckless';
 	public static var gameOverSong:String = 'A Taken L';
-	public static var opponentArrows:String = 'Noteskinned';
+	public static var opponentArrows:String = 'Note Colors';
 	public static var noteSkin:String = 'Arrows';
 	public static var gameplaySettings:Map<String, Dynamic> = [
 		'scrollspeed' => 1.0,

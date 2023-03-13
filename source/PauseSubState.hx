@@ -21,11 +21,11 @@ class PauseSubState extends MusicBeatSubstate
 	var grpMenuShit:FlxTypedGroup<Alphabet>;
 
 	var menuItems:Array<String> = [];
-	var menuItemsOG:Array<String> = ['Continue', 'Retry', 'Options', 'Change Difficulty', 'Modifiers','Quit'];
+	var menuItemsOG:Array<String> = ['Continue', 'Retry', 'Options', 'Modifiers'];
 	var difficultyChoices = [];
 	var curSelected:Int = 0;
 	var quitting:Array<String> = ['Yes', 'No'];
-	var restartItems:Array<String> = ['Retry', 'Options', 'Change Difficulty', 'Modifiers', 'Quit'];
+	var restartItems:Array<String> = ['Retry', 'Options', 'Modifiers'];
 
 	var pauseMusic:FlxSound;
 	var practiceText:FlxText;
@@ -114,7 +114,7 @@ class PauseSubState extends MusicBeatSubstate
 
 		//sets the color of the strip based on opponent character
 		switch (PlayState.SONG.player2){
-		case 'AM' | 'AM-New' | 'AM-Newer' | 'AM-New-Rasis' | 'AM-Head' | 'AMM':
+		case 'AM' | 'AM-New' | 'AM-Newer' | 'AM-New-Rasis' | 'AM-Head' | 'AMM' | 'AMM-Newer':
 			strip2.color = 0xFFFF00FF;
 		case 'AM-Red' | 'AM-Red-New':
 			strip2.color = 0xFFFF0000;

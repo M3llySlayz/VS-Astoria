@@ -3270,6 +3270,7 @@ class PlayState extends MusicBeatState
 
 	function openChartEditor()
 	{
+		#if !FOOLS
 		persistentUpdate = false;
 		paused = true;
 		cancelMusicFadeTween();
@@ -3278,6 +3279,7 @@ class PlayState extends MusicBeatState
 
 		#if desktop
 		DiscordClient.changePresence("Chart Editor", null, null, true);
+		#end
 		#end
 	}
 

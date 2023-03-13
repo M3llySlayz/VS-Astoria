@@ -98,7 +98,7 @@ class PauseAstoriaSettingsSubState extends BaseOptionsMenu
 		addOption(option);
 		*/
 
-		option.onChange = onChangeShopMusic;
+		//option.onChange = onChangeShopMusic;
 
 		var option:Option = new Option('Game Over Song:',
 		"What song do you prefer for the Game Over?",

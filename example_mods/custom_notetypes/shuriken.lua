@@ -1,6 +1,6 @@
 function onCreate()
 	--Poggers
-	if songName ~= 'Shuriken Fight' then
+	if songName == 'Shuriken Fight' or songName == 'Knockout' then
 		precacheSound('slice');
 	end
 	for i = 0, getProperty('unspawnNotes.length')-1 do

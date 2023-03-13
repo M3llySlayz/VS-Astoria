@@ -60,6 +60,7 @@ import StageData;
 import FunkinLua;
 import DialogueBoxPsych;
 import Conductor.Rating;
+import flash.system.System;
 #if sys
 import sys.FileSystem;
 #end
@@ -123,7 +124,7 @@ class PlayState extends MusicBeatState
 	public var boyfriendGroup:FlxSpriteGroup;
 	public var dadGroup:FlxSpriteGroup;
 	public var gfGroup:FlxSpriteGroup;
-	public static var curStage:String = '';
+	public static var curStage:String = 'white';
 	public static var isPixelStage:Bool = false;
 	public static var SONG:SwagSong = null;
 	public static var isStoryMode:Bool = false;
@@ -302,9 +303,6 @@ class PlayState extends MusicBeatState
 	// Less laggy controls
 	private var keysArray:Array<Dynamic>;
 
-	//dat cashflow
-	public static var money:Int = 0;
-
 	var precacheList:Map<String, String> = new Map<String, String>();
 
 	override public function create()
@@ -324,10 +322,6 @@ class PlayState extends MusicBeatState
 			ClientPrefs.copyKey(ClientPrefs.keyBinds.get('note_up')),
 			ClientPrefs.copyKey(ClientPrefs.keyBinds.get('note_right'))
 		];
-
-		if (FlxG.save.data.money != null){
-			money = FlxG.save.data.money;
-		}
 
 		//Ratings
 		ratingsData.push(new Rating('sick')); //default rating
@@ -3872,27 +3866,16 @@ class PlayState extends MusicBeatState
 		if(ret != FunkinLua.Function_Stop && !transitioning) {
 			if (SONG.validScore)
 			{
-				//getting money after a song ends (random number from x to y based on what song you did)
-				//may get a revamp in the future but for now it's basic
-				var earnedMoney:Int = 0;
-				switch(SONG.song){
-					case 'Shuriken Fight' | 'Extreme':
-						earnedMoney = FlxG.random.int(200, 250);
-					case 'Storm Safety':
-						earnedMoney = FlxG.random.int(250, 300);
-					default:
-						earnedMoney = FlxG.random.int(100, 150);
-				}
-				if (storyDifficulty == 1) earnedMoney += 100;
-				money = money + earnedMoney;
-				FlxG.save.data.money = money;
 				
 				#if !switch
 				var percent:Float = ratingPercent;
 				if(Math.isNaN(percent)) percent = 0;
 				Highscore.saveScore(SONG.song, songScore, storyDifficulty, percent);
 				#end
-				
+
+				#if DEMO
+				System.exit(0);
+				#end
 			}
 
 			if (chartingMode)

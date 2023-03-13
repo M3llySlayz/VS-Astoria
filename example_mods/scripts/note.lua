@@ -26,27 +26,32 @@ function onUpdate()
       for i=0,4,1 do
         if getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Noteskinned' then
             setPropertyFromGroup('opponentStrums', i, 'texture', 'arrowskins/'..chararrows..'Notes')
+            if dadName == 'AM-Red' or dadName == 'AM-Red-New' then
+                setPropertyFromGroup('opponentStrums', i, 'color', getIconColor('dad'))
+            end
         elseif getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Note Colors' then
             if getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Circles' then
-                setPropertyFromGroup('opponentStrums', i, 'texture', 'White_Circles')
+                setPropertyFromGroup('opponentStrums', i, 'texture', 'arrowskins/White_Circles')
             elseif getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Arrows' then
-                setPropertyFromGroup('opponentStrums', i, 'texture', 'white')
+                setPropertyFromGroup('opponentStrums', i, 'texture', 'arrowskins/white')
             end
             setPropertyFromGroup('opponentStrums', i, 'color', getIconColor('dad'))
         end
     end
     for i = 0, getProperty('unspawnNotes.length')-1 do
-                if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'GF Sing' then
+        if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'shuriken' or getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Star Note' then
+            --do nothing please
+            elseif getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'GF Sing' then
                         setPropertyFromGroup('unspawnNotes', i, 'color', getIconColor('gf'))
-		        setPropertyFromGroup('unspawnNotes', i, 'texture', 'white');
+		        setPropertyFromGroup('unspawnNotes', i, 'texture', 'arrowskins/white');
                 else
 		if not getPropertyFromGroup('unspawnNotes', i, 'mustPress') then
             if getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Note Colors' then
                     setPropertyFromGroup('unspawnNotes', i, 'color', getIconColor('dad'))
                         if getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Circles' then
-                            setPropertyFromGroup('unspawnNotes', i, 'texture', 'White_Circles')
+                            setPropertyFromGroup('unspawnNotes', i, 'texture', 'arrowskins/White_Circles')
                         elseif getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Arrows' then
-                            setPropertyFromGroup('unspawnNotes', i, 'texture', 'white')
+                            setPropertyFromGroup('unspawnNotes', i, 'texture', 'arrowskins/white')
                         end
                     elseif getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Noteskinned' then
                         setPropertyFromGroup('unspawnNotes', i, 'texture', 'arrowskins/'..chararrows..'Notes')

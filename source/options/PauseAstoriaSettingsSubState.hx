@@ -64,11 +64,11 @@ class PauseAstoriaSettingsSubState extends BaseOptionsMenu
 		addOption(option);
 
 		var option:Option = new Option('Opponent Arrows:',
-		'Noteskinned is specific skins per character\nNote Colored is recolored Note Skins\nDefault is uncolored Note Skin (boring)',
+		'Note Colored is recolored Note Skins\nDefault is uncolored Note Skin (boring)',
 		'opponentArrows',
 		'string',
-		'Noteskinned',
-		['Noteskinned', 'Note Colors', 'Default']);
+		'Note Colors',
+		['Note Colors', 'Default']);
 	addOption(option);
 
 		var option:Option = new Option('Note Skin:',
@@ -76,7 +76,7 @@ class PauseAstoriaSettingsSubState extends BaseOptionsMenu
 			'noteSkin',
 			'string',
 			'Arrows',
-			['Arrows', 'Circles', 'Weird Arrows']);
+			['Arrows', 'Circles']);
 		addOption(option);
 
 		var option:Option = new Option('Pause Song:',
@@ -89,13 +89,14 @@ class PauseAstoriaSettingsSubState extends BaseOptionsMenu
 
 		option.onChange = onChangePauseMusic;
 
-		var option:Option = new Option('Shop Song:',
+		/*var option:Option = new Option('Shop Song:',
 		"What song do you prefer for the Shop?",
 		'shopMusic',
 		'string',
 		'Nostalgia',
 		['None', 'Nostalgia', 'Guest', 'Loop']);
 		addOption(option);
+		*/
 
 		option.onChange = onChangeShopMusic;
 

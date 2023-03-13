@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="Volt New Dia Box.png"><SubTexture name="box idle0000" x="0" y="95" width="301" height="94" frameX="-2" frameY="-2" frameWidth="309" frameHeight="97" />
-<SubTexture name="box idle0001" x="0" y="0" width="307" height="95" frameX="0" frameY="-2" frameWidth="309" frameHeight="97" />
-<SubTexture name="box open0000" x="171" y="189" width="57" height="61" frameX="-123" frameY="-20" frameWidth="309" frameHeight="97" />
-<SubTexture name="box open0001" x="97" y="189" width="74" height="72" frameX="-118" frameY="-18" frameWidth="309" frameHeight="97" />
-<SubTexture name="box open0002" x="0" y="189" width="97" height="76" frameX="-108" frameY="-14" frameWidth="309" frameHeight="97" />
-<SubTexture name="box open0003" x="307" y="0" width="247" height="56" frameX="-38" frameY="-23" frameWidth="309" frameHeight="97" />
-<SubTexture name="box open0004" x="0" y="95" width="301" height="94" frameX="-2" frameY="-2" frameWidth="309" frameHeight="97" />
-</TextureAtlas>

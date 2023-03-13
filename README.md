@@ -1,5 +1,6 @@
-# VS Astoria
+# VS Astoria Demo
 It's cool.
+
 Join our [Discord](https://discord.gg/EGg723BX) for news.
 
 ## Credits to: 

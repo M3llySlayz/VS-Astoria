@@ -188,7 +188,7 @@ class TitleState extends MusicBeatState
 		}
 
 		FlxG.mouse.visible = false;
-		#if DEMO
+		#if FOOLS
 		PlayState.SONG = Song.loadFromJson('amazing-meme-hard', 'amazing-meme');
 		LoadingState.loadAndSwitchState(new PlayState());
 		#elseif FREEPLAY

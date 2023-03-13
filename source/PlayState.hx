@@ -3873,7 +3873,7 @@ class PlayState extends MusicBeatState
 				Highscore.saveScore(SONG.song, songScore, storyDifficulty, percent);
 				#end
 
-				#if DEMO
+				#if FOOLS
 				System.exit(0);
 				#end
 			}

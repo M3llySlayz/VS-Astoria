@@ -12,6 +12,8 @@
         "missing-return",
         "assign-type-mismatch",
         "return-type-mismatch",
-        "undefined-doc-name"
+        "undefined-doc-name",
+        "invisible",
+        "undefined-field"
     ]
 }

@@ -26,6 +26,9 @@ function onUpdate()
       for i=0,4,1 do
         if getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Noteskinned' then
             setPropertyFromGroup('opponentStrums', i, 'texture', 'arrowskins/'..chararrows..'Notes')
+            if dadName == 'AM-Red' or dadName == 'AM-Red-New' then
+                setPropertyFromGroup('opponentStrums', i, 'color', getIconColor('dad'))
+            end
         elseif getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Note Colors' then
             if getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Circles' then
                 setPropertyFromGroup('opponentStrums', i, 'texture', 'White_Circles')

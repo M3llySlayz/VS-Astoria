@@ -1,5 +1,6 @@
 package;
 
+import flixel.util.FlxGradient;
 import Controls.Control;
 import flixel.FlxG;
 import flixel.FlxSprite;
@@ -15,6 +16,8 @@ import flixel.util.FlxColor;
 import flixel.FlxCamera;
 import flixel.util.FlxStringUtil;
 import flixel.addons.display.FlxBackdrop;
+import flixel.util.FlxGradient;
+import FloatToInt;
 
 class PauseSubState extends MusicBeatSubstate
 {
@@ -111,11 +114,13 @@ class PauseSubState extends MusicBeatSubstate
 
 		var strip2:FlxSprite = new FlxSprite(-666).loadGraphic(Paths.image('pauseScreenStripWhite'));
 		strip2.scrollFactor.set();
+		
 
 		//sets the color of the strip based on opponent character
 		switch (PlayState.SONG.player2){
 		case 'AM' | 'AM-New' | 'AM-Newer' | 'AM-New-Rasis' | 'AM-Head' | 'AMM':
 			strip2.color = 0xFFFF00FF;
+			//FlxGradient.overlayGradientOnFlxSprite(strip2, strip2.width, strip2.height, [0xFFB108B1, 0xFFFF00FF], 0, 0, 0, 180, true);
 		case 'AM-Red' | 'AM-Red-New':
 			strip2.color = 0xFFFF0000;
 		case 'Brittany' | 'Brittany-New' | 'Brittany-Newer':
@@ -131,6 +136,45 @@ class PauseSubState extends MusicBeatSubstate
 		add(strip2);
 
 		add(guy);
+
+		var songText:FlxText = new FlxText(20, 640, 0, "", 32);
+		songText.text += 'Now Playing: ' + ClientPrefs.pauseMusic;
+		songText.scrollFactor.set();
+		songText.setFormat(Paths.font("vcr.ttf"), 32);
+		songText.updateHitbox();
+		add(songText);
+
+		var composer:String = '';
+		var composerColor:Array<Int> = [0xFFFFFFFF, 0xFF000000];
+
+		switch(ClientPrefs.pauseMusic){
+			case 'Bossfight' | 'Construct' | 'Confront' | 'Waiting (Impatient)':
+				composer = 'Melly and BoyBot69';
+				composerColor = [0xFFFF0000, 0xFF026902];
+			case 'Adventure' | 'Bounce':
+				composer = 'Melly';
+				composerColor = [0xFFFF0000, 0xFFBD0000];
+			case 'Waiting':
+				composer = 'BoyBot69';
+				composerColor = [0xFF3DD700, 0xFF026902];
+		}
+
+		var authorText:FlxText = new FlxText(20, 640+32, 0, "", 32);
+		authorText.text += 'By ' + composer;
+		authorText.scrollFactor.set();
+		authorText.setFormat(Paths.font("vcr.ttf"), 32);
+		authorText.drawFrame();
+		authorText.updateHitbox();
+		//authorText.color = composerColor;
+
+		//var gradientText = new FlxSprite();
+		//var gradient = FlxGradient.createGradientFlxSprite(authorText.frameWidth, authorText.frameHeight, composerColor);
+		//gradientText.alphaMask(gradient.framePixels, authorText.framePixels);
+		add(authorText);
+		//add(gradientText);
+
+		//but what is composer and composerColor you ask?
+		
 
 		var levelInfo:FlxText = new FlxText(20, 15, 0, "", 32);
 		levelInfo.text += PlayState.SONG.song;
@@ -173,10 +217,14 @@ class PauseSubState extends MusicBeatSubstate
 		blueballedTxt.alpha = 0;
 		levelDifficulty.alpha = 0;
 		levelInfo.alpha = 0;
+		songText.alpha = 0;
+		authorText.alpha = 0;
 
 		levelInfo.x = FlxG.width - (levelInfo.width + 20);
 		levelDifficulty.x = FlxG.width - (levelDifficulty.width + 20);
 		blueballedTxt.x = FlxG.width - (blueballedTxt.width + 20);
+		songText.x = FlxG.width - (songText.width + 20);
+		authorText.x = FlxG.width - (authorText.width + 20);
 
 		FlxTween.tween(titlestatebg, {alpha: 0.5}, 0.4, {ease: FlxEase.linear});
 		FlxTween.tween(strip, {x: -300}, 0.4, {ease: FlxEase.quartInOut});
@@ -186,6 +234,10 @@ class PauseSubState extends MusicBeatSubstate
 		FlxTween.tween(levelInfo, {alpha: 1, y: 20}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.3});
 		FlxTween.tween(levelDifficulty, {alpha: 1, y: levelDifficulty.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.5});
 		FlxTween.tween(blueballedTxt, {alpha: 1, y: blueballedTxt.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.7});
+		if (ClientPrefs.pauseMusic != 'None'){
+			FlxTween.tween(songText, {alpha: 1, y: songText.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.9});
+			FlxTween.tween(authorText, {alpha: 1, y: authorText.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 1.1});
+		}
 
 		grpMenuShit = new FlxTypedGroup<Alphabet>();
 		add(grpMenuShit);

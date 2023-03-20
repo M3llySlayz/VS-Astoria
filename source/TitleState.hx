@@ -56,6 +56,7 @@ class TitleState extends MusicBeatState
 	public static var muteKeys:Array<FlxKey> = [FlxKey.ZERO];
 	public static var volumeDownKeys:Array<FlxKey> = [FlxKey.NUMPADMINUS, FlxKey.MINUS];
 	public static var volumeUpKeys:Array<FlxKey> = [FlxKey.NUMPADPLUS, FlxKey.PLUS];
+	//this one variable controls literally all the main menu music, don't mess with it
 	public static var astoreckless:Bool = true;
 
 	public static var initialized:Bool = false;
@@ -702,12 +703,11 @@ class TitleState extends MusicBeatState
 				case 24:
 					if (astoreckless){
 						deleteCoolText();
-						curWacky = FlxG.random.getObject(getIntroTextShit());
-						createCoolText([curWacky[0]]);
+						createCoolText(['THIS IS A DEMO']);
 					}
 				case 26:
 					if (astoreckless){
-						addMoreText(curWacky[1]);
+						addMoreText("DON'T HURT US");
 					}
 				case 28:
 					deleteCoolText();

@@ -39,7 +39,7 @@ class ClientPrefs {
 	public static var mainSong:String = 'Astoreckless';
 	public static var gameOverSong:String = 'A Taken L';
 	public static var opponentArrows:String = 'Noteskinned';
-	public static var noteSkin:String = 'Arrows';
+	public static var noteSkin:String = 'Circles';
 	public static var gameplaySettings:Map<String, Dynamic> = [
 		'scrollspeed' => 1.0,
 		'scrolltype' => 'multiplicative', 

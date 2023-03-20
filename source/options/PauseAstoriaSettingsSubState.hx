@@ -70,7 +70,7 @@ class PauseAstoriaSettingsSubState extends BaseOptionsMenu
 		'Noteskinned',
 		['Noteskinned', 'Note Colors', 'Default']);
 	addOption(option);
-
+/*
 		var option:Option = new Option('Note Skin:',
 			'Which note skin would you like to use?',
 			'noteSkin',
@@ -78,7 +78,7 @@ class PauseAstoriaSettingsSubState extends BaseOptionsMenu
 			'Arrows',
 			['Arrows', 'Circles', 'Weird Arrows']);
 		addOption(option);
-
+*/
 		var option:Option = new Option('Pause Song:',
 			"What song do you prefer for the Pause Screen?",
 			'pauseMusic',
@@ -88,7 +88,7 @@ class PauseAstoriaSettingsSubState extends BaseOptionsMenu
 		addOption(option);
 
 		option.onChange = onChangePauseMusic;
-
+/*
 		var option:Option = new Option('Shop Song:',
 		"What song do you prefer for the Shop?",
 		'shopMusic',
@@ -98,7 +98,7 @@ class PauseAstoriaSettingsSubState extends BaseOptionsMenu
 		addOption(option);
 
 		option.onChange = onChangeShopMusic;
-
+*/
 		var option:Option = new Option('Game Over Song:',
 		"What song do you prefer for the Game Over?",
 		'gameOverSong',
@@ -132,7 +132,7 @@ class PauseAstoriaSettingsSubState extends BaseOptionsMenu
 
 		changedMusic = true;
 	}
-
+/*
 	function onChangeShopMusic()
 		{
 			if(ClientPrefs.shopMusic == 'None')
@@ -142,7 +142,7 @@ class PauseAstoriaSettingsSubState extends BaseOptionsMenu
 	
 			changedMusic = true;
 		}
-
+*/
 	function onChangeMenuMusic()
 			{
 				if (ClientPrefs.mainSong == 'Astoreckless'){

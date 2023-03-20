@@ -287,13 +287,11 @@ class Note extends FlxSprite
 				if (ClientPrefs.noteSkin == 'Circles'){
 					skin = 'Circles';
 				}else if (ClientPrefs.noteSkin == 'Arrows'){	
-					skin = 'NOTE_assets';
-				}else if (ClientPrefs.noteSkin == 'Weird Arrows'){
-					skin = 'Weird_Arrows';
+					skin = 'arrows';
 				}
 			}
 		}
-
+		
 		var animName:String = null;
 		if(animation.curAnim != null) {
 			animName = animation.curAnim.name;

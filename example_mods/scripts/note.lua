@@ -1,5 +1,5 @@
 local chararrows
-
+local brittany = false
 function onCreate()
     if dadName == 'AM' or dadName == 'AM-New' or dadName == 'AM-Newer' or dadName == 'AM-Red' or dadName == 'AM-Red-New' then
         chararrows = 'AM'
@@ -8,7 +8,7 @@ function onCreate()
     elseif dadName == 'AMM' then
         chararrows = 'AMM'
     elseif dadName == 'Brittany' or dadName == 'Brittany-New' or dadName == 'Brittany-Newer' then
-        chararrows = 'Brit'
+        brittany = true
     elseif dadName == 'Voltage' or 'Voltage-New' then
         chararrows = 'Volt'
     elseif dadName == 'Donut-Man' or 'Donut-Man-New' then
@@ -24,12 +24,12 @@ function onUpdate()
     --if boyfriendName == 'bf-sus' then
     --else
       for i=0,4,1 do
-        if getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Noteskinned' then
+        if getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Noteskinned' and not brittany then
             setPropertyFromGroup('opponentStrums', i, 'texture', 'arrowskins/'..chararrows..'Notes')
             if dadName == 'AM-Red' or dadName == 'AM-Red-New' then
                 setPropertyFromGroup('opponentStrums', i, 'color', getIconColor('dad'))
             end
-        elseif getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Note Colors' then
+        elseif getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Note Colors' or brittany then
             if getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Circles' then
                 setPropertyFromGroup('opponentStrums', i, 'texture', 'White_Circles')
             elseif getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Arrows' then
@@ -44,14 +44,14 @@ function onUpdate()
 		        setPropertyFromGroup('unspawnNotes', i, 'texture', 'white');
                 else
 		if not getPropertyFromGroup('unspawnNotes', i, 'mustPress') then
-            if getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Note Colors' then
+            if getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Note Colors' or brittany then
                     setPropertyFromGroup('unspawnNotes', i, 'color', getIconColor('dad'))
                         if getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Circles' then
                             setPropertyFromGroup('unspawnNotes', i, 'texture', 'White_Circles')
                         elseif getPropertyFromClass('ClientPrefs', 'noteSkin') == 'Arrows' then
                             setPropertyFromGroup('unspawnNotes', i, 'texture', 'white')
                         end
-                    elseif getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Noteskinned' then
+                    elseif getPropertyFromClass('ClientPrefs', 'opponentArrows') == 'Noteskinned' and not brittany then
                         setPropertyFromGroup('unspawnNotes', i, 'texture', 'arrowskins/'..chararrows..'Notes')
                         if dadName == 'AM-Red' or dadName == 'AM-Red-New' then
                             setPropertyFromGroup('unspawnNotes', i, 'color', getIconColor('dad'))

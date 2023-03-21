@@ -1,0 +1,3 @@
+The fade to black at the end of RED.
+
+Value 1 determines how fast it fades in.

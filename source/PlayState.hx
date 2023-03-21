@@ -3843,7 +3843,13 @@ class PlayState extends MusicBeatState
 				return;
 			}
 		}
-
+		
+		#if DEMO
+		if (SONG.song == 'RED'){
+			triggerEventNote('startDialogue', 'enddialogue', 'dialogueMusic');
+		}
+		#end
+		
 		timeBarBG.visible = false;
 		timeBar.visible = false;
 		timeTxt.visible = false;
@@ -3855,7 +3861,7 @@ class PlayState extends MusicBeatState
 
 		deathCounter = 0;
 		seenCutscene = false;
-
+		
 		#if ACHIEVEMENTS_ALLOWED
 		if(achievementObj != null) {
 			return;

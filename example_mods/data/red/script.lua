@@ -100,13 +100,9 @@ function onTimerCompleted(tag, loops, loopsLeft)
 end
 
 function onEndSong()
-    if isStoryMode and endingSong then
-        if lowQuality then
-		    triggerEvent('startDialogue', 'enddialogueLQ', 'dialogueMusic');
-        elseif not lowQuality then
-            triggerEvent('startDialogue', 'enddialogue', 'dialogueMusic');
-	    end
+    if isStoryMode then
+        triggerEvent('startDialogue', 'enddialogue', 'dialogueMusic');
+	end
         return Function_Stop;
-    end
-    return Function_Continue;
 end
+    return Function_Continue;

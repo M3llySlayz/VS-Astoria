@@ -335,7 +335,12 @@ class TitleState extends MusicBeatState
 		// background yo
 		// don't forget to change it, weuz_ pls
 
-		titlestatebg = new FlxBackdrop(Paths.image('loading'), 0.2, 0, true, true);
+		//guess what?!?!? flixel 5.2.2 CHANGES FlxBackdrop! this is the before...
+		//titlestatebg = new FlxBackdrop(Paths.image('loading'), 0.2, 0, true, true);
+		//and this is the after!
+		titlestatebg = new FlxBackdrop(Paths.image('loading'), XY);
+		titlestatebg.scrollFactor.set(0.2, 0);
+		//I deleted haxe because of this!
 		titlestatebg.velocity.set(200, 110);
 		titlestatebg.updateHitbox();
 		titlestatebg.alpha = 0.5;

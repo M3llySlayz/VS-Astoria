@@ -61,7 +61,8 @@ class GameExitState extends MusicBeatState
 		camera.zoom = 2.2;
 		CoolUtil.cameraZoom(camera, 1, .5, FlxEase.sineOut, ONESHOT);
 
-        var bg:FlxBackdrop = new FlxBackdrop(Paths.image('loading'), 0.2, 0, true, true);
+		var bg:FlxBackdrop = new FlxBackdrop(Paths.image('loading'), XY);
+		bg.scrollFactor.set(0.2, 0);
 		bg.velocity.set(200, 110);
 		bg.alpha = 0.5;
 		bg.updateHitbox();

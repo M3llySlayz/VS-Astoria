@@ -8,10 +8,12 @@ function onCreate()
 end
 
 function onCreatePost()
-	setProperty('timeTxt.visible', false);
-	setProperty('iconP1.visible', false);
-	setProperty('iconP2.visible', false);
-	setProperty('healthBar.visible', false);
-	setProperty('healthBarBG.visible', false);
-	setProperty('scoreTxt.visible', false);
+	if songName == 'Shop' then
+		setProperty('timeTxt.visible', false);
+		setProperty('iconP1.visible', false);
+		setProperty('iconP2.visible', false);
+		setProperty('healthBar.visible', false);
+		setProperty('healthBarBG.visible', false);
+		setProperty('scoreTxt.visible', false);
+	end
 end

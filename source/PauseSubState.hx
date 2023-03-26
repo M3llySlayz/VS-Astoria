@@ -32,6 +32,7 @@ class PauseSubState extends MusicBeatSubstate
 	var restartItems:Array<String> = ['Retry', 'Options', 'Change Difficulty', 'Modifiers', 'Quit'];
 
 	var titlestatebg:FlxBackdrop;
+	var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
 	var strip:FlxSprite = new FlxSprite(-666).loadGraphic(Paths.image('pauseScreenStrip'));
 	var strip2:FlxSprite = new FlxSprite(-666).loadGraphic(Paths.image('pauseScreenStripWhite'));
 	var songText:FlxText = new FlxText(20, 640, 0, "", 32);
@@ -41,7 +42,8 @@ class PauseSubState extends MusicBeatSubstate
 	var levelDifficulty:FlxText = new FlxText(20, 15 + 32, 0, "", 32);
 	var blueballedTxt:FlxText = new FlxText(20, 15 + 64, 0, "", 32);
 	var chartingText:FlxText = new FlxText(20, 15 + 101, 0, "CHARTING MODE", 32);
-	var timer:FlxTimer;
+	var timer:Int = 0;
+	public var closingTime:Bool = false;
 	
 	var pauseMusic:FlxSound;
 	var practiceText:FlxText;
@@ -105,7 +107,6 @@ class PauseSubState extends MusicBeatSubstate
 				Conductor.changeBPM(100);
 		}*/
 
-		var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
 		bg.alpha = 0;
 		bg.scrollFactor.set();
 		add(bg);
@@ -270,6 +271,11 @@ class PauseSubState extends MusicBeatSubstate
 		super.update(elapsed);
 		updateSkipTextStuff();
 
+		//my makeshift timer for the close function
+		if (closingTime == true) timer++;
+		//change 100 to whatever you need
+		if (timer == 70) close();
+
 		var upP = controls.UI_UP_P;
 		var downP = controls.UI_DOWN_P;
 		var accepted = controls.ACCEPT;
@@ -349,7 +355,7 @@ class PauseSubState extends MusicBeatSubstate
 			{
 				case "Continue":
 					FlxG.sound.play(Paths.sound('confirmMenu'), 0.3);
-					close();
+					customClose();
 				case 'Change Difficulty':
 					menuItems = difficultyChoices;
 					deleteSkipTimeText();
@@ -378,10 +384,10 @@ class PauseSubState extends MusicBeatSubstate
 							PlayState.instance.clearNotesBefore(curTime);
 							PlayState.instance.setSongTime(curTime);
 						}
-						close();
+						customClose();
 					}
 				case "End Song":
-					close();
+					customClose();
 					PlayState.instance.finishSong(true);
 				case 'Toggle Botplay':
 					PlayState.instance.cpuControlled = !PlayState.instance.cpuControlled;
@@ -469,28 +475,30 @@ class PauseSubState extends MusicBeatSubstate
 		PlayState.chartingMode = false;
 	}
 
-	override function close() {
+	function customClose() {
 		FlxTween.tween(titlestatebg, {alpha: 0}, 0.4, {ease: FlxEase.linear});
+		FlxTween.tween(bg, {alpha: 0}, 0.4, {ease: FlxEase.linear});
 		FlxTween.tween(strip, {x: -900}, 0.4, {ease: FlxEase.quartInOut});
 		FlxTween.tween(strip2, {x: -975}, 0.4, {ease: FlxEase.quartInOut});
 		FlxTween.tween(guy, {x: 2000}, 0.4, {ease: FlxEase.quartInOut});
 		FlxTween.tween(levelInfo, {alpha: 0, y: 20}, 0.4, {ease: FlxEase.quartInOut});
-		FlxTween.tween(levelDifficulty, {alpha: 1, y: levelDifficulty.y + 5}, 0.4, {ease: FlxEase.quartInOut});
-		FlxTween.tween(blueballedTxt, {alpha: 1, y: blueballedTxt.y + 5}, 0.4, {ease: FlxEase.quartInOut, onComplete: function(twn:FlxTween)
-			{
-				super.close();
-			}});
+		FlxTween.tween(levelDifficulty, {alpha: 0, y: levelDifficulty.y + 5}, 0.4, {ease: FlxEase.quartInOut});
+		FlxTween.tween(blueballedTxt, {alpha: 0, y: blueballedTxt.y + 5}, 0.4, {ease: FlxEase.quartInOut});
 		if (ClientPrefs.pauseMusic != 'None'){
-			FlxTween.tween(songText, {alpha: 1, y: songText.y + 5}, 0.4, {ease: FlxEase.quartInOut});
-			FlxTween.tween(authorText, {alpha: 1, y: authorText.y + 5}, 0.4, {ease: FlxEase.quartInOut});
+			FlxTween.tween(songText, {alpha: 0, y: songText.y + 5}, 0.4, {ease: FlxEase.quartInOut});
+			FlxTween.tween(authorText, {alpha: 0, y: authorText.y + 5}, 0.4, {ease: FlxEase.quartInOut});
 		}
-		/*
-		timer = new FlxTimer().start(0.4, function(tmr:FlxTimer)
-			{
-			super.close();
-			});
-		*/
+
+		for (i in 0...grpMenuShit.members.length) {
+			var obj = grpMenuShit.members[0];
+			obj.kill();
+			grpMenuShit.remove(obj, true);
+			obj.destroy();
+		}
+		
+		closingTime = true;
 	}
+
 	override function destroy()
 	{
 		pauseMusic.destroy();

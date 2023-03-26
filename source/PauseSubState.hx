@@ -18,6 +18,7 @@ import flixel.util.FlxStringUtil;
 import flixel.addons.display.FlxBackdrop;
 import flixel.util.FlxGradient;
 import FloatToInt;
+import flixel.util.FlxTimer;
 
 class PauseSubState extends MusicBeatSubstate
 {
@@ -30,13 +31,25 @@ class PauseSubState extends MusicBeatSubstate
 	var quitting:Array<String> = ['Yes', 'No'];
 	var restartItems:Array<String> = ['Retry', 'Options', 'Change Difficulty', 'Modifiers', 'Quit'];
 
+	var titlestatebg:FlxBackdrop;
+	var strip:FlxSprite = new FlxSprite(-666).loadGraphic(Paths.image('pauseScreenStrip'));
+	var strip2:FlxSprite = new FlxSprite(-666).loadGraphic(Paths.image('pauseScreenStripWhite'));
+	var songText:FlxText = new FlxText(20, 640, 0, "", 32);
+	private var guy = new Character(2000, 700, PlayState.SONG.player2, true);
+	var authorText:FlxText = new FlxText(20, 640+32, 0, "", 32);
+	var levelInfo:FlxText = new FlxText(20, 15, 0, "", 32);
+	var levelDifficulty:FlxText = new FlxText(20, 15 + 32, 0, "", 32);
+	var blueballedTxt:FlxText = new FlxText(20, 15 + 64, 0, "", 32);
+	var chartingText:FlxText = new FlxText(20, 15 + 101, 0, "CHARTING MODE", 32);
+	var timer:FlxTimer;
+	
 	var pauseMusic:FlxSound;
 	var practiceText:FlxText;
 	var skipTimeText:FlxText;
 	var skipTimeTracker:Alphabet;
 	var curTime:Float = Math.max(0, Conductor.songPosition);
 	//var botplayText:FlxText;
-	private var guy = new Character(2000, 700, PlayState.SONG.player2, true);
+
 	public static var songName:String = '';
 
 	public function new(x:Float, y:Float)
@@ -98,7 +111,6 @@ class PauseSubState extends MusicBeatSubstate
 		add(bg);
 
 		var swagShader:ColorSwap = null;
-		var titlestatebg:FlxBackdrop;
 		swagShader = new ColorSwap();
 		titlestatebg = new FlxBackdrop(Paths.image('loading'), XY);
 		titlestatebg.scrollFactor.set(0.2, 0);
@@ -109,17 +121,15 @@ class PauseSubState extends MusicBeatSubstate
 		add(titlestatebg);
 		titlestatebg.shader = swagShader.shader;
 
-		var strip:FlxSprite = new FlxSprite(-666).loadGraphic(Paths.image('pauseScreenStrip'));
 		strip.scrollFactor.set();
 		add(strip);
 
-		var strip2:FlxSprite = new FlxSprite(-666).loadGraphic(Paths.image('pauseScreenStripWhite'));
 		strip2.scrollFactor.set();
 		
 
 		//sets the color of the strip based on opponent character
 		switch (PlayState.SONG.player2){
-		case 'AM' | 'AM-New' | 'AM-Newer' | 'AM-New-Rasis' | 'AM-Head' | 'AMM':
+		case 'AM' | 'AM-New' | 'AM-Newer' | 'AM-New-Rasis' | 'AM-Head' | 'AMM' | 'AMM-Newer':
 			strip2.color = 0xFFFF00FF;
 			//FlxGradient.overlayGradientOnFlxSprite(strip2, strip2.width, strip2.height, [0xFFB108B1, 0xFFFF00FF], 0, 0, 0, 180, true);
 		case 'AM-Red' | 'AM-Red-New':
@@ -130,6 +140,8 @@ class PauseSubState extends MusicBeatSubstate
 			strip2.color = 0xFF00FFFF;
 		case 'SG' | 'SG-New' | 'SG-Newer':
 			strip2.color = 0xFF808080;
+		case 'opponentgf':
+			strip2.color = 0xFFA7004D;
 		default:
 			strip2.color = 0xFF025802;
 		}
@@ -138,7 +150,6 @@ class PauseSubState extends MusicBeatSubstate
 
 		add(guy);
 
-		var songText:FlxText = new FlxText(20, 640, 0, "", 32);
 		songText.text += 'Now Playing: ' + ClientPrefs.pauseMusic;
 		songText.scrollFactor.set();
 		songText.setFormat(Paths.font("vcr.ttf"), 32);
@@ -160,7 +171,7 @@ class PauseSubState extends MusicBeatSubstate
 				composerColor = [0xFF3DD700, 0xFF026902];
 		}
 
-		var authorText:FlxText = new FlxText(20, 640+32, 0, "", 32);
+		
 		authorText.text += 'By ' + composer;
 		authorText.scrollFactor.set();
 		authorText.setFormat(Paths.font("vcr.ttf"), 32);
@@ -177,21 +188,21 @@ class PauseSubState extends MusicBeatSubstate
 		//but what is composer and composerColor you ask?
 		
 
-		var levelInfo:FlxText = new FlxText(20, 15, 0, "", 32);
+		
 		levelInfo.text += PlayState.SONG.song;
 		levelInfo.scrollFactor.set();
 		levelInfo.setFormat(Paths.font("vcr.ttf"), 32);
 		levelInfo.updateHitbox();
 		add(levelInfo);
 
-		var levelDifficulty:FlxText = new FlxText(20, 15 + 32, 0, "", 32);
+		
 		levelDifficulty.text += CoolUtil.difficultyString();
 		levelDifficulty.scrollFactor.set();
 		levelDifficulty.setFormat(Paths.font('vcr.ttf'), 32);
 		levelDifficulty.updateHitbox();
 		add(levelDifficulty);
 
-		var blueballedTxt:FlxText = new FlxText(20, 15 + 64, 0, "", 32);
+		
 		blueballedTxt.text = "Times you've died: " + PlayState.deathCounter;
 		blueballedTxt.scrollFactor.set();
 		blueballedTxt.setFormat(Paths.font('vcr.ttf'), 32);
@@ -206,10 +217,10 @@ class PauseSubState extends MusicBeatSubstate
 		practiceText.visible = PlayState.instance.practiceMode;
 		add(practiceText);
 
-		var chartingText:FlxText = new FlxText(20, 15 + 101, 0, "CHARTING MODE", 32);
+		
 		chartingText.scrollFactor.set();
 		chartingText.setFormat(Paths.font('vcr.ttf'), 32);
-		chartingText.x = FlxG.width - (chartingText.width + 20);
+		chartingText.x = 0;
 		chartingText.y = FlxG.height - (chartingText.height + 20);
 		chartingText.updateHitbox();
 		chartingText.visible = PlayState.chartingMode;
@@ -458,6 +469,28 @@ class PauseSubState extends MusicBeatSubstate
 		PlayState.chartingMode = false;
 	}
 
+	override function close() {
+		FlxTween.tween(titlestatebg, {alpha: 0}, 0.4, {ease: FlxEase.linear});
+		FlxTween.tween(strip, {x: -900}, 0.4, {ease: FlxEase.quartInOut});
+		FlxTween.tween(strip2, {x: -975}, 0.4, {ease: FlxEase.quartInOut});
+		FlxTween.tween(guy, {x: 2000}, 0.4, {ease: FlxEase.quartInOut});
+		FlxTween.tween(levelInfo, {alpha: 0, y: 20}, 0.4, {ease: FlxEase.quartInOut});
+		FlxTween.tween(levelDifficulty, {alpha: 1, y: levelDifficulty.y + 5}, 0.4, {ease: FlxEase.quartInOut});
+		FlxTween.tween(blueballedTxt, {alpha: 1, y: blueballedTxt.y + 5}, 0.4, {ease: FlxEase.quartInOut, onComplete: function(twn:FlxTween)
+			{
+				super.close();
+			}});
+		if (ClientPrefs.pauseMusic != 'None'){
+			FlxTween.tween(songText, {alpha: 1, y: songText.y + 5}, 0.4, {ease: FlxEase.quartInOut});
+			FlxTween.tween(authorText, {alpha: 1, y: authorText.y + 5}, 0.4, {ease: FlxEase.quartInOut});
+		}
+		/*
+		timer = new FlxTimer().start(0.4, function(tmr:FlxTimer)
+			{
+			super.close();
+			});
+		*/
+	}
 	override function destroy()
 	{
 		pauseMusic.destroy();

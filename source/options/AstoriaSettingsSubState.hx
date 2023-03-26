@@ -104,7 +104,7 @@ class AstoriaSettingsSubState extends BaseOptionsMenu
 		'gameOverSong',
 		'string',
 		'A Taken L',
-		['A Taken L', 'Far']);
+		['A Taken L', 'Far', 'Regret']);
 		addOption(option);
 
 		option.onChange = onChangeGameOverMusic;

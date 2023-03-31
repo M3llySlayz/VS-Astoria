@@ -1,0 +1,3 @@
+@dialogue pos="L" portrait="AM-New:happy" nameTag="???" text="Yooooooooo! This is hyping me a lot." dbox="Pink" speed="0.05" voclip="talk"
+@dialogue pos="R" portrait="newbf:happy" nameTag="Boyfriend.xml" text="Beep bada beep boop deh (Faster.)" dbox="Pink" speed="0.05" voclip="bf"
+@dialogue pos="L" portrait="AM-New:concern" nameTag="???" text="..." dbox="Pink" speed="0.31" voclip="talk"

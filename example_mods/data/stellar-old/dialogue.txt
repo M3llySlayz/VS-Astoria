@@ -1,0 +1,7 @@
+@dialogue pos="R" portrait="newbf" nameTag="Boyfriend.xml" text="Beep (Ayo wat da hail)" dbox="Pink" speed="0.05" voclip="bf"
+@dialogue pos="L" portrait="AM-New" nameTag="???" text="Who are you?" dbox="Pink" speed="0.05" voclip="talk"
+@dialogue pos="R" portrait="newbf" nameTag="Boyfriend.xml" text="beep boop skee (A rapper, I'm lookin for people to rap against.)" dbox="Pink" speed="0.05" voclip="bf"
+@dialogue pos="L" portrait="AM-New:sheepish" nameTag="???" text="Oh, well, I've never really rapped before so... maybe find someone else?" dbox="Pink" speed="0.05" voclip="talk"
+@dialogue pos="R" portrait="newbf" nameTag="Boyfriend.xml" text="boop ah bo (lmao no I'm fighting you now)" dbox="Pink" speed="0.05" voclip="bf"
+@dialogue pos="L" portrait="AM-New:bruh" nametag="???" text="Bruh." dbox="Pink" speed="0.05" voclip-"talk"
+@dialogue pos="L" portrait="AM-New:concern" nametag="???" text="Alright, fine, but your loss if I'm bad." dbox="Pink" speed="0.05" voclip-"talk"

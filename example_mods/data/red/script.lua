@@ -92,7 +92,7 @@ end
 function onTimerCompleted(tag, loops, loopsLeft)
 	if tag == 'startDialogue' then -- Timer completed, play dialogue
         if lowQuality then
-		    triggerEvent('startDialogue', 'dialogueLQ', 'dialogueMusic');
+		    --triggerEvent('startDialogue', 'dialogueLQ', 'dialogueMusic');
         elseif not lowQuality then
             triggerEvent('startDialogue', 'dialogue', 'dialogueMusic');
 	    end

@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="Rain.png"><SubTexture name="CP Idle0000" x="626" y="350" width="595" height="324" frameX="-32" frameY="-13" frameWidth="640" frameHeight="360" />
-<SubTexture name="CP Idle0001" x="0" y="0" width="606" height="350" frameX="-32" frameY="-10" frameWidth="640" frameHeight="360" />
-<SubTexture name="CP Idle0002" x="0" y="350" width="626" height="346" frameX="0" frameY="-14" frameWidth="640" frameHeight="360" />
-<SubTexture name="CP Idle0003" x="606" y="0" width="631" height="348" frameX="0" frameY="-12" frameWidth="640" frameHeight="360" />
-</TextureAtlas>

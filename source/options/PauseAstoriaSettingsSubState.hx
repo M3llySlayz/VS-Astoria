@@ -114,7 +114,7 @@ class PauseAstoriaSettingsSubState extends BaseOptionsMenu
 		'mainSong',
 		'string',
 		'Astoreckless',
-		['Astoreckless', 'the other one (bad)']);
+		['Astoreckless', 'Iconic']);
 		addOption(option);
 
 		option.onChange = onChangeMenuMusic;

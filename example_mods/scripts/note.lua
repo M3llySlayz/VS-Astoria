@@ -1,22 +1,4 @@
-local chararrows
-
-function onCreate()
-    if dadName == 'AM' or dadName == 'AM-New' or dadName == 'AM-Newer' or dadName == 'AM-Red' or dadName == 'AM-Red-New' then
-        chararrows = 'AM'
-    --[[elseif dadName == 'AM-Red' or dadName == 'AM-Red-New' then
-        chararrows = 'AMR']]
-    elseif dadName == 'AMM' then
-        chararrows = 'AMM'
-    elseif dadName == 'Brittany' or dadName == 'Brittany-New' or dadName == 'Brittany-Newer' then
-        chararrows = 'Brit'
-    elseif dadName == 'Voltage' or 'Voltage-New' then
-        chararrows = 'Volt'
-    elseif dadName == 'Donut-Man' or 'Donut-Man-New' then
-        chararrows = 'Donut'
-    elseif dadName == 'SG' or dadName == 'SG-New' or dadName == 'SG-Newer' then
-        chararrows = 'SG'
-    end
-end
+local chararrows = 'AM';
 
 function onUpdate()
     --if boyfriendName == 'bf-pixel' then

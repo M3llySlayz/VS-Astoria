@@ -336,7 +336,8 @@ class TitleState extends MusicBeatState
 		// background yo
 		// don't forget to change it, weuz_ pls
 
-		titlestatebg = new FlxBackdrop(Paths.image('loading'), 0.2, 0, true, true);
+		titlestatebg = new FlxBackdrop(Paths.image('loading'), XY);
+		titlestatebg.scrollFactor.set(0.2, 0);
 		titlestatebg.velocity.set(200, 110);
 		titlestatebg.updateHitbox();
 		titlestatebg.alpha = 0.5;
